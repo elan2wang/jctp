@@ -1,0 +1,5 @@
+language: cpp
+compiler: g++
+
+before_install:
+  - sudo apt-get install oracle-java8-installer
