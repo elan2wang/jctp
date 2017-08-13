@@ -1,4 +1,5 @@
-language: cpp
+script: make && make clean
+
 compiler: g++
 
 before_install:
