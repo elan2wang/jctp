@@ -1,7 +1,5 @@
 os: linux
-
 env: TARGET=x86_64-unknown-linux-gnu
-
 compiler: g++
 
 script: make && make clean
