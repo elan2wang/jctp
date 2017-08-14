@@ -6,7 +6,7 @@ ctp.so: $(SRCDIR)/thostmduserapi.so $(SRCDIR)/thosttraderapi.so $(SRCDIR)/ctp_wr
 	cd $(SRCDIR); g++ -shared thostmduserapi.so thosttraderapi.so ctp_wrap.o -o ctp.so
 
 $(SRCDIR)/ctp_wrap.o: $(SRCDIR)/ctp_wrap.cxx
-	cd $(SRCDIR); g++ -c ctp_wrap.cxx -o ctp_wrap.o $(CFLAGS)
+	cd $(SRCDIR); g++ -c -fpic ctp_wrap.cxx -o ctp_wrap.o $(CFLAGS)
 
 clean: 
 	cd $(SRCDIR); rm ctp_wrap.o
