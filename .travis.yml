@@ -8,3 +8,12 @@ script: make && make clean
 
 before_install:
   - sudo apt-get install oracle-java8-installer
+  
+deploy:
+  provider: releases
+  api_key: "cdTXtED6gxqe8syu6j6S"
+  file: $TRAVIS_BUILD_DIR/ctp-api-linux64-20160628/ctp.so
+  skip_cleanup: true
+  overwrite: true
+  on:
+    tags: true
