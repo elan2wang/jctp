@@ -1,6 +1,10 @@
-script: make && make clean
+os: linux
+
+env: TARGET=x86_64-unknown-linux-gnu
 
 compiler: g++
+
+script: make && make clean
 
 before_install:
   - sudo apt-get install oracle-java8-installer
