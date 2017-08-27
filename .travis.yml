@@ -13,8 +13,7 @@ deploy:
   provider: releases
   api_key:
     secure: VyG+k+t41B3QPQ/sdg8hMyrC7dLdLV/JNGyZ63JNeJ0EJHWKa6449PhmzDNwC81QHd0M3K56hPaW55BlvW4sx0vFkoTUYOMADB+GMaMvO/YqJjSppjEMkyjcXN/3D9FNWj03rZAnO9PbAfvYAv4IZEhwSCL7XNPxjvgBC52UeU26H79GE80RKmgTyCBdZ+PTNMQQbfOB6uGpQ7H9rRVkI4DEnaGuhgDFTxAJ3KRtnT3NFuDnBB+uj5KWkwW630jgExqNi74bQA8Eonaj/fmJ9bySy/xx82seOdMFmOpGI2XegDmSLCahb7ev5Le6/q5Rfwm8L11CsszbLGKmot3CNVZYbnMHQDYJoaamIRV9e2XzaDwLxaGY+jibvrncviJ3jcdMWbzCTRxaLo36MT6rtoq3DiX5SMsAr/lnjOVNU5V64Fyu8aYjBdjfhu7YoySGlDM9Z9ouoEUiIfuHm515WIb5gJqe8ztZ7ogn0suWKxdqiYKeFHaX4GM3WDaRh341XiOL1RUyUVppmAFzYLeb8vdzAXo2kpQex/SnXKDGMawCzAOCyv7WgP+iifRK4PZVoEPUZq09L7v3hLkLOkhgy8sE8ZdWKCAd9+LsRhLei8wy2bhtUq/5FD8gddKiXXvIBVppyjkBCRU+GjNic3i6cowo/O91XDm7qIi9p9c1IaI=
-  api_key: "cdTXtED6gxqe8syu6j6S"
-  file: "$TRAVIS_BUILD_DIR/ctp-api-linux64-20160628/ctp.so"
+  file: "$TRAVIS_BUILD_DIR/ctp-api-linux64-20160628/libctp.so"
   skip_cleanup: true
   overwrite: true
   on:

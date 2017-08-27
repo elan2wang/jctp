@@ -27,8 +27,8 @@ public class CTPTest {
         final CThostFtdcMdApi mdApi;
 
         final static String m_BrokerId = "9999";
-        final static String m_UserId = "099941";
-        final static String m_PassWord = "siC3aXjp";
+        final static String m_UserId = "******";
+        final static String m_PassWord = "******";
 
         MdSpi(CThostFtdcMdApi mdApi) {
             this.mdApi = mdApi;
