@@ -27,8 +27,8 @@ public class CTPTest {
         final CThostFtdcMdApi mdApi;
 
         final static String m_BrokerId = "9999";
-        final static String m_UserId = "099941";
-        final static String m_PassWord = "siC3aXjp";
+        final static String m_UserId = "******";
+        final static String m_PassWord = "*****";
 
         String instrumentID[] = {"IC1710", "IC1712", "cu1801", "i1801"};
 
