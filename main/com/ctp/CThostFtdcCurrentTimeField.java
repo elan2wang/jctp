@@ -29,46 +29,46 @@ public class CThostFtdcCurrentTimeField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcCurrentTimeField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcCurrentTimeField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setCurrDate(String value) {
-    ctpJNI.CThostFtdcCurrentTimeField_CurrDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCurrentTimeField_CurrDate_set(swigCPtr, this, value);
   }
 
   public String getCurrDate() {
-    return ctpJNI.CThostFtdcCurrentTimeField_CurrDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCurrentTimeField_CurrDate_get(swigCPtr, this);
   }
 
   public void setCurrTime(String value) {
-    ctpJNI.CThostFtdcCurrentTimeField_CurrTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCurrentTimeField_CurrTime_set(swigCPtr, this, value);
   }
 
   public String getCurrTime() {
-    return ctpJNI.CThostFtdcCurrentTimeField_CurrTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCurrentTimeField_CurrTime_get(swigCPtr, this);
   }
 
   public void setCurrMillisec(int value) {
-    ctpJNI.CThostFtdcCurrentTimeField_CurrMillisec_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCurrentTimeField_CurrMillisec_set(swigCPtr, this, value);
   }
 
   public int getCurrMillisec() {
-    return ctpJNI.CThostFtdcCurrentTimeField_CurrMillisec_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCurrentTimeField_CurrMillisec_get(swigCPtr, this);
   }
 
   public void setActionDay(String value) {
-    ctpJNI.CThostFtdcCurrentTimeField_ActionDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCurrentTimeField_ActionDay_set(swigCPtr, this, value);
   }
 
   public String getActionDay() {
-    return ctpJNI.CThostFtdcCurrentTimeField_ActionDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCurrentTimeField_ActionDay_get(swigCPtr, this);
   }
 
   public CThostFtdcCurrentTimeField() {
-    this(ctpJNI.new_CThostFtdcCurrentTimeField(), true);
+    this(ctpapiJNI.new_CThostFtdcCurrentTimeField(), true);
   }
 
 }

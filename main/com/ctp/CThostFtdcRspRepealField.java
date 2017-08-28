@@ -29,430 +29,430 @@ public class CThostFtdcRspRepealField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcRspRepealField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcRspRepealField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setRepealTimeInterval(int value) {
-    ctpJNI.CThostFtdcRspRepealField_RepealTimeInterval_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_RepealTimeInterval_set(swigCPtr, this, value);
   }
 
   public int getRepealTimeInterval() {
-    return ctpJNI.CThostFtdcRspRepealField_RepealTimeInterval_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_RepealTimeInterval_get(swigCPtr, this);
   }
 
   public void setRepealedTimes(int value) {
-    ctpJNI.CThostFtdcRspRepealField_RepealedTimes_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_RepealedTimes_set(swigCPtr, this, value);
   }
 
   public int getRepealedTimes() {
-    return ctpJNI.CThostFtdcRspRepealField_RepealedTimes_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_RepealedTimes_get(swigCPtr, this);
   }
 
   public void setBankRepealFlag(char value) {
-    ctpJNI.CThostFtdcRspRepealField_BankRepealFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankRepealFlag_set(swigCPtr, this, value);
   }
 
   public char getBankRepealFlag() {
-    return ctpJNI.CThostFtdcRspRepealField_BankRepealFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankRepealFlag_get(swigCPtr, this);
   }
 
   public void setBrokerRepealFlag(char value) {
-    ctpJNI.CThostFtdcRspRepealField_BrokerRepealFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BrokerRepealFlag_set(swigCPtr, this, value);
   }
 
   public char getBrokerRepealFlag() {
-    return ctpJNI.CThostFtdcRspRepealField_BrokerRepealFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BrokerRepealFlag_get(swigCPtr, this);
   }
 
   public void setPlateRepealSerial(int value) {
-    ctpJNI.CThostFtdcRspRepealField_PlateRepealSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_PlateRepealSerial_set(swigCPtr, this, value);
   }
 
   public int getPlateRepealSerial() {
-    return ctpJNI.CThostFtdcRspRepealField_PlateRepealSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_PlateRepealSerial_get(swigCPtr, this);
   }
 
   public void setBankRepealSerial(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BankRepealSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankRepealSerial_set(swigCPtr, this, value);
   }
 
   public String getBankRepealSerial() {
-    return ctpJNI.CThostFtdcRspRepealField_BankRepealSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankRepealSerial_get(swigCPtr, this);
   }
 
   public void setFutureRepealSerial(int value) {
-    ctpJNI.CThostFtdcRspRepealField_FutureRepealSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_FutureRepealSerial_set(swigCPtr, this, value);
   }
 
   public int getFutureRepealSerial() {
-    return ctpJNI.CThostFtdcRspRepealField_FutureRepealSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_FutureRepealSerial_get(swigCPtr, this);
   }
 
   public void setTradeCode(String value) {
-    ctpJNI.CThostFtdcRspRepealField_TradeCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_TradeCode_set(swigCPtr, this, value);
   }
 
   public String getTradeCode() {
-    return ctpJNI.CThostFtdcRspRepealField_TradeCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_TradeCode_get(swigCPtr, this);
   }
 
   public void setBankID(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BankID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankID_set(swigCPtr, this, value);
   }
 
   public String getBankID() {
-    return ctpJNI.CThostFtdcRspRepealField_BankID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankID_get(swigCPtr, this);
   }
 
   public void setBankBranchID(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BankBranchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankBranchID_set(swigCPtr, this, value);
   }
 
   public String getBankBranchID() {
-    return ctpJNI.CThostFtdcRspRepealField_BankBranchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankBranchID_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcRspRepealField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BrokerID_get(swigCPtr, this);
   }
 
   public void setBrokerBranchID(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BrokerBranchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BrokerBranchID_set(swigCPtr, this, value);
   }
 
   public String getBrokerBranchID() {
-    return ctpJNI.CThostFtdcRspRepealField_BrokerBranchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BrokerBranchID_get(swigCPtr, this);
   }
 
   public void setTradeDate(String value) {
-    ctpJNI.CThostFtdcRspRepealField_TradeDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_TradeDate_set(swigCPtr, this, value);
   }
 
   public String getTradeDate() {
-    return ctpJNI.CThostFtdcRspRepealField_TradeDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_TradeDate_get(swigCPtr, this);
   }
 
   public void setTradeTime(String value) {
-    ctpJNI.CThostFtdcRspRepealField_TradeTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_TradeTime_set(swigCPtr, this, value);
   }
 
   public String getTradeTime() {
-    return ctpJNI.CThostFtdcRspRepealField_TradeTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_TradeTime_get(swigCPtr, this);
   }
 
   public void setBankSerial(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BankSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankSerial_set(swigCPtr, this, value);
   }
 
   public String getBankSerial() {
-    return ctpJNI.CThostFtdcRspRepealField_BankSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankSerial_get(swigCPtr, this);
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcRspRepealField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcRspRepealField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_TradingDay_get(swigCPtr, this);
   }
 
   public void setPlateSerial(int value) {
-    ctpJNI.CThostFtdcRspRepealField_PlateSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_PlateSerial_set(swigCPtr, this, value);
   }
 
   public int getPlateSerial() {
-    return ctpJNI.CThostFtdcRspRepealField_PlateSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_PlateSerial_get(swigCPtr, this);
   }
 
   public void setLastFragment(char value) {
-    ctpJNI.CThostFtdcRspRepealField_LastFragment_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_LastFragment_set(swigCPtr, this, value);
   }
 
   public char getLastFragment() {
-    return ctpJNI.CThostFtdcRspRepealField_LastFragment_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_LastFragment_get(swigCPtr, this);
   }
 
   public void setSessionID(int value) {
-    ctpJNI.CThostFtdcRspRepealField_SessionID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_SessionID_set(swigCPtr, this, value);
   }
 
   public int getSessionID() {
-    return ctpJNI.CThostFtdcRspRepealField_SessionID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_SessionID_get(swigCPtr, this);
   }
 
   public void setCustomerName(String value) {
-    ctpJNI.CThostFtdcRspRepealField_CustomerName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_CustomerName_set(swigCPtr, this, value);
   }
 
   public String getCustomerName() {
-    return ctpJNI.CThostFtdcRspRepealField_CustomerName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_CustomerName_get(swigCPtr, this);
   }
 
   public void setIdCardType(char value) {
-    ctpJNI.CThostFtdcRspRepealField_IdCardType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_IdCardType_set(swigCPtr, this, value);
   }
 
   public char getIdCardType() {
-    return ctpJNI.CThostFtdcRspRepealField_IdCardType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_IdCardType_get(swigCPtr, this);
   }
 
   public void setIdentifiedCardNo(String value) {
-    ctpJNI.CThostFtdcRspRepealField_IdentifiedCardNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_IdentifiedCardNo_set(swigCPtr, this, value);
   }
 
   public String getIdentifiedCardNo() {
-    return ctpJNI.CThostFtdcRspRepealField_IdentifiedCardNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_IdentifiedCardNo_get(swigCPtr, this);
   }
 
   public void setCustType(char value) {
-    ctpJNI.CThostFtdcRspRepealField_CustType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_CustType_set(swigCPtr, this, value);
   }
 
   public char getCustType() {
-    return ctpJNI.CThostFtdcRspRepealField_CustType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_CustType_get(swigCPtr, this);
   }
 
   public void setBankAccount(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BankAccount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankAccount_set(swigCPtr, this, value);
   }
 
   public String getBankAccount() {
-    return ctpJNI.CThostFtdcRspRepealField_BankAccount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankAccount_get(swigCPtr, this);
   }
 
   public void setBankPassWord(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BankPassWord_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankPassWord_set(swigCPtr, this, value);
   }
 
   public String getBankPassWord() {
-    return ctpJNI.CThostFtdcRspRepealField_BankPassWord_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankPassWord_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcRspRepealField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcRspRepealField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_AccountID_get(swigCPtr, this);
   }
 
   public void setPassword(String value) {
-    ctpJNI.CThostFtdcRspRepealField_Password_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_Password_set(swigCPtr, this, value);
   }
 
   public String getPassword() {
-    return ctpJNI.CThostFtdcRspRepealField_Password_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_Password_get(swigCPtr, this);
   }
 
   public void setInstallID(int value) {
-    ctpJNI.CThostFtdcRspRepealField_InstallID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_InstallID_set(swigCPtr, this, value);
   }
 
   public int getInstallID() {
-    return ctpJNI.CThostFtdcRspRepealField_InstallID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_InstallID_get(swigCPtr, this);
   }
 
   public void setFutureSerial(int value) {
-    ctpJNI.CThostFtdcRspRepealField_FutureSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_FutureSerial_set(swigCPtr, this, value);
   }
 
   public int getFutureSerial() {
-    return ctpJNI.CThostFtdcRspRepealField_FutureSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_FutureSerial_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcRspRepealField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcRspRepealField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_UserID_get(swigCPtr, this);
   }
 
   public void setVerifyCertNoFlag(char value) {
-    ctpJNI.CThostFtdcRspRepealField_VerifyCertNoFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_VerifyCertNoFlag_set(swigCPtr, this, value);
   }
 
   public char getVerifyCertNoFlag() {
-    return ctpJNI.CThostFtdcRspRepealField_VerifyCertNoFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_VerifyCertNoFlag_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcRspRepealField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcRspRepealField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_CurrencyID_get(swigCPtr, this);
   }
 
   public void setTradeAmount(double value) {
-    ctpJNI.CThostFtdcRspRepealField_TradeAmount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_TradeAmount_set(swigCPtr, this, value);
   }
 
   public double getTradeAmount() {
-    return ctpJNI.CThostFtdcRspRepealField_TradeAmount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_TradeAmount_get(swigCPtr, this);
   }
 
   public void setFutureFetchAmount(double value) {
-    ctpJNI.CThostFtdcRspRepealField_FutureFetchAmount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_FutureFetchAmount_set(swigCPtr, this, value);
   }
 
   public double getFutureFetchAmount() {
-    return ctpJNI.CThostFtdcRspRepealField_FutureFetchAmount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_FutureFetchAmount_get(swigCPtr, this);
   }
 
   public void setFeePayFlag(char value) {
-    ctpJNI.CThostFtdcRspRepealField_FeePayFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_FeePayFlag_set(swigCPtr, this, value);
   }
 
   public char getFeePayFlag() {
-    return ctpJNI.CThostFtdcRspRepealField_FeePayFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_FeePayFlag_get(swigCPtr, this);
   }
 
   public void setCustFee(double value) {
-    ctpJNI.CThostFtdcRspRepealField_CustFee_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_CustFee_set(swigCPtr, this, value);
   }
 
   public double getCustFee() {
-    return ctpJNI.CThostFtdcRspRepealField_CustFee_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_CustFee_get(swigCPtr, this);
   }
 
   public void setBrokerFee(double value) {
-    ctpJNI.CThostFtdcRspRepealField_BrokerFee_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BrokerFee_set(swigCPtr, this, value);
   }
 
   public double getBrokerFee() {
-    return ctpJNI.CThostFtdcRspRepealField_BrokerFee_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BrokerFee_get(swigCPtr, this);
   }
 
   public void setMessage(String value) {
-    ctpJNI.CThostFtdcRspRepealField_Message_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_Message_set(swigCPtr, this, value);
   }
 
   public String getMessage() {
-    return ctpJNI.CThostFtdcRspRepealField_Message_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_Message_get(swigCPtr, this);
   }
 
   public void setDigest(String value) {
-    ctpJNI.CThostFtdcRspRepealField_Digest_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_Digest_set(swigCPtr, this, value);
   }
 
   public String getDigest() {
-    return ctpJNI.CThostFtdcRspRepealField_Digest_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_Digest_get(swigCPtr, this);
   }
 
   public void setBankAccType(char value) {
-    ctpJNI.CThostFtdcRspRepealField_BankAccType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankAccType_set(swigCPtr, this, value);
   }
 
   public char getBankAccType() {
-    return ctpJNI.CThostFtdcRspRepealField_BankAccType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankAccType_get(swigCPtr, this);
   }
 
   public void setDeviceID(String value) {
-    ctpJNI.CThostFtdcRspRepealField_DeviceID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_DeviceID_set(swigCPtr, this, value);
   }
 
   public String getDeviceID() {
-    return ctpJNI.CThostFtdcRspRepealField_DeviceID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_DeviceID_get(swigCPtr, this);
   }
 
   public void setBankSecuAccType(char value) {
-    ctpJNI.CThostFtdcRspRepealField_BankSecuAccType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankSecuAccType_set(swigCPtr, this, value);
   }
 
   public char getBankSecuAccType() {
-    return ctpJNI.CThostFtdcRspRepealField_BankSecuAccType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankSecuAccType_get(swigCPtr, this);
   }
 
   public void setBrokerIDByBank(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BrokerIDByBank_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BrokerIDByBank_set(swigCPtr, this, value);
   }
 
   public String getBrokerIDByBank() {
-    return ctpJNI.CThostFtdcRspRepealField_BrokerIDByBank_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BrokerIDByBank_get(swigCPtr, this);
   }
 
   public void setBankSecuAcc(String value) {
-    ctpJNI.CThostFtdcRspRepealField_BankSecuAcc_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankSecuAcc_set(swigCPtr, this, value);
   }
 
   public String getBankSecuAcc() {
-    return ctpJNI.CThostFtdcRspRepealField_BankSecuAcc_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankSecuAcc_get(swigCPtr, this);
   }
 
   public void setBankPwdFlag(char value) {
-    ctpJNI.CThostFtdcRspRepealField_BankPwdFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_BankPwdFlag_set(swigCPtr, this, value);
   }
 
   public char getBankPwdFlag() {
-    return ctpJNI.CThostFtdcRspRepealField_BankPwdFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_BankPwdFlag_get(swigCPtr, this);
   }
 
   public void setSecuPwdFlag(char value) {
-    ctpJNI.CThostFtdcRspRepealField_SecuPwdFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_SecuPwdFlag_set(swigCPtr, this, value);
   }
 
   public char getSecuPwdFlag() {
-    return ctpJNI.CThostFtdcRspRepealField_SecuPwdFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_SecuPwdFlag_get(swigCPtr, this);
   }
 
   public void setOperNo(String value) {
-    ctpJNI.CThostFtdcRspRepealField_OperNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_OperNo_set(swigCPtr, this, value);
   }
 
   public String getOperNo() {
-    return ctpJNI.CThostFtdcRspRepealField_OperNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_OperNo_get(swigCPtr, this);
   }
 
   public void setRequestID(int value) {
-    ctpJNI.CThostFtdcRspRepealField_RequestID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_RequestID_set(swigCPtr, this, value);
   }
 
   public int getRequestID() {
-    return ctpJNI.CThostFtdcRspRepealField_RequestID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_RequestID_get(swigCPtr, this);
   }
 
   public void setTID(int value) {
-    ctpJNI.CThostFtdcRspRepealField_TID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_TID_set(swigCPtr, this, value);
   }
 
   public int getTID() {
-    return ctpJNI.CThostFtdcRspRepealField_TID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_TID_get(swigCPtr, this);
   }
 
   public void setTransferStatus(char value) {
-    ctpJNI.CThostFtdcRspRepealField_TransferStatus_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_TransferStatus_set(swigCPtr, this, value);
   }
 
   public char getTransferStatus() {
-    return ctpJNI.CThostFtdcRspRepealField_TransferStatus_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_TransferStatus_get(swigCPtr, this);
   }
 
   public void setErrorID(int value) {
-    ctpJNI.CThostFtdcRspRepealField_ErrorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_ErrorID_set(swigCPtr, this, value);
   }
 
   public int getErrorID() {
-    return ctpJNI.CThostFtdcRspRepealField_ErrorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_ErrorID_get(swigCPtr, this);
   }
 
   public void setErrorMsg(String value) {
-    ctpJNI.CThostFtdcRspRepealField_ErrorMsg_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspRepealField_ErrorMsg_set(swigCPtr, this, value);
   }
 
   public String getErrorMsg() {
-    return ctpJNI.CThostFtdcRspRepealField_ErrorMsg_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspRepealField_ErrorMsg_get(swigCPtr, this);
   }
 
   public CThostFtdcRspRepealField() {
-    this(ctpJNI.new_CThostFtdcRspRepealField(), true);
+    this(ctpapiJNI.new_CThostFtdcRspRepealField(), true);
   }
 
 }

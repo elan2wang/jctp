@@ -29,38 +29,38 @@ public class CThostFtdcQryCombinationLegField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryCombinationLegField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryCombinationLegField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setCombInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryCombinationLegField_CombInstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombinationLegField_CombInstrumentID_set(swigCPtr, this, value);
   }
 
   public String getCombInstrumentID() {
-    return ctpJNI.CThostFtdcQryCombinationLegField_CombInstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombinationLegField_CombInstrumentID_get(swigCPtr, this);
   }
 
   public void setLegID(int value) {
-    ctpJNI.CThostFtdcQryCombinationLegField_LegID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombinationLegField_LegID_set(swigCPtr, this, value);
   }
 
   public int getLegID() {
-    return ctpJNI.CThostFtdcQryCombinationLegField_LegID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombinationLegField_LegID_get(swigCPtr, this);
   }
 
   public void setLegInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryCombinationLegField_LegInstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombinationLegField_LegInstrumentID_set(swigCPtr, this, value);
   }
 
   public String getLegInstrumentID() {
-    return ctpJNI.CThostFtdcQryCombinationLegField_LegInstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombinationLegField_LegInstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryCombinationLegField() {
-    this(ctpJNI.new_CThostFtdcQryCombinationLegField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryCombinationLegField(), true);
   }
 
 }

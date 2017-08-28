@@ -29,46 +29,46 @@ public class CThostFtdcQryInvestorPositionDetailField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryInvestorPositionDetailField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryInvestorPositionDetailField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryInvestorPositionDetailField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInvestorPositionDetailField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryInvestorPositionDetailField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInvestorPositionDetailField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryInvestorPositionDetailField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInvestorPositionDetailField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryInvestorPositionDetailField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInvestorPositionDetailField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryInvestorPositionDetailField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInvestorPositionDetailField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryInvestorPositionDetailField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInvestorPositionDetailField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryInvestorPositionDetailField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInvestorPositionDetailField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryInvestorPositionDetailField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInvestorPositionDetailField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryInvestorPositionDetailField() {
-    this(ctpJNI.new_CThostFtdcQryInvestorPositionDetailField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryInvestorPositionDetailField(), true);
   }
 
 }

@@ -29,62 +29,62 @@ public class CThostFtdcSyncFundMortgageField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcSyncFundMortgageField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcSyncFundMortgageField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setMortgageSeqNo(String value) {
-    ctpJNI.CThostFtdcSyncFundMortgageField_MortgageSeqNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncFundMortgageField_MortgageSeqNo_set(swigCPtr, this, value);
   }
 
   public String getMortgageSeqNo() {
-    return ctpJNI.CThostFtdcSyncFundMortgageField_MortgageSeqNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncFundMortgageField_MortgageSeqNo_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcSyncFundMortgageField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncFundMortgageField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcSyncFundMortgageField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncFundMortgageField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcSyncFundMortgageField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncFundMortgageField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcSyncFundMortgageField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncFundMortgageField_InvestorID_get(swigCPtr, this);
   }
 
   public void setFromCurrencyID(String value) {
-    ctpJNI.CThostFtdcSyncFundMortgageField_FromCurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncFundMortgageField_FromCurrencyID_set(swigCPtr, this, value);
   }
 
   public String getFromCurrencyID() {
-    return ctpJNI.CThostFtdcSyncFundMortgageField_FromCurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncFundMortgageField_FromCurrencyID_get(swigCPtr, this);
   }
 
   public void setMortgageAmount(double value) {
-    ctpJNI.CThostFtdcSyncFundMortgageField_MortgageAmount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncFundMortgageField_MortgageAmount_set(swigCPtr, this, value);
   }
 
   public double getMortgageAmount() {
-    return ctpJNI.CThostFtdcSyncFundMortgageField_MortgageAmount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncFundMortgageField_MortgageAmount_get(swigCPtr, this);
   }
 
   public void setToCurrencyID(String value) {
-    ctpJNI.CThostFtdcSyncFundMortgageField_ToCurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncFundMortgageField_ToCurrencyID_set(swigCPtr, this, value);
   }
 
   public String getToCurrencyID() {
-    return ctpJNI.CThostFtdcSyncFundMortgageField_ToCurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncFundMortgageField_ToCurrencyID_get(swigCPtr, this);
   }
 
   public CThostFtdcSyncFundMortgageField() {
-    this(ctpJNI.new_CThostFtdcSyncFundMortgageField(), true);
+    this(ctpapiJNI.new_CThostFtdcSyncFundMortgageField(), true);
   }
 
 }

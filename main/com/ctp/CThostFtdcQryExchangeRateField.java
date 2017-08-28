@@ -29,38 +29,38 @@ public class CThostFtdcQryExchangeRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryExchangeRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryExchangeRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryExchangeRateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeRateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryExchangeRateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeRateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setFromCurrencyID(String value) {
-    ctpJNI.CThostFtdcQryExchangeRateField_FromCurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeRateField_FromCurrencyID_set(swigCPtr, this, value);
   }
 
   public String getFromCurrencyID() {
-    return ctpJNI.CThostFtdcQryExchangeRateField_FromCurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeRateField_FromCurrencyID_get(swigCPtr, this);
   }
 
   public void setToCurrencyID(String value) {
-    ctpJNI.CThostFtdcQryExchangeRateField_ToCurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeRateField_ToCurrencyID_set(swigCPtr, this, value);
   }
 
   public String getToCurrencyID() {
-    return ctpJNI.CThostFtdcQryExchangeRateField_ToCurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeRateField_ToCurrencyID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryExchangeRateField() {
-    this(ctpJNI.new_CThostFtdcQryExchangeRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryExchangeRateField(), true);
   }
 
 }

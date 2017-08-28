@@ -29,102 +29,102 @@ public class CThostFtdcReqUserLoginField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcReqUserLoginField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcReqUserLoginField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcReqUserLoginField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_TradingDay_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcReqUserLoginField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcReqUserLoginField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_UserID_get(swigCPtr, this);
   }
 
   public void setPassword(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_Password_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_Password_set(swigCPtr, this, value);
   }
 
   public String getPassword() {
-    return ctpJNI.CThostFtdcReqUserLoginField_Password_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_Password_get(swigCPtr, this);
   }
 
   public void setUserProductInfo(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_UserProductInfo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_UserProductInfo_set(swigCPtr, this, value);
   }
 
   public String getUserProductInfo() {
-    return ctpJNI.CThostFtdcReqUserLoginField_UserProductInfo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_UserProductInfo_get(swigCPtr, this);
   }
 
   public void setInterfaceProductInfo(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_InterfaceProductInfo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_InterfaceProductInfo_set(swigCPtr, this, value);
   }
 
   public String getInterfaceProductInfo() {
-    return ctpJNI.CThostFtdcReqUserLoginField_InterfaceProductInfo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_InterfaceProductInfo_get(swigCPtr, this);
   }
 
   public void setProtocolInfo(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_ProtocolInfo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_ProtocolInfo_set(swigCPtr, this, value);
   }
 
   public String getProtocolInfo() {
-    return ctpJNI.CThostFtdcReqUserLoginField_ProtocolInfo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_ProtocolInfo_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_MacAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_MacAddress_set(swigCPtr, this, value);
   }
 
   public String getMacAddress() {
-    return ctpJNI.CThostFtdcReqUserLoginField_MacAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_MacAddress_get(swigCPtr, this);
   }
 
   public void setOneTimePassword(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_OneTimePassword_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_OneTimePassword_set(swigCPtr, this, value);
   }
 
   public String getOneTimePassword() {
-    return ctpJNI.CThostFtdcReqUserLoginField_OneTimePassword_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_OneTimePassword_get(swigCPtr, this);
   }
 
   public void setClientIPAddress(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_ClientIPAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_ClientIPAddress_set(swigCPtr, this, value);
   }
 
   public String getClientIPAddress() {
-    return ctpJNI.CThostFtdcReqUserLoginField_ClientIPAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_ClientIPAddress_get(swigCPtr, this);
   }
 
   public void setLoginRemark(String value) {
-    ctpJNI.CThostFtdcReqUserLoginField_LoginRemark_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqUserLoginField_LoginRemark_set(swigCPtr, this, value);
   }
 
   public String getLoginRemark() {
-    return ctpJNI.CThostFtdcReqUserLoginField_LoginRemark_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqUserLoginField_LoginRemark_get(swigCPtr, this);
   }
 
   public CThostFtdcReqUserLoginField() {
-    this(ctpJNI.new_CThostFtdcReqUserLoginField(), true);
+    this(ctpapiJNI.new_CThostFtdcReqUserLoginField(), true);
   }
 
 }

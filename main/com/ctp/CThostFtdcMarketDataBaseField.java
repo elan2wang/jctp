@@ -29,54 +29,54 @@ public class CThostFtdcMarketDataBaseField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcMarketDataBaseField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcMarketDataBaseField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcMarketDataBaseField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBaseField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcMarketDataBaseField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBaseField_TradingDay_get(swigCPtr, this);
   }
 
   public void setPreSettlementPrice(double value) {
-    ctpJNI.CThostFtdcMarketDataBaseField_PreSettlementPrice_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBaseField_PreSettlementPrice_set(swigCPtr, this, value);
   }
 
   public double getPreSettlementPrice() {
-    return ctpJNI.CThostFtdcMarketDataBaseField_PreSettlementPrice_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBaseField_PreSettlementPrice_get(swigCPtr, this);
   }
 
   public void setPreClosePrice(double value) {
-    ctpJNI.CThostFtdcMarketDataBaseField_PreClosePrice_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBaseField_PreClosePrice_set(swigCPtr, this, value);
   }
 
   public double getPreClosePrice() {
-    return ctpJNI.CThostFtdcMarketDataBaseField_PreClosePrice_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBaseField_PreClosePrice_get(swigCPtr, this);
   }
 
   public void setPreOpenInterest(double value) {
-    ctpJNI.CThostFtdcMarketDataBaseField_PreOpenInterest_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBaseField_PreOpenInterest_set(swigCPtr, this, value);
   }
 
   public double getPreOpenInterest() {
-    return ctpJNI.CThostFtdcMarketDataBaseField_PreOpenInterest_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBaseField_PreOpenInterest_get(swigCPtr, this);
   }
 
   public void setPreDelta(double value) {
-    ctpJNI.CThostFtdcMarketDataBaseField_PreDelta_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBaseField_PreDelta_set(swigCPtr, this, value);
   }
 
   public double getPreDelta() {
-    return ctpJNI.CThostFtdcMarketDataBaseField_PreDelta_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBaseField_PreDelta_get(swigCPtr, this);
   }
 
   public CThostFtdcMarketDataBaseField() {
-    this(ctpJNI.new_CThostFtdcMarketDataBaseField(), true);
+    this(ctpapiJNI.new_CThostFtdcMarketDataBaseField(), true);
   }
 
 }

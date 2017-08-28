@@ -29,54 +29,54 @@ public class CThostFtdcInvestorAccountField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInvestorAccountField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInvestorAccountField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInvestorAccountField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorAccountField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInvestorAccountField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorAccountField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInvestorAccountField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorAccountField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInvestorAccountField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorAccountField_InvestorID_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcInvestorAccountField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorAccountField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcInvestorAccountField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorAccountField_AccountID_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcInvestorAccountField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorAccountField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcInvestorAccountField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorAccountField_CurrencyID_get(swigCPtr, this);
   }
 
   public void setBizType(char value) {
-    ctpJNI.CThostFtdcInvestorAccountField_BizType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorAccountField_BizType_set(swigCPtr, this, value);
   }
 
   public char getBizType() {
-    return ctpJNI.CThostFtdcInvestorAccountField_BizType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorAccountField_BizType_get(swigCPtr, this);
   }
 
   public CThostFtdcInvestorAccountField() {
-    this(ctpJNI.new_CThostFtdcInvestorAccountField(), true);
+    this(ctpapiJNI.new_CThostFtdcInvestorAccountField(), true);
   }
 
 }

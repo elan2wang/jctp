@@ -29,62 +29,62 @@ public class CThostFtdcSyncingInstrumentTradingRightField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcSyncingInstrumentTradingRightField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcSyncingInstrumentTradingRightField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_InvestorID_get(swigCPtr, this);
   }
 
   public void setTradingRight(char value) {
-    ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_TradingRight_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_TradingRight_set(swigCPtr, this, value);
   }
 
   public char getTradingRight() {
-    return ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_TradingRight_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_TradingRight_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcSyncingInstrumentTradingRightField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncingInstrumentTradingRightField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcSyncingInstrumentTradingRightField() {
-    this(ctpJNI.new_CThostFtdcSyncingInstrumentTradingRightField(), true);
+    this(ctpapiJNI.new_CThostFtdcSyncingInstrumentTradingRightField(), true);
   }
 
 }

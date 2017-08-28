@@ -29,46 +29,46 @@ public class CThostFtdcUserRightField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcUserRightField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcUserRightField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcUserRightField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserRightField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcUserRightField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserRightField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcUserRightField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserRightField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcUserRightField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserRightField_UserID_get(swigCPtr, this);
   }
 
   public void setUserRightType(char value) {
-    ctpJNI.CThostFtdcUserRightField_UserRightType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserRightField_UserRightType_set(swigCPtr, this, value);
   }
 
   public char getUserRightType() {
-    return ctpJNI.CThostFtdcUserRightField_UserRightType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserRightField_UserRightType_get(swigCPtr, this);
   }
 
   public void setIsForbidden(int value) {
-    ctpJNI.CThostFtdcUserRightField_IsForbidden_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserRightField_IsForbidden_set(swigCPtr, this, value);
   }
 
   public int getIsForbidden() {
-    return ctpJNI.CThostFtdcUserRightField_IsForbidden_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserRightField_IsForbidden_get(swigCPtr, this);
   }
 
   public CThostFtdcUserRightField() {
-    this(ctpJNI.new_CThostFtdcUserRightField(), true);
+    this(ctpapiJNI.new_CThostFtdcUserRightField(), true);
   }
 
 }

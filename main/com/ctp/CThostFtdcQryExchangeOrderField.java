@@ -29,54 +29,54 @@ public class CThostFtdcQryExchangeOrderField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryExchangeOrderField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryExchangeOrderField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setParticipantID(String value) {
-    ctpJNI.CThostFtdcQryExchangeOrderField_ParticipantID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeOrderField_ParticipantID_set(swigCPtr, this, value);
   }
 
   public String getParticipantID() {
-    return ctpJNI.CThostFtdcQryExchangeOrderField_ParticipantID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeOrderField_ParticipantID_get(swigCPtr, this);
   }
 
   public void setClientID(String value) {
-    ctpJNI.CThostFtdcQryExchangeOrderField_ClientID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeOrderField_ClientID_set(swigCPtr, this, value);
   }
 
   public String getClientID() {
-    return ctpJNI.CThostFtdcQryExchangeOrderField_ClientID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeOrderField_ClientID_get(swigCPtr, this);
   }
 
   public void setExchangeInstID(String value) {
-    ctpJNI.CThostFtdcQryExchangeOrderField_ExchangeInstID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeOrderField_ExchangeInstID_set(swigCPtr, this, value);
   }
 
   public String getExchangeInstID() {
-    return ctpJNI.CThostFtdcQryExchangeOrderField_ExchangeInstID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeOrderField_ExchangeInstID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryExchangeOrderField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeOrderField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryExchangeOrderField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeOrderField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setTraderID(String value) {
-    ctpJNI.CThostFtdcQryExchangeOrderField_TraderID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeOrderField_TraderID_set(swigCPtr, this, value);
   }
 
   public String getTraderID() {
-    return ctpJNI.CThostFtdcQryExchangeOrderField_TraderID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeOrderField_TraderID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryExchangeOrderField() {
-    this(ctpJNI.new_CThostFtdcQryExchangeOrderField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryExchangeOrderField(), true);
   }
 
 }

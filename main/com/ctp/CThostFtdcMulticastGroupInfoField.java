@@ -29,38 +29,38 @@ public class CThostFtdcMulticastGroupInfoField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcMulticastGroupInfoField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcMulticastGroupInfoField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setGroupIP(String value) {
-    ctpJNI.CThostFtdcMulticastGroupInfoField_GroupIP_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMulticastGroupInfoField_GroupIP_set(swigCPtr, this, value);
   }
 
   public String getGroupIP() {
-    return ctpJNI.CThostFtdcMulticastGroupInfoField_GroupIP_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMulticastGroupInfoField_GroupIP_get(swigCPtr, this);
   }
 
   public void setGroupPort(int value) {
-    ctpJNI.CThostFtdcMulticastGroupInfoField_GroupPort_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMulticastGroupInfoField_GroupPort_set(swigCPtr, this, value);
   }
 
   public int getGroupPort() {
-    return ctpJNI.CThostFtdcMulticastGroupInfoField_GroupPort_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMulticastGroupInfoField_GroupPort_get(swigCPtr, this);
   }
 
   public void setSourceIP(String value) {
-    ctpJNI.CThostFtdcMulticastGroupInfoField_SourceIP_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMulticastGroupInfoField_SourceIP_set(swigCPtr, this, value);
   }
 
   public String getSourceIP() {
-    return ctpJNI.CThostFtdcMulticastGroupInfoField_SourceIP_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMulticastGroupInfoField_SourceIP_get(swigCPtr, this);
   }
 
   public CThostFtdcMulticastGroupInfoField() {
-    this(ctpJNI.new_CThostFtdcMulticastGroupInfoField(), true);
+    this(ctpapiJNI.new_CThostFtdcMulticastGroupInfoField(), true);
   }
 
 }

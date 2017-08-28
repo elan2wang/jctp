@@ -29,30 +29,30 @@ public class CThostFtdcSuperUserFunctionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcSuperUserFunctionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcSuperUserFunctionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcSuperUserFunctionField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSuperUserFunctionField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcSuperUserFunctionField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSuperUserFunctionField_UserID_get(swigCPtr, this);
   }
 
   public void setFunctionCode(char value) {
-    ctpJNI.CThostFtdcSuperUserFunctionField_FunctionCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSuperUserFunctionField_FunctionCode_set(swigCPtr, this, value);
   }
 
   public char getFunctionCode() {
-    return ctpJNI.CThostFtdcSuperUserFunctionField_FunctionCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSuperUserFunctionField_FunctionCode_get(swigCPtr, this);
   }
 
   public CThostFtdcSuperUserFunctionField() {
-    this(ctpJNI.new_CThostFtdcSuperUserFunctionField(), true);
+    this(ctpapiJNI.new_CThostFtdcSuperUserFunctionField(), true);
   }
 
 }

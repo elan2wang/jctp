@@ -29,54 +29,54 @@ public class CThostFtdcAuthenticationInfoField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcAuthenticationInfoField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcAuthenticationInfoField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcAuthenticationInfoField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcAuthenticationInfoField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcAuthenticationInfoField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcAuthenticationInfoField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcAuthenticationInfoField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcAuthenticationInfoField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcAuthenticationInfoField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcAuthenticationInfoField_UserID_get(swigCPtr, this);
   }
 
   public void setUserProductInfo(String value) {
-    ctpJNI.CThostFtdcAuthenticationInfoField_UserProductInfo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcAuthenticationInfoField_UserProductInfo_set(swigCPtr, this, value);
   }
 
   public String getUserProductInfo() {
-    return ctpJNI.CThostFtdcAuthenticationInfoField_UserProductInfo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcAuthenticationInfoField_UserProductInfo_get(swigCPtr, this);
   }
 
   public void setAuthInfo(String value) {
-    ctpJNI.CThostFtdcAuthenticationInfoField_AuthInfo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcAuthenticationInfoField_AuthInfo_set(swigCPtr, this, value);
   }
 
   public String getAuthInfo() {
-    return ctpJNI.CThostFtdcAuthenticationInfoField_AuthInfo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcAuthenticationInfoField_AuthInfo_get(swigCPtr, this);
   }
 
   public void setIsResult(int value) {
-    ctpJNI.CThostFtdcAuthenticationInfoField_IsResult_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcAuthenticationInfoField_IsResult_set(swigCPtr, this, value);
   }
 
   public int getIsResult() {
-    return ctpJNI.CThostFtdcAuthenticationInfoField_IsResult_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcAuthenticationInfoField_IsResult_get(swigCPtr, this);
   }
 
   public CThostFtdcAuthenticationInfoField() {
-    this(ctpJNI.new_CThostFtdcAuthenticationInfoField(), true);
+    this(ctpapiJNI.new_CThostFtdcAuthenticationInfoField(), true);
   }
 
 }

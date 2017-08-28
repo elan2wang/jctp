@@ -29,38 +29,38 @@ public class CThostFtdcQrySettlementInfoField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQrySettlementInfoField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQrySettlementInfoField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQrySettlementInfoField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySettlementInfoField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQrySettlementInfoField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySettlementInfoField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQrySettlementInfoField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySettlementInfoField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQrySettlementInfoField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySettlementInfoField_InvestorID_get(swigCPtr, this);
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcQrySettlementInfoField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySettlementInfoField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcQrySettlementInfoField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySettlementInfoField_TradingDay_get(swigCPtr, this);
   }
 
   public CThostFtdcQrySettlementInfoField() {
-    this(ctpJNI.new_CThostFtdcQrySettlementInfoField(), true);
+    this(ctpapiJNI.new_CThostFtdcQrySettlementInfoField(), true);
   }
 
 }

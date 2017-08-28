@@ -29,54 +29,54 @@ public class CThostFtdcTradingAccountPasswordUpdateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcTradingAccountPasswordUpdateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcTradingAccountPasswordUpdateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_AccountID_get(swigCPtr, this);
   }
 
   public void setOldPassword(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_OldPassword_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_OldPassword_set(swigCPtr, this, value);
   }
 
   public String getOldPassword() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_OldPassword_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_OldPassword_get(swigCPtr, this);
   }
 
   public void setNewPassword(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_NewPassword_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_NewPassword_set(swigCPtr, this, value);
   }
 
   public String getNewPassword() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_NewPassword_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_NewPassword_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordUpdateField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordUpdateField_CurrencyID_get(swigCPtr, this);
   }
 
   public CThostFtdcTradingAccountPasswordUpdateField() {
-    this(ctpJNI.new_CThostFtdcTradingAccountPasswordUpdateField(), true);
+    this(ctpapiJNI.new_CThostFtdcTradingAccountPasswordUpdateField(), true);
   }
 
 }

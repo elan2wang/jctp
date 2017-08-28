@@ -29,38 +29,38 @@ public class CThostFtdcQryStockDisposalActionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryStockDisposalActionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryStockDisposalActionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryStockDisposalActionField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryStockDisposalActionField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryStockDisposalActionField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryStockDisposalActionField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryStockDisposalActionField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryStockDisposalActionField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryStockDisposalActionField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryStockDisposalActionField_InvestorID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryStockDisposalActionField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryStockDisposalActionField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryStockDisposalActionField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryStockDisposalActionField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryStockDisposalActionField() {
-    this(ctpJNI.new_CThostFtdcQryStockDisposalActionField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryStockDisposalActionField(), true);
   }
 
 }

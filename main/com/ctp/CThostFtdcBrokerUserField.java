@@ -29,62 +29,62 @@ public class CThostFtdcBrokerUserField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcBrokerUserField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcBrokerUserField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcBrokerUserField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcBrokerUserField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcBrokerUserField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcBrokerUserField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserField_UserID_get(swigCPtr, this);
   }
 
   public void setUserName(String value) {
-    ctpJNI.CThostFtdcBrokerUserField_UserName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserField_UserName_set(swigCPtr, this, value);
   }
 
   public String getUserName() {
-    return ctpJNI.CThostFtdcBrokerUserField_UserName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserField_UserName_get(swigCPtr, this);
   }
 
   public void setUserType(char value) {
-    ctpJNI.CThostFtdcBrokerUserField_UserType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserField_UserType_set(swigCPtr, this, value);
   }
 
   public char getUserType() {
-    return ctpJNI.CThostFtdcBrokerUserField_UserType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserField_UserType_get(swigCPtr, this);
   }
 
   public void setIsActive(int value) {
-    ctpJNI.CThostFtdcBrokerUserField_IsActive_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserField_IsActive_set(swigCPtr, this, value);
   }
 
   public int getIsActive() {
-    return ctpJNI.CThostFtdcBrokerUserField_IsActive_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserField_IsActive_get(swigCPtr, this);
   }
 
   public void setIsUsingOTP(int value) {
-    ctpJNI.CThostFtdcBrokerUserField_IsUsingOTP_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserField_IsUsingOTP_set(swigCPtr, this, value);
   }
 
   public int getIsUsingOTP() {
-    return ctpJNI.CThostFtdcBrokerUserField_IsUsingOTP_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserField_IsUsingOTP_get(swigCPtr, this);
   }
 
   public CThostFtdcBrokerUserField() {
-    this(ctpJNI.new_CThostFtdcBrokerUserField(), true);
+    this(ctpapiJNI.new_CThostFtdcBrokerUserField(), true);
   }
 
 }

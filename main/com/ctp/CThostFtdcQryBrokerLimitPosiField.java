@@ -29,38 +29,38 @@ public class CThostFtdcQryBrokerLimitPosiField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryBrokerLimitPosiField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryBrokerLimitPosiField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryBrokerLimitPosiField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryBrokerLimitPosiField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryBrokerLimitPosiField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryBrokerLimitPosiField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryBrokerLimitPosiField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryBrokerLimitPosiField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryBrokerLimitPosiField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryBrokerLimitPosiField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryBrokerLimitPosiField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryBrokerLimitPosiField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryBrokerLimitPosiField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryBrokerLimitPosiField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryBrokerLimitPosiField() {
-    this(ctpJNI.new_CThostFtdcQryBrokerLimitPosiField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryBrokerLimitPosiField(), true);
   }
 
 }

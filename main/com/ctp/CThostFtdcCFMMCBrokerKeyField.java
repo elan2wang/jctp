@@ -29,70 +29,70 @@ public class CThostFtdcCFMMCBrokerKeyField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcCFMMCBrokerKeyField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcCFMMCBrokerKeyField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcCFMMCBrokerKeyField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcCFMMCBrokerKeyField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_BrokerID_get(swigCPtr, this);
   }
 
   public void setParticipantID(String value) {
-    ctpJNI.CThostFtdcCFMMCBrokerKeyField_ParticipantID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_ParticipantID_set(swigCPtr, this, value);
   }
 
   public String getParticipantID() {
-    return ctpJNI.CThostFtdcCFMMCBrokerKeyField_ParticipantID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_ParticipantID_get(swigCPtr, this);
   }
 
   public void setCreateDate(String value) {
-    ctpJNI.CThostFtdcCFMMCBrokerKeyField_CreateDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_CreateDate_set(swigCPtr, this, value);
   }
 
   public String getCreateDate() {
-    return ctpJNI.CThostFtdcCFMMCBrokerKeyField_CreateDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_CreateDate_get(swigCPtr, this);
   }
 
   public void setCreateTime(String value) {
-    ctpJNI.CThostFtdcCFMMCBrokerKeyField_CreateTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_CreateTime_set(swigCPtr, this, value);
   }
 
   public String getCreateTime() {
-    return ctpJNI.CThostFtdcCFMMCBrokerKeyField_CreateTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_CreateTime_get(swigCPtr, this);
   }
 
   public void setKeyID(int value) {
-    ctpJNI.CThostFtdcCFMMCBrokerKeyField_KeyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_KeyID_set(swigCPtr, this, value);
   }
 
   public int getKeyID() {
-    return ctpJNI.CThostFtdcCFMMCBrokerKeyField_KeyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_KeyID_get(swigCPtr, this);
   }
 
   public void setCurrentKey(String value) {
-    ctpJNI.CThostFtdcCFMMCBrokerKeyField_CurrentKey_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_CurrentKey_set(swigCPtr, this, value);
   }
 
   public String getCurrentKey() {
-    return ctpJNI.CThostFtdcCFMMCBrokerKeyField_CurrentKey_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_CurrentKey_get(swigCPtr, this);
   }
 
   public void setKeyKind(char value) {
-    ctpJNI.CThostFtdcCFMMCBrokerKeyField_KeyKind_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_KeyKind_set(swigCPtr, this, value);
   }
 
   public char getKeyKind() {
-    return ctpJNI.CThostFtdcCFMMCBrokerKeyField_KeyKind_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCBrokerKeyField_KeyKind_get(swigCPtr, this);
   }
 
   public CThostFtdcCFMMCBrokerKeyField() {
-    this(ctpJNI.new_CThostFtdcCFMMCBrokerKeyField(), true);
+    this(ctpapiJNI.new_CThostFtdcCFMMCBrokerKeyField(), true);
   }
 
 }

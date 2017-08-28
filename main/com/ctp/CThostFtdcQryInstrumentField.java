@@ -29,46 +29,46 @@ public class CThostFtdcQryInstrumentField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryInstrumentField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryInstrumentField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryInstrumentField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInstrumentField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryInstrumentField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInstrumentField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryInstrumentField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInstrumentField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryInstrumentField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInstrumentField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setExchangeInstID(String value) {
-    ctpJNI.CThostFtdcQryInstrumentField_ExchangeInstID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInstrumentField_ExchangeInstID_set(swigCPtr, this, value);
   }
 
   public String getExchangeInstID() {
-    return ctpJNI.CThostFtdcQryInstrumentField_ExchangeInstID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInstrumentField_ExchangeInstID_get(swigCPtr, this);
   }
 
   public void setProductID(String value) {
-    ctpJNI.CThostFtdcQryInstrumentField_ProductID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInstrumentField_ProductID_set(swigCPtr, this, value);
   }
 
   public String getProductID() {
-    return ctpJNI.CThostFtdcQryInstrumentField_ProductID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInstrumentField_ProductID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryInstrumentField() {
-    this(ctpJNI.new_CThostFtdcQryInstrumentField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryInstrumentField(), true);
   }
 
 }

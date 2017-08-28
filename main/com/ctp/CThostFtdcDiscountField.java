@@ -29,46 +29,46 @@ public class CThostFtdcDiscountField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcDiscountField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcDiscountField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcDiscountField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDiscountField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcDiscountField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDiscountField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcDiscountField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDiscountField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcDiscountField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDiscountField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcDiscountField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDiscountField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcDiscountField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDiscountField_InvestorID_get(swigCPtr, this);
   }
 
   public void setDiscount(double value) {
-    ctpJNI.CThostFtdcDiscountField_Discount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDiscountField_Discount_set(swigCPtr, this, value);
   }
 
   public double getDiscount() {
-    return ctpJNI.CThostFtdcDiscountField_Discount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDiscountField_Discount_get(swigCPtr, this);
   }
 
   public CThostFtdcDiscountField() {
-    this(ctpJNI.new_CThostFtdcDiscountField(), true);
+    this(ctpapiJNI.new_CThostFtdcDiscountField(), true);
   }
 
 }

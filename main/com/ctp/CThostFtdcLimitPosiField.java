@@ -29,110 +29,110 @@ public class CThostFtdcLimitPosiField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcLimitPosiField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcLimitPosiField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcLimitPosiField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcLimitPosiField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcLimitPosiField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcLimitPosiField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcLimitPosiField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcLimitPosiField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcLimitPosiField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcLimitPosiField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setTotalVolume(int value) {
-    ctpJNI.CThostFtdcLimitPosiField_TotalVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_TotalVolume_set(swigCPtr, this, value);
   }
 
   public int getTotalVolume() {
-    return ctpJNI.CThostFtdcLimitPosiField_TotalVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_TotalVolume_get(swigCPtr, this);
   }
 
   public void setLongVolume(int value) {
-    ctpJNI.CThostFtdcLimitPosiField_LongVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_LongVolume_set(swigCPtr, this, value);
   }
 
   public int getLongVolume() {
-    return ctpJNI.CThostFtdcLimitPosiField_LongVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_LongVolume_get(swigCPtr, this);
   }
 
   public void setOpenVolume(int value) {
-    ctpJNI.CThostFtdcLimitPosiField_OpenVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_OpenVolume_set(swigCPtr, this, value);
   }
 
   public int getOpenVolume() {
-    return ctpJNI.CThostFtdcLimitPosiField_OpenVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_OpenVolume_get(swigCPtr, this);
   }
 
   public void setLongAmount(double value) {
-    ctpJNI.CThostFtdcLimitPosiField_LongAmount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_LongAmount_set(swigCPtr, this, value);
   }
 
   public double getLongAmount() {
-    return ctpJNI.CThostFtdcLimitPosiField_LongAmount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_LongAmount_get(swigCPtr, this);
   }
 
   public void setTotalVolumeFrozen(int value) {
-    ctpJNI.CThostFtdcLimitPosiField_TotalVolumeFrozen_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_TotalVolumeFrozen_set(swigCPtr, this, value);
   }
 
   public int getTotalVolumeFrozen() {
-    return ctpJNI.CThostFtdcLimitPosiField_TotalVolumeFrozen_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_TotalVolumeFrozen_get(swigCPtr, this);
   }
 
   public void setLongVolumeFrozen(int value) {
-    ctpJNI.CThostFtdcLimitPosiField_LongVolumeFrozen_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_LongVolumeFrozen_set(swigCPtr, this, value);
   }
 
   public int getLongVolumeFrozen() {
-    return ctpJNI.CThostFtdcLimitPosiField_LongVolumeFrozen_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_LongVolumeFrozen_get(swigCPtr, this);
   }
 
   public void setOpenVolumeFrozen(int value) {
-    ctpJNI.CThostFtdcLimitPosiField_OpenVolumeFrozen_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_OpenVolumeFrozen_set(swigCPtr, this, value);
   }
 
   public int getOpenVolumeFrozen() {
-    return ctpJNI.CThostFtdcLimitPosiField_OpenVolumeFrozen_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_OpenVolumeFrozen_get(swigCPtr, this);
   }
 
   public void setLongAmountFrozen(double value) {
-    ctpJNI.CThostFtdcLimitPosiField_LongAmountFrozen_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiField_LongAmountFrozen_set(swigCPtr, this, value);
   }
 
   public double getLongAmountFrozen() {
-    return ctpJNI.CThostFtdcLimitPosiField_LongAmountFrozen_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiField_LongAmountFrozen_get(swigCPtr, this);
   }
 
   public CThostFtdcLimitPosiField() {
-    this(ctpJNI.new_CThostFtdcLimitPosiField(), true);
+    this(ctpapiJNI.new_CThostFtdcLimitPosiField(), true);
   }
 
 }

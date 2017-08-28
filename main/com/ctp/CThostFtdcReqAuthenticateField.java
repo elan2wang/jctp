@@ -29,46 +29,46 @@ public class CThostFtdcReqAuthenticateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcReqAuthenticateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcReqAuthenticateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcReqAuthenticateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqAuthenticateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcReqAuthenticateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqAuthenticateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcReqAuthenticateField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqAuthenticateField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcReqAuthenticateField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqAuthenticateField_UserID_get(swigCPtr, this);
   }
 
   public void setUserProductInfo(String value) {
-    ctpJNI.CThostFtdcReqAuthenticateField_UserProductInfo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqAuthenticateField_UserProductInfo_set(swigCPtr, this, value);
   }
 
   public String getUserProductInfo() {
-    return ctpJNI.CThostFtdcReqAuthenticateField_UserProductInfo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqAuthenticateField_UserProductInfo_get(swigCPtr, this);
   }
 
   public void setAuthCode(String value) {
-    ctpJNI.CThostFtdcReqAuthenticateField_AuthCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqAuthenticateField_AuthCode_set(swigCPtr, this, value);
   }
 
   public String getAuthCode() {
-    return ctpJNI.CThostFtdcReqAuthenticateField_AuthCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqAuthenticateField_AuthCode_get(swigCPtr, this);
   }
 
   public CThostFtdcReqAuthenticateField() {
-    this(ctpJNI.new_CThostFtdcReqAuthenticateField(), true);
+    this(ctpapiJNI.new_CThostFtdcReqAuthenticateField(), true);
   }
 
 }

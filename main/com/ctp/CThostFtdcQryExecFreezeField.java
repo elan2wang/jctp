@@ -29,46 +29,46 @@ public class CThostFtdcQryExecFreezeField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryExecFreezeField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryExecFreezeField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryExecFreezeField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecFreezeField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryExecFreezeField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecFreezeField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryExecFreezeField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecFreezeField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryExecFreezeField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecFreezeField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryExecFreezeField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecFreezeField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryExecFreezeField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecFreezeField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryExecFreezeField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecFreezeField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryExecFreezeField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecFreezeField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryExecFreezeField() {
-    this(ctpJNI.new_CThostFtdcQryExecFreezeField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryExecFreezeField(), true);
   }
 
 }

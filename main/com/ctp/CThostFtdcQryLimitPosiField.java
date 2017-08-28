@@ -29,46 +29,46 @@ public class CThostFtdcQryLimitPosiField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryLimitPosiField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryLimitPosiField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryLimitPosiField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLimitPosiField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryLimitPosiField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLimitPosiField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryLimitPosiField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLimitPosiField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryLimitPosiField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLimitPosiField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryLimitPosiField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLimitPosiField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryLimitPosiField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLimitPosiField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryLimitPosiField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLimitPosiField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryLimitPosiField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLimitPosiField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryLimitPosiField() {
-    this(ctpJNI.new_CThostFtdcQryLimitPosiField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryLimitPosiField(), true);
   }
 
 }

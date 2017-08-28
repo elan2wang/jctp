@@ -29,22 +29,22 @@ public class CThostFtdcQryExchangeField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryExchangeField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryExchangeField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryExchangeField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryExchangeField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryExchangeField() {
-    this(ctpJNI.new_CThostFtdcQryExchangeField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryExchangeField(), true);
   }
 
 }

@@ -29,38 +29,38 @@ public class CThostFtdcLoginForbiddenUserField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcLoginForbiddenUserField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcLoginForbiddenUserField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcLoginForbiddenUserField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLoginForbiddenUserField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcLoginForbiddenUserField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLoginForbiddenUserField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcLoginForbiddenUserField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLoginForbiddenUserField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcLoginForbiddenUserField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLoginForbiddenUserField_UserID_get(swigCPtr, this);
   }
 
   public void setIPAddress(String value) {
-    ctpJNI.CThostFtdcLoginForbiddenUserField_IPAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLoginForbiddenUserField_IPAddress_set(swigCPtr, this, value);
   }
 
   public String getIPAddress() {
-    return ctpJNI.CThostFtdcLoginForbiddenUserField_IPAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLoginForbiddenUserField_IPAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcLoginForbiddenUserField() {
-    this(ctpJNI.new_CThostFtdcLoginForbiddenUserField(), true);
+    this(ctpapiJNI.new_CThostFtdcLoginForbiddenUserField(), true);
   }
 
 }

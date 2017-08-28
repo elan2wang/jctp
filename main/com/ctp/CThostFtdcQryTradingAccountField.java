@@ -29,46 +29,46 @@ public class CThostFtdcQryTradingAccountField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryTradingAccountField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryTradingAccountField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryTradingAccountField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTradingAccountField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryTradingAccountField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTradingAccountField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryTradingAccountField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTradingAccountField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryTradingAccountField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTradingAccountField_InvestorID_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcQryTradingAccountField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTradingAccountField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcQryTradingAccountField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTradingAccountField_CurrencyID_get(swigCPtr, this);
   }
 
   public void setBizType(char value) {
-    ctpJNI.CThostFtdcQryTradingAccountField_BizType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTradingAccountField_BizType_set(swigCPtr, this, value);
   }
 
   public char getBizType() {
-    return ctpJNI.CThostFtdcQryTradingAccountField_BizType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTradingAccountField_BizType_get(swigCPtr, this);
   }
 
   public CThostFtdcQryTradingAccountField() {
-    this(ctpJNI.new_CThostFtdcQryTradingAccountField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryTradingAccountField(), true);
   }
 
 }

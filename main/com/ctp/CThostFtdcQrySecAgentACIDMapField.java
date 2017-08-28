@@ -29,46 +29,46 @@ public class CThostFtdcQrySecAgentACIDMapField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQrySecAgentACIDMapField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQrySecAgentACIDMapField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQrySecAgentACIDMapField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySecAgentACIDMapField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQrySecAgentACIDMapField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySecAgentACIDMapField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcQrySecAgentACIDMapField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySecAgentACIDMapField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcQrySecAgentACIDMapField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySecAgentACIDMapField_UserID_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcQrySecAgentACIDMapField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySecAgentACIDMapField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcQrySecAgentACIDMapField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySecAgentACIDMapField_AccountID_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcQrySecAgentACIDMapField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySecAgentACIDMapField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcQrySecAgentACIDMapField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySecAgentACIDMapField_CurrencyID_get(swigCPtr, this);
   }
 
   public CThostFtdcQrySecAgentACIDMapField() {
-    this(ctpJNI.new_CThostFtdcQrySecAgentACIDMapField(), true);
+    this(ctpapiJNI.new_CThostFtdcQrySecAgentACIDMapField(), true);
   }
 
 }

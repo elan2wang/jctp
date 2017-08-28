@@ -29,46 +29,46 @@ public class CThostFtdcTransferQryBankReqField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcTransferQryBankReqField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcTransferQryBankReqField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setFutureAccount(String value) {
-    ctpJNI.CThostFtdcTransferQryBankReqField_FutureAccount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferQryBankReqField_FutureAccount_set(swigCPtr, this, value);
   }
 
   public String getFutureAccount() {
-    return ctpJNI.CThostFtdcTransferQryBankReqField_FutureAccount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferQryBankReqField_FutureAccount_get(swigCPtr, this);
   }
 
   public void setFuturePwdFlag(char value) {
-    ctpJNI.CThostFtdcTransferQryBankReqField_FuturePwdFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferQryBankReqField_FuturePwdFlag_set(swigCPtr, this, value);
   }
 
   public char getFuturePwdFlag() {
-    return ctpJNI.CThostFtdcTransferQryBankReqField_FuturePwdFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferQryBankReqField_FuturePwdFlag_get(swigCPtr, this);
   }
 
   public void setFutureAccPwd(String value) {
-    ctpJNI.CThostFtdcTransferQryBankReqField_FutureAccPwd_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferQryBankReqField_FutureAccPwd_set(swigCPtr, this, value);
   }
 
   public String getFutureAccPwd() {
-    return ctpJNI.CThostFtdcTransferQryBankReqField_FutureAccPwd_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferQryBankReqField_FutureAccPwd_get(swigCPtr, this);
   }
 
   public void setCurrencyCode(String value) {
-    ctpJNI.CThostFtdcTransferQryBankReqField_CurrencyCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferQryBankReqField_CurrencyCode_set(swigCPtr, this, value);
   }
 
   public String getCurrencyCode() {
-    return ctpJNI.CThostFtdcTransferQryBankReqField_CurrencyCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferQryBankReqField_CurrencyCode_get(swigCPtr, this);
   }
 
   public CThostFtdcTransferQryBankReqField() {
-    this(ctpJNI.new_CThostFtdcTransferQryBankReqField(), true);
+    this(ctpapiJNI.new_CThostFtdcTransferQryBankReqField(), true);
   }
 
 }

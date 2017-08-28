@@ -27,14 +27,12 @@ RUN set -x \
 # Build CTP
 COPY ./out/artifacts/jctp_jar/jctp.jar /usr/src/jctp.jar
 COPY ./ctp-api-linux64-20160628/* /usr/src/ctp/
-COPY ./ctp-api-linux64-20160628/thosttraderapi.so /usr/lib/libthosttraderapi.so
-COPY ./ctp-api-linux64-20160628/thostmduserapi.so /usr/lib/libthostmduserapi.so
-
+COPY ./ctp-api-linux64-20160628/*.so /usr/lib/
 
 WORKDIR /usr/src/ctp
 
-RUN make libctp.so
+RUN make
 
-RUN cp ./libctp.so /usr/lib/
+RUN make install
 
 CMD java -jar /usr/src/jctp.jar

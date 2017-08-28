@@ -29,46 +29,46 @@ public class CThostFtdcMarketDataBid23Field {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcMarketDataBid23Field(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcMarketDataBid23Field(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBidPrice2(double value) {
-    ctpJNI.CThostFtdcMarketDataBid23Field_BidPrice2_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBid23Field_BidPrice2_set(swigCPtr, this, value);
   }
 
   public double getBidPrice2() {
-    return ctpJNI.CThostFtdcMarketDataBid23Field_BidPrice2_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBid23Field_BidPrice2_get(swigCPtr, this);
   }
 
   public void setBidVolume2(int value) {
-    ctpJNI.CThostFtdcMarketDataBid23Field_BidVolume2_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBid23Field_BidVolume2_set(swigCPtr, this, value);
   }
 
   public int getBidVolume2() {
-    return ctpJNI.CThostFtdcMarketDataBid23Field_BidVolume2_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBid23Field_BidVolume2_get(swigCPtr, this);
   }
 
   public void setBidPrice3(double value) {
-    ctpJNI.CThostFtdcMarketDataBid23Field_BidPrice3_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBid23Field_BidPrice3_set(swigCPtr, this, value);
   }
 
   public double getBidPrice3() {
-    return ctpJNI.CThostFtdcMarketDataBid23Field_BidPrice3_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBid23Field_BidPrice3_get(swigCPtr, this);
   }
 
   public void setBidVolume3(int value) {
-    ctpJNI.CThostFtdcMarketDataBid23Field_BidVolume3_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBid23Field_BidVolume3_set(swigCPtr, this, value);
   }
 
   public int getBidVolume3() {
-    return ctpJNI.CThostFtdcMarketDataBid23Field_BidVolume3_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBid23Field_BidVolume3_get(swigCPtr, this);
   }
 
   public CThostFtdcMarketDataBid23Field() {
-    this(ctpJNI.new_CThostFtdcMarketDataBid23Field(), true);
+    this(ctpapiJNI.new_CThostFtdcMarketDataBid23Field(), true);
   }
 
 }

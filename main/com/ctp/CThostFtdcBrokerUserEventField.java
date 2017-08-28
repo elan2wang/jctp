@@ -29,94 +29,94 @@ public class CThostFtdcBrokerUserEventField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcBrokerUserEventField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcBrokerUserEventField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_UserID_get(swigCPtr, this);
   }
 
   public void setUserEventType(char value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_UserEventType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_UserEventType_set(swigCPtr, this, value);
   }
 
   public char getUserEventType() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_UserEventType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_UserEventType_get(swigCPtr, this);
   }
 
   public void setEventSequenceNo(int value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_EventSequenceNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_EventSequenceNo_set(swigCPtr, this, value);
   }
 
   public int getEventSequenceNo() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_EventSequenceNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_EventSequenceNo_get(swigCPtr, this);
   }
 
   public void setEventDate(String value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_EventDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_EventDate_set(swigCPtr, this, value);
   }
 
   public String getEventDate() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_EventDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_EventDate_get(swigCPtr, this);
   }
 
   public void setEventTime(String value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_EventTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_EventTime_set(swigCPtr, this, value);
   }
 
   public String getEventTime() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_EventTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_EventTime_get(swigCPtr, this);
   }
 
   public void setUserEventInfo(String value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_UserEventInfo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_UserEventInfo_set(swigCPtr, this, value);
   }
 
   public String getUserEventInfo() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_UserEventInfo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_UserEventInfo_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcBrokerUserEventField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserEventField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcBrokerUserEventField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserEventField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcBrokerUserEventField() {
-    this(ctpJNI.new_CThostFtdcBrokerUserEventField(), true);
+    this(ctpapiJNI.new_CThostFtdcBrokerUserEventField(), true);
   }
 
 }

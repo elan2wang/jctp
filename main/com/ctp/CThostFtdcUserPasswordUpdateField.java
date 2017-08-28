@@ -29,46 +29,46 @@ public class CThostFtdcUserPasswordUpdateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcUserPasswordUpdateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcUserPasswordUpdateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcUserPasswordUpdateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserPasswordUpdateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcUserPasswordUpdateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserPasswordUpdateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcUserPasswordUpdateField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserPasswordUpdateField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcUserPasswordUpdateField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserPasswordUpdateField_UserID_get(swigCPtr, this);
   }
 
   public void setOldPassword(String value) {
-    ctpJNI.CThostFtdcUserPasswordUpdateField_OldPassword_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserPasswordUpdateField_OldPassword_set(swigCPtr, this, value);
   }
 
   public String getOldPassword() {
-    return ctpJNI.CThostFtdcUserPasswordUpdateField_OldPassword_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserPasswordUpdateField_OldPassword_get(swigCPtr, this);
   }
 
   public void setNewPassword(String value) {
-    ctpJNI.CThostFtdcUserPasswordUpdateField_NewPassword_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserPasswordUpdateField_NewPassword_set(swigCPtr, this, value);
   }
 
   public String getNewPassword() {
-    return ctpJNI.CThostFtdcUserPasswordUpdateField_NewPassword_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserPasswordUpdateField_NewPassword_get(swigCPtr, this);
   }
 
   public CThostFtdcUserPasswordUpdateField() {
-    this(ctpJNI.new_CThostFtdcUserPasswordUpdateField(), true);
+    this(ctpapiJNI.new_CThostFtdcUserPasswordUpdateField(), true);
   }
 
 }

@@ -29,38 +29,38 @@ public class CThostFtdcCommRateModelField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcCommRateModelField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcCommRateModelField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcCommRateModelField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCommRateModelField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcCommRateModelField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCommRateModelField_BrokerID_get(swigCPtr, this);
   }
 
   public void setCommModelID(String value) {
-    ctpJNI.CThostFtdcCommRateModelField_CommModelID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCommRateModelField_CommModelID_set(swigCPtr, this, value);
   }
 
   public String getCommModelID() {
-    return ctpJNI.CThostFtdcCommRateModelField_CommModelID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCommRateModelField_CommModelID_get(swigCPtr, this);
   }
 
   public void setCommModelName(String value) {
-    ctpJNI.CThostFtdcCommRateModelField_CommModelName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCommRateModelField_CommModelName_set(swigCPtr, this, value);
   }
 
   public String getCommModelName() {
-    return ctpJNI.CThostFtdcCommRateModelField_CommModelName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCommRateModelField_CommModelName_get(swigCPtr, this);
   }
 
   public CThostFtdcCommRateModelField() {
-    this(ctpJNI.new_CThostFtdcCommRateModelField(), true);
+    this(ctpapiJNI.new_CThostFtdcCommRateModelField(), true);
   }
 
 }

@@ -29,70 +29,70 @@ public class CThostFtdcDepositResultInformField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcDepositResultInformField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcDepositResultInformField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setDepositSeqNo(String value) {
-    ctpJNI.CThostFtdcDepositResultInformField_DepositSeqNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDepositResultInformField_DepositSeqNo_set(swigCPtr, this, value);
   }
 
   public String getDepositSeqNo() {
-    return ctpJNI.CThostFtdcDepositResultInformField_DepositSeqNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDepositResultInformField_DepositSeqNo_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcDepositResultInformField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDepositResultInformField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcDepositResultInformField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDepositResultInformField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcDepositResultInformField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDepositResultInformField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcDepositResultInformField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDepositResultInformField_InvestorID_get(swigCPtr, this);
   }
 
   public void setDeposit(double value) {
-    ctpJNI.CThostFtdcDepositResultInformField_Deposit_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDepositResultInformField_Deposit_set(swigCPtr, this, value);
   }
 
   public double getDeposit() {
-    return ctpJNI.CThostFtdcDepositResultInformField_Deposit_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDepositResultInformField_Deposit_get(swigCPtr, this);
   }
 
   public void setRequestID(int value) {
-    ctpJNI.CThostFtdcDepositResultInformField_RequestID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDepositResultInformField_RequestID_set(swigCPtr, this, value);
   }
 
   public int getRequestID() {
-    return ctpJNI.CThostFtdcDepositResultInformField_RequestID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDepositResultInformField_RequestID_get(swigCPtr, this);
   }
 
   public void setReturnCode(String value) {
-    ctpJNI.CThostFtdcDepositResultInformField_ReturnCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDepositResultInformField_ReturnCode_set(swigCPtr, this, value);
   }
 
   public String getReturnCode() {
-    return ctpJNI.CThostFtdcDepositResultInformField_ReturnCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDepositResultInformField_ReturnCode_get(swigCPtr, this);
   }
 
   public void setDescrInfoForReturnCode(String value) {
-    ctpJNI.CThostFtdcDepositResultInformField_DescrInfoForReturnCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDepositResultInformField_DescrInfoForReturnCode_set(swigCPtr, this, value);
   }
 
   public String getDescrInfoForReturnCode() {
-    return ctpJNI.CThostFtdcDepositResultInformField_DescrInfoForReturnCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDepositResultInformField_DescrInfoForReturnCode_get(swigCPtr, this);
   }
 
   public CThostFtdcDepositResultInformField() {
-    this(ctpJNI.new_CThostFtdcDepositResultInformField(), true);
+    this(ctpapiJNI.new_CThostFtdcDepositResultInformField(), true);
   }
 
 }

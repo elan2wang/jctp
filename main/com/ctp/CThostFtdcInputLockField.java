@@ -29,110 +29,110 @@ public class CThostFtdcInputLockField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInputLockField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInputLockField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInputLockField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInputLockField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInputLockField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInputLockField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcInputLockField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcInputLockField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setLockRef(String value) {
-    ctpJNI.CThostFtdcInputLockField_LockRef_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_LockRef_set(swigCPtr, this, value);
   }
 
   public String getLockRef() {
-    return ctpJNI.CThostFtdcInputLockField_LockRef_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_LockRef_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcInputLockField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcInputLockField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_UserID_get(swigCPtr, this);
   }
 
   public void setVolume(int value) {
-    ctpJNI.CThostFtdcInputLockField_Volume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_Volume_set(swigCPtr, this, value);
   }
 
   public int getVolume() {
-    return ctpJNI.CThostFtdcInputLockField_Volume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_Volume_get(swigCPtr, this);
   }
 
   public void setRequestID(int value) {
-    ctpJNI.CThostFtdcInputLockField_RequestID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_RequestID_set(swigCPtr, this, value);
   }
 
   public int getRequestID() {
-    return ctpJNI.CThostFtdcInputLockField_RequestID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_RequestID_get(swigCPtr, this);
   }
 
   public void setBusinessUnit(String value) {
-    ctpJNI.CThostFtdcInputLockField_BusinessUnit_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_BusinessUnit_set(swigCPtr, this, value);
   }
 
   public String getBusinessUnit() {
-    return ctpJNI.CThostFtdcInputLockField_BusinessUnit_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_BusinessUnit_get(swigCPtr, this);
   }
 
   public void setLockType(char value) {
-    ctpJNI.CThostFtdcInputLockField_LockType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_LockType_set(swigCPtr, this, value);
   }
 
   public char getLockType() {
-    return ctpJNI.CThostFtdcInputLockField_LockType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_LockType_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcInputLockField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcInputLockField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setIPAddress(String value) {
-    ctpJNI.CThostFtdcInputLockField_IPAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_IPAddress_set(swigCPtr, this, value);
   }
 
   public String getIPAddress() {
-    return ctpJNI.CThostFtdcInputLockField_IPAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_IPAddress_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
-    ctpJNI.CThostFtdcInputLockField_MacAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputLockField_MacAddress_set(swigCPtr, this, value);
   }
 
   public String getMacAddress() {
-    return ctpJNI.CThostFtdcInputLockField_MacAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputLockField_MacAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcInputLockField() {
-    this(ctpJNI.new_CThostFtdcInputLockField(), true);
+    this(ctpapiJNI.new_CThostFtdcInputLockField(), true);
   }
 
 }

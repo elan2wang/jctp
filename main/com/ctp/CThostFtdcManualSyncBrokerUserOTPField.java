@@ -29,54 +29,54 @@ public class CThostFtdcManualSyncBrokerUserOTPField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcManualSyncBrokerUserOTPField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcManualSyncBrokerUserOTPField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_UserID_get(swigCPtr, this);
   }
 
   public void setOTPType(char value) {
-    ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_OTPType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_OTPType_set(swigCPtr, this, value);
   }
 
   public char getOTPType() {
-    return ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_OTPType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_OTPType_get(swigCPtr, this);
   }
 
   public void setFirstOTP(String value) {
-    ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_FirstOTP_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_FirstOTP_set(swigCPtr, this, value);
   }
 
   public String getFirstOTP() {
-    return ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_FirstOTP_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_FirstOTP_get(swigCPtr, this);
   }
 
   public void setSecondOTP(String value) {
-    ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_SecondOTP_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_SecondOTP_set(swigCPtr, this, value);
   }
 
   public String getSecondOTP() {
-    return ctpJNI.CThostFtdcManualSyncBrokerUserOTPField_SecondOTP_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcManualSyncBrokerUserOTPField_SecondOTP_get(swigCPtr, this);
   }
 
   public CThostFtdcManualSyncBrokerUserOTPField() {
-    this(ctpJNI.new_CThostFtdcManualSyncBrokerUserOTPField(), true);
+    this(ctpapiJNI.new_CThostFtdcManualSyncBrokerUserOTPField(), true);
   }
 
 }

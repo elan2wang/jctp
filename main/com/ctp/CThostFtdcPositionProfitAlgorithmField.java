@@ -29,54 +29,54 @@ public class CThostFtdcPositionProfitAlgorithmField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcPositionProfitAlgorithmField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcPositionProfitAlgorithmField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcPositionProfitAlgorithmField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcPositionProfitAlgorithmField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_BrokerID_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcPositionProfitAlgorithmField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcPositionProfitAlgorithmField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_AccountID_get(swigCPtr, this);
   }
 
   public void setAlgorithm(char value) {
-    ctpJNI.CThostFtdcPositionProfitAlgorithmField_Algorithm_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_Algorithm_set(swigCPtr, this, value);
   }
 
   public char getAlgorithm() {
-    return ctpJNI.CThostFtdcPositionProfitAlgorithmField_Algorithm_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_Algorithm_get(swigCPtr, this);
   }
 
   public void setMemo(String value) {
-    ctpJNI.CThostFtdcPositionProfitAlgorithmField_Memo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_Memo_set(swigCPtr, this, value);
   }
 
   public String getMemo() {
-    return ctpJNI.CThostFtdcPositionProfitAlgorithmField_Memo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_Memo_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcPositionProfitAlgorithmField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcPositionProfitAlgorithmField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPositionProfitAlgorithmField_CurrencyID_get(swigCPtr, this);
   }
 
   public CThostFtdcPositionProfitAlgorithmField() {
-    this(ctpJNI.new_CThostFtdcPositionProfitAlgorithmField(), true);
+    this(ctpapiJNI.new_CThostFtdcPositionProfitAlgorithmField(), true);
   }
 
 }

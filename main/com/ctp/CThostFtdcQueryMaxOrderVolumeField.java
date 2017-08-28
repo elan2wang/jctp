@@ -29,78 +29,78 @@ public class CThostFtdcQueryMaxOrderVolumeField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQueryMaxOrderVolumeField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQueryMaxOrderVolumeField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQueryMaxOrderVolumeField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQueryMaxOrderVolumeField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQueryMaxOrderVolumeField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQueryMaxOrderVolumeField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQueryMaxOrderVolumeField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQueryMaxOrderVolumeField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setDirection(char value) {
-    ctpJNI.CThostFtdcQueryMaxOrderVolumeField_Direction_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_Direction_set(swigCPtr, this, value);
   }
 
   public char getDirection() {
-    return ctpJNI.CThostFtdcQueryMaxOrderVolumeField_Direction_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_Direction_get(swigCPtr, this);
   }
 
   public void setOffsetFlag(char value) {
-    ctpJNI.CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_set(swigCPtr, this, value);
   }
 
   public char getOffsetFlag() {
-    return ctpJNI.CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
-    ctpJNI.CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_set(swigCPtr, this, value);
   }
 
   public char getHedgeFlag() {
-    return ctpJNI.CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_get(swigCPtr, this);
   }
 
   public void setMaxVolume(int value) {
-    ctpJNI.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_set(swigCPtr, this, value);
   }
 
   public int getMaxVolume() {
-    return ctpJNI.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_MaxVolume_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQueryMaxOrderVolumeField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQueryMaxOrderVolumeField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQueryMaxOrderVolumeField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQueryMaxOrderVolumeField() {
-    this(ctpJNI.new_CThostFtdcQueryMaxOrderVolumeField(), true);
+    this(ctpapiJNI.new_CThostFtdcQueryMaxOrderVolumeField(), true);
   }
 
 }

@@ -29,30 +29,30 @@ public class CThostFtdcQryMarginModelField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryMarginModelField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryMarginModelField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryMarginModelField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryMarginModelField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryMarginModelField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryMarginModelField_BrokerID_get(swigCPtr, this);
   }
 
   public void setMarginModelID(String value) {
-    ctpJNI.CThostFtdcQryMarginModelField_MarginModelID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryMarginModelField_MarginModelID_set(swigCPtr, this, value);
   }
 
   public String getMarginModelID() {
-    return ctpJNI.CThostFtdcQryMarginModelField_MarginModelID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryMarginModelField_MarginModelID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryMarginModelField() {
-    this(ctpJNI.new_CThostFtdcQryMarginModelField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryMarginModelField(), true);
   }
 
 }

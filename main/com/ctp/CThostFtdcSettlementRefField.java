@@ -29,30 +29,30 @@ public class CThostFtdcSettlementRefField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcSettlementRefField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcSettlementRefField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcSettlementRefField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSettlementRefField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcSettlementRefField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSettlementRefField_TradingDay_get(swigCPtr, this);
   }
 
   public void setSettlementID(int value) {
-    ctpJNI.CThostFtdcSettlementRefField_SettlementID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSettlementRefField_SettlementID_set(swigCPtr, this, value);
   }
 
   public int getSettlementID() {
-    return ctpJNI.CThostFtdcSettlementRefField_SettlementID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSettlementRefField_SettlementID_get(swigCPtr, this);
   }
 
   public CThostFtdcSettlementRefField() {
-    this(ctpJNI.new_CThostFtdcSettlementRefField(), true);
+    this(ctpapiJNI.new_CThostFtdcSettlementRefField(), true);
   }
 
 }

@@ -29,30 +29,30 @@ public class CThostFtdcQryDepthMarketDataField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryDepthMarketDataField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryDepthMarketDataField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryDepthMarketDataField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryDepthMarketDataField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryDepthMarketDataField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryDepthMarketDataField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryDepthMarketDataField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryDepthMarketDataField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryDepthMarketDataField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryDepthMarketDataField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryDepthMarketDataField() {
-    this(ctpJNI.new_CThostFtdcQryDepthMarketDataField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryDepthMarketDataField(), true);
   }
 
 }

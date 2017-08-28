@@ -29,46 +29,46 @@ public class CThostFtdcContractBankField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcContractBankField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcContractBankField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcContractBankField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcContractBankField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcContractBankField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcContractBankField_BrokerID_get(swigCPtr, this);
   }
 
   public void setBankID(String value) {
-    ctpJNI.CThostFtdcContractBankField_BankID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcContractBankField_BankID_set(swigCPtr, this, value);
   }
 
   public String getBankID() {
-    return ctpJNI.CThostFtdcContractBankField_BankID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcContractBankField_BankID_get(swigCPtr, this);
   }
 
   public void setBankBrchID(String value) {
-    ctpJNI.CThostFtdcContractBankField_BankBrchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcContractBankField_BankBrchID_set(swigCPtr, this, value);
   }
 
   public String getBankBrchID() {
-    return ctpJNI.CThostFtdcContractBankField_BankBrchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcContractBankField_BankBrchID_get(swigCPtr, this);
   }
 
   public void setBankName(String value) {
-    ctpJNI.CThostFtdcContractBankField_BankName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcContractBankField_BankName_set(swigCPtr, this, value);
   }
 
   public String getBankName() {
-    return ctpJNI.CThostFtdcContractBankField_BankName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcContractBankField_BankName_get(swigCPtr, this);
   }
 
   public CThostFtdcContractBankField() {
-    this(ctpJNI.new_CThostFtdcContractBankField(), true);
+    this(ctpapiJNI.new_CThostFtdcContractBankField(), true);
   }
 
 }

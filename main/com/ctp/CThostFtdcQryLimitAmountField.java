@@ -29,38 +29,38 @@ public class CThostFtdcQryLimitAmountField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryLimitAmountField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryLimitAmountField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryLimitAmountField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLimitAmountField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryLimitAmountField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLimitAmountField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryLimitAmountField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLimitAmountField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryLimitAmountField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLimitAmountField_InvestorID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryLimitAmountField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLimitAmountField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryLimitAmountField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLimitAmountField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryLimitAmountField() {
-    this(ctpJNI.new_CThostFtdcQryLimitAmountField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryLimitAmountField(), true);
   }
 
 }

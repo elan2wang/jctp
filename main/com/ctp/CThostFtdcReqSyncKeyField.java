@@ -29,174 +29,174 @@ public class CThostFtdcReqSyncKeyField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcReqSyncKeyField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcReqSyncKeyField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setTradeCode(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_TradeCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_TradeCode_set(swigCPtr, this, value);
   }
 
   public String getTradeCode() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_TradeCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_TradeCode_get(swigCPtr, this);
   }
 
   public void setBankID(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_BankID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_BankID_set(swigCPtr, this, value);
   }
 
   public String getBankID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_BankID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_BankID_get(swigCPtr, this);
   }
 
   public void setBankBranchID(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_BankBranchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_BankBranchID_set(swigCPtr, this, value);
   }
 
   public String getBankBranchID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_BankBranchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_BankBranchID_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_BrokerID_get(swigCPtr, this);
   }
 
   public void setBrokerBranchID(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_BrokerBranchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_BrokerBranchID_set(swigCPtr, this, value);
   }
 
   public String getBrokerBranchID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_BrokerBranchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_BrokerBranchID_get(swigCPtr, this);
   }
 
   public void setTradeDate(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_TradeDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_TradeDate_set(swigCPtr, this, value);
   }
 
   public String getTradeDate() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_TradeDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_TradeDate_get(swigCPtr, this);
   }
 
   public void setTradeTime(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_TradeTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_TradeTime_set(swigCPtr, this, value);
   }
 
   public String getTradeTime() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_TradeTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_TradeTime_get(swigCPtr, this);
   }
 
   public void setBankSerial(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_BankSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_BankSerial_set(swigCPtr, this, value);
   }
 
   public String getBankSerial() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_BankSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_BankSerial_get(swigCPtr, this);
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_TradingDay_get(swigCPtr, this);
   }
 
   public void setPlateSerial(int value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_PlateSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_PlateSerial_set(swigCPtr, this, value);
   }
 
   public int getPlateSerial() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_PlateSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_PlateSerial_get(swigCPtr, this);
   }
 
   public void setLastFragment(char value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_LastFragment_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_LastFragment_set(swigCPtr, this, value);
   }
 
   public char getLastFragment() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_LastFragment_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_LastFragment_get(swigCPtr, this);
   }
 
   public void setSessionID(int value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_SessionID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_SessionID_set(swigCPtr, this, value);
   }
 
   public int getSessionID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_SessionID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_SessionID_get(swigCPtr, this);
   }
 
   public void setInstallID(int value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_InstallID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_InstallID_set(swigCPtr, this, value);
   }
 
   public int getInstallID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_InstallID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_InstallID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_UserID_get(swigCPtr, this);
   }
 
   public void setMessage(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_Message_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_Message_set(swigCPtr, this, value);
   }
 
   public String getMessage() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_Message_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_Message_get(swigCPtr, this);
   }
 
   public void setDeviceID(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_DeviceID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_DeviceID_set(swigCPtr, this, value);
   }
 
   public String getDeviceID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_DeviceID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_DeviceID_get(swigCPtr, this);
   }
 
   public void setBrokerIDByBank(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_BrokerIDByBank_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_BrokerIDByBank_set(swigCPtr, this, value);
   }
 
   public String getBrokerIDByBank() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_BrokerIDByBank_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_BrokerIDByBank_get(swigCPtr, this);
   }
 
   public void setOperNo(String value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_OperNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_OperNo_set(swigCPtr, this, value);
   }
 
   public String getOperNo() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_OperNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_OperNo_get(swigCPtr, this);
   }
 
   public void setRequestID(int value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_RequestID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_RequestID_set(swigCPtr, this, value);
   }
 
   public int getRequestID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_RequestID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_RequestID_get(swigCPtr, this);
   }
 
   public void setTID(int value) {
-    ctpJNI.CThostFtdcReqSyncKeyField_TID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqSyncKeyField_TID_set(swigCPtr, this, value);
   }
 
   public int getTID() {
-    return ctpJNI.CThostFtdcReqSyncKeyField_TID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqSyncKeyField_TID_get(swigCPtr, this);
   }
 
   public CThostFtdcReqSyncKeyField() {
-    this(ctpJNI.new_CThostFtdcReqSyncKeyField(), true);
+    this(ctpapiJNI.new_CThostFtdcReqSyncKeyField(), true);
   }
 
 }

@@ -29,22 +29,22 @@ public class CThostFtdcTransferQryDetailReqField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcTransferQryDetailReqField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcTransferQryDetailReqField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setFutureAccount(String value) {
-    ctpJNI.CThostFtdcTransferQryDetailReqField_FutureAccount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferQryDetailReqField_FutureAccount_set(swigCPtr, this, value);
   }
 
   public String getFutureAccount() {
-    return ctpJNI.CThostFtdcTransferQryDetailReqField_FutureAccount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferQryDetailReqField_FutureAccount_get(swigCPtr, this);
   }
 
   public CThostFtdcTransferQryDetailReqField() {
-    this(ctpJNI.new_CThostFtdcTransferQryDetailReqField(), true);
+    this(ctpapiJNI.new_CThostFtdcTransferQryDetailReqField(), true);
   }
 
 }

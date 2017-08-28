@@ -29,46 +29,46 @@ public class CThostFtdcQryUserSessionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryUserSessionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryUserSessionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setFrontID(int value) {
-    ctpJNI.CThostFtdcQryUserSessionField_FrontID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryUserSessionField_FrontID_set(swigCPtr, this, value);
   }
 
   public int getFrontID() {
-    return ctpJNI.CThostFtdcQryUserSessionField_FrontID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryUserSessionField_FrontID_get(swigCPtr, this);
   }
 
   public void setSessionID(int value) {
-    ctpJNI.CThostFtdcQryUserSessionField_SessionID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryUserSessionField_SessionID_set(swigCPtr, this, value);
   }
 
   public int getSessionID() {
-    return ctpJNI.CThostFtdcQryUserSessionField_SessionID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryUserSessionField_SessionID_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryUserSessionField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryUserSessionField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryUserSessionField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryUserSessionField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcQryUserSessionField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryUserSessionField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcQryUserSessionField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryUserSessionField_UserID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryUserSessionField() {
-    this(ctpJNI.new_CThostFtdcQryUserSessionField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryUserSessionField(), true);
   }
 
 }

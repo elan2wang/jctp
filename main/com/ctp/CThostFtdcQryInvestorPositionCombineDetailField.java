@@ -29,38 +29,38 @@ public class CThostFtdcQryInvestorPositionCombineDetailField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryInvestorPositionCombineDetailField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryInvestorPositionCombineDetailField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryInvestorPositionCombineDetailField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInvestorPositionCombineDetailField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryInvestorPositionCombineDetailField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInvestorPositionCombineDetailField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryInvestorPositionCombineDetailField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInvestorPositionCombineDetailField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryInvestorPositionCombineDetailField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInvestorPositionCombineDetailField_InvestorID_get(swigCPtr, this);
   }
 
   public void setCombInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_set(swigCPtr, this, value);
   }
 
   public String getCombInstrumentID() {
-    return ctpJNI.CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryInvestorPositionCombineDetailField() {
-    this(ctpJNI.new_CThostFtdcQryInvestorPositionCombineDetailField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryInvestorPositionCombineDetailField(), true);
   }
 
 }

@@ -29,46 +29,46 @@ public class CThostFtdcVerifyCustInfoField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcVerifyCustInfoField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcVerifyCustInfoField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setCustomerName(String value) {
-    ctpJNI.CThostFtdcVerifyCustInfoField_CustomerName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcVerifyCustInfoField_CustomerName_set(swigCPtr, this, value);
   }
 
   public String getCustomerName() {
-    return ctpJNI.CThostFtdcVerifyCustInfoField_CustomerName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcVerifyCustInfoField_CustomerName_get(swigCPtr, this);
   }
 
   public void setIdCardType(char value) {
-    ctpJNI.CThostFtdcVerifyCustInfoField_IdCardType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcVerifyCustInfoField_IdCardType_set(swigCPtr, this, value);
   }
 
   public char getIdCardType() {
-    return ctpJNI.CThostFtdcVerifyCustInfoField_IdCardType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcVerifyCustInfoField_IdCardType_get(swigCPtr, this);
   }
 
   public void setIdentifiedCardNo(String value) {
-    ctpJNI.CThostFtdcVerifyCustInfoField_IdentifiedCardNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcVerifyCustInfoField_IdentifiedCardNo_set(swigCPtr, this, value);
   }
 
   public String getIdentifiedCardNo() {
-    return ctpJNI.CThostFtdcVerifyCustInfoField_IdentifiedCardNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcVerifyCustInfoField_IdentifiedCardNo_get(swigCPtr, this);
   }
 
   public void setCustType(char value) {
-    ctpJNI.CThostFtdcVerifyCustInfoField_CustType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcVerifyCustInfoField_CustType_set(swigCPtr, this, value);
   }
 
   public char getCustType() {
-    return ctpJNI.CThostFtdcVerifyCustInfoField_CustType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcVerifyCustInfoField_CustType_get(swigCPtr, this);
   }
 
   public CThostFtdcVerifyCustInfoField() {
-    this(ctpJNI.new_CThostFtdcVerifyCustInfoField(), true);
+    this(ctpapiJNI.new_CThostFtdcVerifyCustInfoField(), true);
   }
 
 }

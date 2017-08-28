@@ -29,110 +29,110 @@ public class CThostFtdcDBFRecordField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcDBFRecordField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcDBFRecordField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setDBFComdType(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFComdType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFComdType_set(swigCPtr, this, value);
   }
 
   public String getDBFComdType() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFComdType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFComdType_get(swigCPtr, this);
   }
 
   public void setDBFComTime(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFComTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFComTime_set(swigCPtr, this, value);
   }
 
   public String getDBFComTime() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFComTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFComTime_get(swigCPtr, this);
   }
 
   public void setDBFOComNo(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFOComNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFOComNo_set(swigCPtr, this, value);
   }
 
   public String getDBFOComNo() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFOComNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFOComNo_get(swigCPtr, this);
   }
 
   public void setDBFComNo(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFComNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFComNo_set(swigCPtr, this, value);
   }
 
   public String getDBFComNo() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFComNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFComNo_get(swigCPtr, this);
   }
 
   public void setDBFFdName1(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFFdName1_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFFdName1_set(swigCPtr, this, value);
   }
 
   public String getDBFFdName1() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFFdName1_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFFdName1_get(swigCPtr, this);
   }
 
   public void setDBFFdContent1(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFFdContent1_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFFdContent1_set(swigCPtr, this, value);
   }
 
   public String getDBFFdContent1() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFFdContent1_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFFdContent1_get(swigCPtr, this);
   }
 
   public void setDBFFdName2(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFFdName2_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFFdName2_set(swigCPtr, this, value);
   }
 
   public String getDBFFdName2() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFFdName2_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFFdName2_get(swigCPtr, this);
   }
 
   public void setDBFFdContent2(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFFdContent2_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFFdContent2_set(swigCPtr, this, value);
   }
 
   public String getDBFFdContent2() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFFdContent2_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFFdContent2_get(swigCPtr, this);
   }
 
   public void setDBFFdName3(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFFdName3_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFFdName3_set(swigCPtr, this, value);
   }
 
   public String getDBFFdName3() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFFdName3_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFFdName3_get(swigCPtr, this);
   }
 
   public void setDBFFdContent3(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFFdContent3_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFFdContent3_set(swigCPtr, this, value);
   }
 
   public String getDBFFdContent3() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFFdContent3_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFFdContent3_get(swigCPtr, this);
   }
 
   public void setDBFFdName4(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFFdName4_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFFdName4_set(swigCPtr, this, value);
   }
 
   public String getDBFFdName4() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFFdName4_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFFdName4_get(swigCPtr, this);
   }
 
   public void setDBFFdContent4(String value) {
-    ctpJNI.CThostFtdcDBFRecordField_DBFFdContent4_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDBFRecordField_DBFFdContent4_set(swigCPtr, this, value);
   }
 
   public String getDBFFdContent4() {
-    return ctpJNI.CThostFtdcDBFRecordField_DBFFdContent4_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDBFRecordField_DBFFdContent4_get(swigCPtr, this);
   }
 
   public CThostFtdcDBFRecordField() {
-    this(ctpJNI.new_CThostFtdcDBFRecordField(), true);
+    this(ctpapiJNI.new_CThostFtdcDBFRecordField(), true);
   }
 
 }

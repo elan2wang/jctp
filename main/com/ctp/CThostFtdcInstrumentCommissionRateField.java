@@ -29,110 +29,110 @@ public class CThostFtdcInstrumentCommissionRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInstrumentCommissionRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInstrumentCommissionRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_InvestorID_get(swigCPtr, this);
   }
 
   public void setOpenRatioByMoney(double value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_OpenRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_OpenRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getOpenRatioByMoney() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_OpenRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_OpenRatioByMoney_get(swigCPtr, this);
   }
 
   public void setOpenRatioByVolume(double value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_OpenRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_OpenRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getOpenRatioByVolume() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_OpenRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_OpenRatioByVolume_get(swigCPtr, this);
   }
 
   public void setCloseRatioByMoney(double value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_CloseRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_CloseRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getCloseRatioByMoney() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_CloseRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_CloseRatioByMoney_get(swigCPtr, this);
   }
 
   public void setCloseRatioByVolume(double value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_CloseRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_CloseRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getCloseRatioByVolume() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_CloseRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_CloseRatioByVolume_get(swigCPtr, this);
   }
 
   public void setCloseTodayRatioByMoney(double value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getCloseTodayRatioByMoney() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByMoney_get(swigCPtr, this);
   }
 
   public void setCloseTodayRatioByVolume(double value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getCloseTodayRatioByVolume() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_CloseTodayRatioByVolume_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setBizType(char value) {
-    ctpJNI.CThostFtdcInstrumentCommissionRateField_BizType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentCommissionRateField_BizType_set(swigCPtr, this, value);
   }
 
   public char getBizType() {
-    return ctpJNI.CThostFtdcInstrumentCommissionRateField_BizType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentCommissionRateField_BizType_get(swigCPtr, this);
   }
 
   public CThostFtdcInstrumentCommissionRateField() {
-    this(ctpJNI.new_CThostFtdcInstrumentCommissionRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcInstrumentCommissionRateField(), true);
   }
 
 }

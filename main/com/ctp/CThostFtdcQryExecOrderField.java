@@ -29,70 +29,70 @@ public class CThostFtdcQryExecOrderField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryExecOrderField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryExecOrderField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryExecOrderField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecOrderField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryExecOrderField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecOrderField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryExecOrderField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecOrderField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryExecOrderField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecOrderField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryExecOrderField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecOrderField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryExecOrderField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecOrderField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryExecOrderField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecOrderField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryExecOrderField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecOrderField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setExecOrderSysID(String value) {
-    ctpJNI.CThostFtdcQryExecOrderField_ExecOrderSysID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecOrderField_ExecOrderSysID_set(swigCPtr, this, value);
   }
 
   public String getExecOrderSysID() {
-    return ctpJNI.CThostFtdcQryExecOrderField_ExecOrderSysID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecOrderField_ExecOrderSysID_get(swigCPtr, this);
   }
 
   public void setInsertTimeStart(String value) {
-    ctpJNI.CThostFtdcQryExecOrderField_InsertTimeStart_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecOrderField_InsertTimeStart_set(swigCPtr, this, value);
   }
 
   public String getInsertTimeStart() {
-    return ctpJNI.CThostFtdcQryExecOrderField_InsertTimeStart_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecOrderField_InsertTimeStart_get(swigCPtr, this);
   }
 
   public void setInsertTimeEnd(String value) {
-    ctpJNI.CThostFtdcQryExecOrderField_InsertTimeEnd_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExecOrderField_InsertTimeEnd_set(swigCPtr, this, value);
   }
 
   public String getInsertTimeEnd() {
-    return ctpJNI.CThostFtdcQryExecOrderField_InsertTimeEnd_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExecOrderField_InsertTimeEnd_get(swigCPtr, this);
   }
 
   public CThostFtdcQryExecOrderField() {
-    this(ctpJNI.new_CThostFtdcQryExecOrderField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryExecOrderField(), true);
   }
 
 }

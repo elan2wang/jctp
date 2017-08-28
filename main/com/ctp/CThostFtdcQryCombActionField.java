@@ -29,46 +29,46 @@ public class CThostFtdcQryCombActionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryCombActionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryCombActionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryCombActionField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombActionField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryCombActionField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombActionField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryCombActionField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombActionField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryCombActionField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombActionField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryCombActionField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombActionField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryCombActionField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombActionField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryCombActionField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombActionField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryCombActionField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombActionField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryCombActionField() {
-    this(ctpJNI.new_CThostFtdcQryCombActionField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryCombActionField(), true);
   }
 
 }

@@ -29,30 +29,30 @@ public class CThostFtdcQryProductGroupField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryProductGroupField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryProductGroupField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setProductID(String value) {
-    ctpJNI.CThostFtdcQryProductGroupField_ProductID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryProductGroupField_ProductID_set(swigCPtr, this, value);
   }
 
   public String getProductID() {
-    return ctpJNI.CThostFtdcQryProductGroupField_ProductID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryProductGroupField_ProductID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryProductGroupField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryProductGroupField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryProductGroupField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryProductGroupField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryProductGroupField() {
-    this(ctpJNI.new_CThostFtdcQryProductGroupField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryProductGroupField(), true);
   }
 
 }

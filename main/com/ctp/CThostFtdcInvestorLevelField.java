@@ -29,46 +29,46 @@ public class CThostFtdcInvestorLevelField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInvestorLevelField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInvestorLevelField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInvestorLevelField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorLevelField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInvestorLevelField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorLevelField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInvestorLevelField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorLevelField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInvestorLevelField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorLevelField_InvestorID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcInvestorLevelField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorLevelField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcInvestorLevelField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorLevelField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setLevelType(char value) {
-    ctpJNI.CThostFtdcInvestorLevelField_LevelType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorLevelField_LevelType_set(swigCPtr, this, value);
   }
 
   public char getLevelType() {
-    return ctpJNI.CThostFtdcInvestorLevelField_LevelType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorLevelField_LevelType_get(swigCPtr, this);
   }
 
   public CThostFtdcInvestorLevelField() {
-    this(ctpJNI.new_CThostFtdcInvestorLevelField(), true);
+    this(ctpapiJNI.new_CThostFtdcInvestorLevelField(), true);
   }
 
 }

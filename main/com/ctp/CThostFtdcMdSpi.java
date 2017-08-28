@@ -29,62 +29,78 @@ public class CThostFtdcMdSpi {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcMdSpi(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcMdSpi(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
+  protected void swigDirectorDisconnect() {
+    swigCMemOwn = false;
+    delete();
+  }
+
+  public void swigReleaseOwnership() {
+    swigCMemOwn = false;
+    ctpapiJNI.CThostFtdcMdSpi_change_ownership(this, swigCPtr, false);
+  }
+
+  public void swigTakeOwnership() {
+    swigCMemOwn = true;
+    ctpapiJNI.CThostFtdcMdSpi_change_ownership(this, swigCPtr, true);
+  }
+
   public void OnFrontConnected() {
-    ctpJNI.CThostFtdcMdSpi_OnFrontConnected(swigCPtr, this);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnFrontConnected(swigCPtr, this); else ctpapiJNI.CThostFtdcMdSpi_OnFrontConnectedSwigExplicitCThostFtdcMdSpi(swigCPtr, this);
   }
 
   public void OnFrontDisconnected(int nReason) {
-    ctpJNI.CThostFtdcMdSpi_OnFrontDisconnected(swigCPtr, this, nReason);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnFrontDisconnected(swigCPtr, this, nReason); else ctpapiJNI.CThostFtdcMdSpi_OnFrontDisconnectedSwigExplicitCThostFtdcMdSpi(swigCPtr, this, nReason);
   }
 
   public void OnHeartBeatWarning(int nTimeLapse) {
-    ctpJNI.CThostFtdcMdSpi_OnHeartBeatWarning(swigCPtr, this, nTimeLapse);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnHeartBeatWarning(swigCPtr, this, nTimeLapse); else ctpapiJNI.CThostFtdcMdSpi_OnHeartBeatWarningSwigExplicitCThostFtdcMdSpi(swigCPtr, this, nTimeLapse);
   }
 
   public void OnRspUserLogin(CThostFtdcRspUserLoginField pRspUserLogin, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
-    ctpJNI.CThostFtdcMdSpi_OnRspUserLogin(swigCPtr, this, CThostFtdcRspUserLoginField.getCPtr(pRspUserLogin), pRspUserLogin, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRspUserLogin(swigCPtr, this, CThostFtdcRspUserLoginField.getCPtr(pRspUserLogin), pRspUserLogin, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ctpapiJNI.CThostFtdcMdSpi_OnRspUserLoginSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcRspUserLoginField.getCPtr(pRspUserLogin), pRspUserLogin, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public void OnRspUserLogout(CThostFtdcUserLogoutField pUserLogout, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
-    ctpJNI.CThostFtdcMdSpi_OnRspUserLogout(swigCPtr, this, CThostFtdcUserLogoutField.getCPtr(pUserLogout), pUserLogout, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRspUserLogout(swigCPtr, this, CThostFtdcUserLogoutField.getCPtr(pUserLogout), pUserLogout, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ctpapiJNI.CThostFtdcMdSpi_OnRspUserLogoutSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcUserLogoutField.getCPtr(pUserLogout), pUserLogout, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public void OnRspError(CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
-    ctpJNI.CThostFtdcMdSpi_OnRspError(swigCPtr, this, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRspError(swigCPtr, this, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ctpapiJNI.CThostFtdcMdSpi_OnRspErrorSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public void OnRspSubMarketData(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
-    ctpJNI.CThostFtdcMdSpi_OnRspSubMarketData(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRspSubMarketData(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ctpapiJNI.CThostFtdcMdSpi_OnRspSubMarketDataSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public void OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
-    ctpJNI.CThostFtdcMdSpi_OnRspUnSubMarketData(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRspUnSubMarketData(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ctpapiJNI.CThostFtdcMdSpi_OnRspUnSubMarketDataSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public void OnRspSubForQuoteRsp(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
-    ctpJNI.CThostFtdcMdSpi_OnRspSubForQuoteRsp(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRspSubForQuoteRsp(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ctpapiJNI.CThostFtdcMdSpi_OnRspSubForQuoteRspSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public void OnRspUnSubForQuoteRsp(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast) {
-    ctpJNI.CThostFtdcMdSpi_OnRspUnSubForQuoteRsp(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRspUnSubForQuoteRsp(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast); else ctpapiJNI.CThostFtdcMdSpi_OnRspUnSubForQuoteRspSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcSpecificInstrumentField.getCPtr(pSpecificInstrument), pSpecificInstrument, CThostFtdcRspInfoField.getCPtr(pRspInfo), pRspInfo, nRequestID, bIsLast);
   }
 
   public void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField pDepthMarketData) {
-    ctpJNI.CThostFtdcMdSpi_OnRtnDepthMarketData(swigCPtr, this, CThostFtdcDepthMarketDataField.getCPtr(pDepthMarketData), pDepthMarketData);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRtnDepthMarketData(swigCPtr, this, CThostFtdcDepthMarketDataField.getCPtr(pDepthMarketData), pDepthMarketData); else ctpapiJNI.CThostFtdcMdSpi_OnRtnDepthMarketDataSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcDepthMarketDataField.getCPtr(pDepthMarketData), pDepthMarketData);
   }
 
   public void OnRtnForQuoteRsp(CThostFtdcForQuoteRspField pForQuoteRsp) {
-    ctpJNI.CThostFtdcMdSpi_OnRtnForQuoteRsp(swigCPtr, this, CThostFtdcForQuoteRspField.getCPtr(pForQuoteRsp), pForQuoteRsp);
+    if (getClass() == CThostFtdcMdSpi.class) ctpapiJNI.CThostFtdcMdSpi_OnRtnForQuoteRsp(swigCPtr, this, CThostFtdcForQuoteRspField.getCPtr(pForQuoteRsp), pForQuoteRsp); else ctpapiJNI.CThostFtdcMdSpi_OnRtnForQuoteRspSwigExplicitCThostFtdcMdSpi(swigCPtr, this, CThostFtdcForQuoteRspField.getCPtr(pForQuoteRsp), pForQuoteRsp);
   }
 
   public CThostFtdcMdSpi() {
-    this(ctpJNI.new_CThostFtdcMdSpi(), true);
+    this(ctpapiJNI.new_CThostFtdcMdSpi(), true);
+    ctpapiJNI.CThostFtdcMdSpi_director_connect(this, swigCPtr, swigCMemOwn, true);
   }
 
 }

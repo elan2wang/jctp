@@ -29,46 +29,46 @@ public class CThostFtdcQryLockPositionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryLockPositionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryLockPositionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryLockPositionField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLockPositionField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryLockPositionField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLockPositionField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryLockPositionField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLockPositionField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryLockPositionField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLockPositionField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryLockPositionField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLockPositionField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryLockPositionField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLockPositionField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryLockPositionField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryLockPositionField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryLockPositionField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryLockPositionField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryLockPositionField() {
-    this(ctpJNI.new_CThostFtdcQryLockPositionField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryLockPositionField(), true);
   }
 
 }

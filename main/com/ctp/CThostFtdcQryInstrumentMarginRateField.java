@@ -29,46 +29,46 @@ public class CThostFtdcQryInstrumentMarginRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryInstrumentMarginRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryInstrumentMarginRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryInstrumentMarginRateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInstrumentMarginRateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryInstrumentMarginRateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInstrumentMarginRateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryInstrumentMarginRateField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInstrumentMarginRateField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryInstrumentMarginRateField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInstrumentMarginRateField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryInstrumentMarginRateField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInstrumentMarginRateField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryInstrumentMarginRateField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInstrumentMarginRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
-    ctpJNI.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_set(swigCPtr, this, value);
   }
 
   public char getHedgeFlag() {
-    return ctpJNI.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryInstrumentMarginRateField_HedgeFlag_get(swigCPtr, this);
   }
 
   public CThostFtdcQryInstrumentMarginRateField() {
-    this(ctpJNI.new_CThostFtdcQryInstrumentMarginRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryInstrumentMarginRateField(), true);
   }
 
 }

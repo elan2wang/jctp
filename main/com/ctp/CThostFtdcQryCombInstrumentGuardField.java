@@ -29,30 +29,30 @@ public class CThostFtdcQryCombInstrumentGuardField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryCombInstrumentGuardField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryCombInstrumentGuardField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryCombInstrumentGuardField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombInstrumentGuardField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryCombInstrumentGuardField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombInstrumentGuardField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryCombInstrumentGuardField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryCombInstrumentGuardField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryCombInstrumentGuardField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryCombInstrumentGuardField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryCombInstrumentGuardField() {
-    this(ctpJNI.new_CThostFtdcQryCombInstrumentGuardField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryCombInstrumentGuardField(), true);
   }
 
 }

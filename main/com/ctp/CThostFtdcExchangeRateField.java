@@ -29,54 +29,54 @@ public class CThostFtdcExchangeRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcExchangeRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcExchangeRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcExchangeRateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeRateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcExchangeRateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeRateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setFromCurrencyID(String value) {
-    ctpJNI.CThostFtdcExchangeRateField_FromCurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeRateField_FromCurrencyID_set(swigCPtr, this, value);
   }
 
   public String getFromCurrencyID() {
-    return ctpJNI.CThostFtdcExchangeRateField_FromCurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeRateField_FromCurrencyID_get(swigCPtr, this);
   }
 
   public void setFromCurrencyUnit(double value) {
-    ctpJNI.CThostFtdcExchangeRateField_FromCurrencyUnit_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeRateField_FromCurrencyUnit_set(swigCPtr, this, value);
   }
 
   public double getFromCurrencyUnit() {
-    return ctpJNI.CThostFtdcExchangeRateField_FromCurrencyUnit_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeRateField_FromCurrencyUnit_get(swigCPtr, this);
   }
 
   public void setToCurrencyID(String value) {
-    ctpJNI.CThostFtdcExchangeRateField_ToCurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeRateField_ToCurrencyID_set(swigCPtr, this, value);
   }
 
   public String getToCurrencyID() {
-    return ctpJNI.CThostFtdcExchangeRateField_ToCurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeRateField_ToCurrencyID_get(swigCPtr, this);
   }
 
   public void setExchangeRate(double value) {
-    ctpJNI.CThostFtdcExchangeRateField_ExchangeRate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeRateField_ExchangeRate_set(swigCPtr, this, value);
   }
 
   public double getExchangeRate() {
-    return ctpJNI.CThostFtdcExchangeRateField_ExchangeRate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeRateField_ExchangeRate_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeRateField() {
-    this(ctpJNI.new_CThostFtdcExchangeRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcExchangeRateField(), true);
   }
 
 }

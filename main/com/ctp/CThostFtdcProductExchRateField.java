@@ -29,38 +29,38 @@ public class CThostFtdcProductExchRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcProductExchRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcProductExchRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setProductID(String value) {
-    ctpJNI.CThostFtdcProductExchRateField_ProductID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcProductExchRateField_ProductID_set(swigCPtr, this, value);
   }
 
   public String getProductID() {
-    return ctpJNI.CThostFtdcProductExchRateField_ProductID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcProductExchRateField_ProductID_get(swigCPtr, this);
   }
 
   public void setQuoteCurrencyID(String value) {
-    ctpJNI.CThostFtdcProductExchRateField_QuoteCurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcProductExchRateField_QuoteCurrencyID_set(swigCPtr, this, value);
   }
 
   public String getQuoteCurrencyID() {
-    return ctpJNI.CThostFtdcProductExchRateField_QuoteCurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcProductExchRateField_QuoteCurrencyID_get(swigCPtr, this);
   }
 
   public void setExchangeRate(double value) {
-    ctpJNI.CThostFtdcProductExchRateField_ExchangeRate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcProductExchRateField_ExchangeRate_set(swigCPtr, this, value);
   }
 
   public double getExchangeRate() {
-    return ctpJNI.CThostFtdcProductExchRateField_ExchangeRate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcProductExchRateField_ExchangeRate_get(swigCPtr, this);
   }
 
   public CThostFtdcProductExchRateField() {
-    this(ctpJNI.new_CThostFtdcProductExchRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcProductExchRateField(), true);
   }
 
 }

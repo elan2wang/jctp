@@ -29,62 +29,62 @@ public class CThostFtdcForQuoteRspField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcForQuoteRspField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcForQuoteRspField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcForQuoteRspField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteRspField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcForQuoteRspField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteRspField_TradingDay_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcForQuoteRspField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteRspField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcForQuoteRspField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteRspField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setForQuoteSysID(String value) {
-    ctpJNI.CThostFtdcForQuoteRspField_ForQuoteSysID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteRspField_ForQuoteSysID_set(swigCPtr, this, value);
   }
 
   public String getForQuoteSysID() {
-    return ctpJNI.CThostFtdcForQuoteRspField_ForQuoteSysID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteRspField_ForQuoteSysID_get(swigCPtr, this);
   }
 
   public void setForQuoteTime(String value) {
-    ctpJNI.CThostFtdcForQuoteRspField_ForQuoteTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteRspField_ForQuoteTime_set(swigCPtr, this, value);
   }
 
   public String getForQuoteTime() {
-    return ctpJNI.CThostFtdcForQuoteRspField_ForQuoteTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteRspField_ForQuoteTime_get(swigCPtr, this);
   }
 
   public void setActionDay(String value) {
-    ctpJNI.CThostFtdcForQuoteRspField_ActionDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteRspField_ActionDay_set(swigCPtr, this, value);
   }
 
   public String getActionDay() {
-    return ctpJNI.CThostFtdcForQuoteRspField_ActionDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteRspField_ActionDay_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcForQuoteRspField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteRspField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcForQuoteRspField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteRspField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcForQuoteRspField() {
-    this(ctpJNI.new_CThostFtdcForQuoteRspField(), true);
+    this(ctpapiJNI.new_CThostFtdcForQuoteRspField(), true);
   }
 
 }

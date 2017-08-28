@@ -29,38 +29,38 @@ public class CThostFtdcFensUserInfoField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcFensUserInfoField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcFensUserInfoField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcFensUserInfoField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcFensUserInfoField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcFensUserInfoField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcFensUserInfoField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcFensUserInfoField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcFensUserInfoField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcFensUserInfoField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcFensUserInfoField_UserID_get(swigCPtr, this);
   }
 
   public void setLoginMode(char value) {
-    ctpJNI.CThostFtdcFensUserInfoField_LoginMode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcFensUserInfoField_LoginMode_set(swigCPtr, this, value);
   }
 
   public char getLoginMode() {
-    return ctpJNI.CThostFtdcFensUserInfoField_LoginMode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcFensUserInfoField_LoginMode_get(swigCPtr, this);
   }
 
   public CThostFtdcFensUserInfoField() {
-    this(ctpJNI.new_CThostFtdcFensUserInfoField(), true);
+    this(ctpapiJNI.new_CThostFtdcFensUserInfoField(), true);
   }
 
 }

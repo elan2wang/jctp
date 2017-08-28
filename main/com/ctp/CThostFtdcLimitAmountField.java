@@ -29,54 +29,54 @@ public class CThostFtdcLimitAmountField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcLimitAmountField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcLimitAmountField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcLimitAmountField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitAmountField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcLimitAmountField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitAmountField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcLimitAmountField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitAmountField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcLimitAmountField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitAmountField_InvestorID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcLimitAmountField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitAmountField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcLimitAmountField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitAmountField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setLongAmount(double value) {
-    ctpJNI.CThostFtdcLimitAmountField_LongAmount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitAmountField_LongAmount_set(swigCPtr, this, value);
   }
 
   public double getLongAmount() {
-    return ctpJNI.CThostFtdcLimitAmountField_LongAmount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitAmountField_LongAmount_get(swigCPtr, this);
   }
 
   public void setLongAmountFrozen(double value) {
-    ctpJNI.CThostFtdcLimitAmountField_LongAmountFrozen_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitAmountField_LongAmountFrozen_set(swigCPtr, this, value);
   }
 
   public double getLongAmountFrozen() {
-    return ctpJNI.CThostFtdcLimitAmountField_LongAmountFrozen_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitAmountField_LongAmountFrozen_get(swigCPtr, this);
   }
 
   public CThostFtdcLimitAmountField() {
-    this(ctpJNI.new_CThostFtdcLimitAmountField(), true);
+    this(ctpapiJNI.new_CThostFtdcLimitAmountField(), true);
   }
 
 }

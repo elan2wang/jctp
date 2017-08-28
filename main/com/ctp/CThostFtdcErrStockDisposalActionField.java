@@ -29,126 +29,126 @@ public class CThostFtdcErrStockDisposalActionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcErrStockDisposalActionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcErrStockDisposalActionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_InvestorID_get(swigCPtr, this);
   }
 
   public void setStockDisposalActionRef(int value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_StockDisposalActionRef_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_StockDisposalActionRef_set(swigCPtr, this, value);
   }
 
   public int getStockDisposalActionRef() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_StockDisposalActionRef_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_StockDisposalActionRef_get(swigCPtr, this);
   }
 
   public void setStockDisposalRef(String value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_StockDisposalRef_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_StockDisposalRef_set(swigCPtr, this, value);
   }
 
   public String getStockDisposalRef() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_StockDisposalRef_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_StockDisposalRef_get(swigCPtr, this);
   }
 
   public void setRequestID(int value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_RequestID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_RequestID_set(swigCPtr, this, value);
   }
 
   public int getRequestID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_RequestID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_RequestID_get(swigCPtr, this);
   }
 
   public void setFrontID(int value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_FrontID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_FrontID_set(swigCPtr, this, value);
   }
 
   public int getFrontID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_FrontID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_FrontID_get(swigCPtr, this);
   }
 
   public void setSessionID(int value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_SessionID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_SessionID_set(swigCPtr, this, value);
   }
 
   public int getSessionID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_SessionID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_SessionID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setStockDisposalSysID(String value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_StockDisposalSysID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_StockDisposalSysID_set(swigCPtr, this, value);
   }
 
   public String getStockDisposalSysID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_StockDisposalSysID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_StockDisposalSysID_get(swigCPtr, this);
   }
 
   public void setActionFlag(char value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_ActionFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_ActionFlag_set(swigCPtr, this, value);
   }
 
   public char getActionFlag() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_ActionFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_ActionFlag_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_UserID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setErrorID(int value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_ErrorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_ErrorID_set(swigCPtr, this, value);
   }
 
   public int getErrorID() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_ErrorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_ErrorID_get(swigCPtr, this);
   }
 
   public void setErrorMsg(String value) {
-    ctpJNI.CThostFtdcErrStockDisposalActionField_ErrorMsg_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcErrStockDisposalActionField_ErrorMsg_set(swigCPtr, this, value);
   }
 
   public String getErrorMsg() {
-    return ctpJNI.CThostFtdcErrStockDisposalActionField_ErrorMsg_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcErrStockDisposalActionField_ErrorMsg_get(swigCPtr, this);
   }
 
   public CThostFtdcErrStockDisposalActionField() {
-    this(ctpJNI.new_CThostFtdcErrStockDisposalActionField(), true);
+    this(ctpapiJNI.new_CThostFtdcErrStockDisposalActionField(), true);
   }
 
 }

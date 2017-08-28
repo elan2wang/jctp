@@ -29,54 +29,54 @@ public class CThostFtdcSecAgentACIDMapField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcSecAgentACIDMapField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcSecAgentACIDMapField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcSecAgentACIDMapField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSecAgentACIDMapField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcSecAgentACIDMapField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSecAgentACIDMapField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcSecAgentACIDMapField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSecAgentACIDMapField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcSecAgentACIDMapField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSecAgentACIDMapField_UserID_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcSecAgentACIDMapField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSecAgentACIDMapField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcSecAgentACIDMapField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSecAgentACIDMapField_AccountID_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcSecAgentACIDMapField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSecAgentACIDMapField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcSecAgentACIDMapField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSecAgentACIDMapField_CurrencyID_get(swigCPtr, this);
   }
 
   public void setBrokerSecAgentID(String value) {
-    ctpJNI.CThostFtdcSecAgentACIDMapField_BrokerSecAgentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSecAgentACIDMapField_BrokerSecAgentID_set(swigCPtr, this, value);
   }
 
   public String getBrokerSecAgentID() {
-    return ctpJNI.CThostFtdcSecAgentACIDMapField_BrokerSecAgentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSecAgentACIDMapField_BrokerSecAgentID_get(swigCPtr, this);
   }
 
   public CThostFtdcSecAgentACIDMapField() {
-    this(ctpJNI.new_CThostFtdcSecAgentACIDMapField(), true);
+    this(ctpapiJNI.new_CThostFtdcSecAgentACIDMapField(), true);
   }
 
 }

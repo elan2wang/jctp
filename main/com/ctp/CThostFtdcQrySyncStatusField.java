@@ -29,22 +29,22 @@ public class CThostFtdcQrySyncStatusField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQrySyncStatusField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQrySyncStatusField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcQrySyncStatusField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySyncStatusField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcQrySyncStatusField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySyncStatusField_TradingDay_get(swigCPtr, this);
   }
 
   public CThostFtdcQrySyncStatusField() {
-    this(ctpJNI.new_CThostFtdcQrySyncStatusField(), true);
+    this(ctpapiJNI.new_CThostFtdcQrySyncStatusField(), true);
   }
 
 }

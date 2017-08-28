@@ -29,46 +29,46 @@ public class CThostFtdcSuperUserField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcSuperUserField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcSuperUserField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcSuperUserField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSuperUserField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcSuperUserField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSuperUserField_UserID_get(swigCPtr, this);
   }
 
   public void setUserName(String value) {
-    ctpJNI.CThostFtdcSuperUserField_UserName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSuperUserField_UserName_set(swigCPtr, this, value);
   }
 
   public String getUserName() {
-    return ctpJNI.CThostFtdcSuperUserField_UserName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSuperUserField_UserName_get(swigCPtr, this);
   }
 
   public void setPassword(String value) {
-    ctpJNI.CThostFtdcSuperUserField_Password_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSuperUserField_Password_set(swigCPtr, this, value);
   }
 
   public String getPassword() {
-    return ctpJNI.CThostFtdcSuperUserField_Password_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSuperUserField_Password_get(swigCPtr, this);
   }
 
   public void setIsActive(int value) {
-    ctpJNI.CThostFtdcSuperUserField_IsActive_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSuperUserField_IsActive_set(swigCPtr, this, value);
   }
 
   public int getIsActive() {
-    return ctpJNI.CThostFtdcSuperUserField_IsActive_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSuperUserField_IsActive_get(swigCPtr, this);
   }
 
   public CThostFtdcSuperUserField() {
-    this(ctpJNI.new_CThostFtdcSuperUserField(), true);
+    this(ctpapiJNI.new_CThostFtdcSuperUserField(), true);
   }
 
 }

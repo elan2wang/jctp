@@ -29,38 +29,38 @@ public class CThostFtdcBrokerUserRightAssignField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcBrokerUserRightAssignField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcBrokerUserRightAssignField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcBrokerUserRightAssignField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserRightAssignField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcBrokerUserRightAssignField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserRightAssignField_BrokerID_get(swigCPtr, this);
   }
 
   public void setDRIdentityID(int value) {
-    ctpJNI.CThostFtdcBrokerUserRightAssignField_DRIdentityID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserRightAssignField_DRIdentityID_set(swigCPtr, this, value);
   }
 
   public int getDRIdentityID() {
-    return ctpJNI.CThostFtdcBrokerUserRightAssignField_DRIdentityID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserRightAssignField_DRIdentityID_get(swigCPtr, this);
   }
 
   public void setTradeable(int value) {
-    ctpJNI.CThostFtdcBrokerUserRightAssignField_Tradeable_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserRightAssignField_Tradeable_set(swigCPtr, this, value);
   }
 
   public int getTradeable() {
-    return ctpJNI.CThostFtdcBrokerUserRightAssignField_Tradeable_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserRightAssignField_Tradeable_get(swigCPtr, this);
   }
 
   public CThostFtdcBrokerUserRightAssignField() {
-    this(ctpJNI.new_CThostFtdcBrokerUserRightAssignField(), true);
+    this(ctpapiJNI.new_CThostFtdcBrokerUserRightAssignField(), true);
   }
 
 }

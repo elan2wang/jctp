@@ -29,54 +29,54 @@ public class CThostFtdcUserIPField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcUserIPField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcUserIPField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcUserIPField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserIPField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcUserIPField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserIPField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcUserIPField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserIPField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcUserIPField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserIPField_UserID_get(swigCPtr, this);
   }
 
   public void setIPAddress(String value) {
-    ctpJNI.CThostFtdcUserIPField_IPAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserIPField_IPAddress_set(swigCPtr, this, value);
   }
 
   public String getIPAddress() {
-    return ctpJNI.CThostFtdcUserIPField_IPAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserIPField_IPAddress_get(swigCPtr, this);
   }
 
   public void setIPMask(String value) {
-    ctpJNI.CThostFtdcUserIPField_IPMask_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserIPField_IPMask_set(swigCPtr, this, value);
   }
 
   public String getIPMask() {
-    return ctpJNI.CThostFtdcUserIPField_IPMask_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserIPField_IPMask_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
-    ctpJNI.CThostFtdcUserIPField_MacAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserIPField_MacAddress_set(swigCPtr, this, value);
   }
 
   public String getMacAddress() {
-    return ctpJNI.CThostFtdcUserIPField_MacAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserIPField_MacAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcUserIPField() {
-    this(ctpJNI.new_CThostFtdcUserIPField(), true);
+    this(ctpapiJNI.new_CThostFtdcUserIPField(), true);
   }
 
 }

@@ -29,142 +29,142 @@ public class CThostFtdcExchangeStockDisposalActionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcExchangeStockDisposalActionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcExchangeStockDisposalActionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setStockDisposalSysID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_StockDisposalSysID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_StockDisposalSysID_set(swigCPtr, this, value);
   }
 
   public String getStockDisposalSysID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_StockDisposalSysID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_StockDisposalSysID_get(swigCPtr, this);
   }
 
   public void setActionFlag(char value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionFlag_set(swigCPtr, this, value);
   }
 
   public char getActionFlag() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionFlag_get(swigCPtr, this);
   }
 
   public void setActionDate(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionDate_set(swigCPtr, this, value);
   }
 
   public String getActionDate() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionDate_get(swigCPtr, this);
   }
 
   public void setActionTime(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionTime_set(swigCPtr, this, value);
   }
 
   public String getActionTime() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionTime_get(swigCPtr, this);
   }
 
   public void setTraderID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_TraderID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_TraderID_set(swigCPtr, this, value);
   }
 
   public String getTraderID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_TraderID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_TraderID_get(swigCPtr, this);
   }
 
   public void setInstallID(int value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_InstallID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_InstallID_set(swigCPtr, this, value);
   }
 
   public int getInstallID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_InstallID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_InstallID_get(swigCPtr, this);
   }
 
   public void setStockDisposalLocalID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_StockDisposalLocalID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_StockDisposalLocalID_set(swigCPtr, this, value);
   }
 
   public String getStockDisposalLocalID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_StockDisposalLocalID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_StockDisposalLocalID_get(swigCPtr, this);
   }
 
   public void setActionLocalID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionLocalID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionLocalID_set(swigCPtr, this, value);
   }
 
   public String getActionLocalID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionLocalID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionLocalID_get(swigCPtr, this);
   }
 
   public void setParticipantID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_ParticipantID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ParticipantID_set(swigCPtr, this, value);
   }
 
   public String getParticipantID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_ParticipantID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ParticipantID_get(swigCPtr, this);
   }
 
   public void setClientID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_ClientID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ClientID_set(swigCPtr, this, value);
   }
 
   public String getClientID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_ClientID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ClientID_get(swigCPtr, this);
   }
 
   public void setBusinessUnit(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_BusinessUnit_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_BusinessUnit_set(swigCPtr, this, value);
   }
 
   public String getBusinessUnit() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_BusinessUnit_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_BusinessUnit_get(swigCPtr, this);
   }
 
   public void setOrderActionStatus(char value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_OrderActionStatus_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_OrderActionStatus_set(swigCPtr, this, value);
   }
 
   public char getOrderActionStatus() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_OrderActionStatus_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_OrderActionStatus_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_UserID_get(swigCPtr, this);
   }
 
   public void setActionType(char value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionType_set(swigCPtr, this, value);
   }
 
   public char getActionType() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_ActionType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_ActionType_get(swigCPtr, this);
   }
 
   public void setBranchID(String value) {
-    ctpJNI.CThostFtdcExchangeStockDisposalActionField_BranchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_BranchID_set(swigCPtr, this, value);
   }
 
   public String getBranchID() {
-    return ctpJNI.CThostFtdcExchangeStockDisposalActionField_BranchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeStockDisposalActionField_BranchID_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeStockDisposalActionField() {
-    this(ctpJNI.new_CThostFtdcExchangeStockDisposalActionField(), true);
+    this(ctpapiJNI.new_CThostFtdcExchangeStockDisposalActionField(), true);
   }
 
 }

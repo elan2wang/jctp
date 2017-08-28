@@ -29,38 +29,38 @@ public class CThostFtdcQryContractBankField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryContractBankField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryContractBankField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryContractBankField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryContractBankField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryContractBankField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryContractBankField_BrokerID_get(swigCPtr, this);
   }
 
   public void setBankID(String value) {
-    ctpJNI.CThostFtdcQryContractBankField_BankID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryContractBankField_BankID_set(swigCPtr, this, value);
   }
 
   public String getBankID() {
-    return ctpJNI.CThostFtdcQryContractBankField_BankID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryContractBankField_BankID_get(swigCPtr, this);
   }
 
   public void setBankBrchID(String value) {
-    ctpJNI.CThostFtdcQryContractBankField_BankBrchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryContractBankField_BankBrchID_set(swigCPtr, this, value);
   }
 
   public String getBankBrchID() {
-    return ctpJNI.CThostFtdcQryContractBankField_BankBrchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryContractBankField_BankBrchID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryContractBankField() {
-    this(ctpJNI.new_CThostFtdcQryContractBankField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryContractBankField(), true);
   }
 
 }

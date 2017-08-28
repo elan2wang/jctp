@@ -29,62 +29,62 @@ public class CThostFtdcTransferFutureToBankRspField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcTransferFutureToBankRspField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcTransferFutureToBankRspField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setRetCode(String value) {
-    ctpJNI.CThostFtdcTransferFutureToBankRspField_RetCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferFutureToBankRspField_RetCode_set(swigCPtr, this, value);
   }
 
   public String getRetCode() {
-    return ctpJNI.CThostFtdcTransferFutureToBankRspField_RetCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferFutureToBankRspField_RetCode_get(swigCPtr, this);
   }
 
   public void setRetInfo(String value) {
-    ctpJNI.CThostFtdcTransferFutureToBankRspField_RetInfo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferFutureToBankRspField_RetInfo_set(swigCPtr, this, value);
   }
 
   public String getRetInfo() {
-    return ctpJNI.CThostFtdcTransferFutureToBankRspField_RetInfo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferFutureToBankRspField_RetInfo_get(swigCPtr, this);
   }
 
   public void setFutureAccount(String value) {
-    ctpJNI.CThostFtdcTransferFutureToBankRspField_FutureAccount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferFutureToBankRspField_FutureAccount_set(swigCPtr, this, value);
   }
 
   public String getFutureAccount() {
-    return ctpJNI.CThostFtdcTransferFutureToBankRspField_FutureAccount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferFutureToBankRspField_FutureAccount_get(swigCPtr, this);
   }
 
   public void setTradeAmt(double value) {
-    ctpJNI.CThostFtdcTransferFutureToBankRspField_TradeAmt_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferFutureToBankRspField_TradeAmt_set(swigCPtr, this, value);
   }
 
   public double getTradeAmt() {
-    return ctpJNI.CThostFtdcTransferFutureToBankRspField_TradeAmt_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferFutureToBankRspField_TradeAmt_get(swigCPtr, this);
   }
 
   public void setCustFee(double value) {
-    ctpJNI.CThostFtdcTransferFutureToBankRspField_CustFee_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferFutureToBankRspField_CustFee_set(swigCPtr, this, value);
   }
 
   public double getCustFee() {
-    return ctpJNI.CThostFtdcTransferFutureToBankRspField_CustFee_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferFutureToBankRspField_CustFee_get(swigCPtr, this);
   }
 
   public void setCurrencyCode(String value) {
-    ctpJNI.CThostFtdcTransferFutureToBankRspField_CurrencyCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTransferFutureToBankRspField_CurrencyCode_set(swigCPtr, this, value);
   }
 
   public String getCurrencyCode() {
-    return ctpJNI.CThostFtdcTransferFutureToBankRspField_CurrencyCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTransferFutureToBankRspField_CurrencyCode_get(swigCPtr, this);
   }
 
   public CThostFtdcTransferFutureToBankRspField() {
-    this(ctpJNI.new_CThostFtdcTransferFutureToBankRspField(), true);
+    this(ctpapiJNI.new_CThostFtdcTransferFutureToBankRspField(), true);
   }
 
 }

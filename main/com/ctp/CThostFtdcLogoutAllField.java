@@ -29,38 +29,38 @@ public class CThostFtdcLogoutAllField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcLogoutAllField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcLogoutAllField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setFrontID(int value) {
-    ctpJNI.CThostFtdcLogoutAllField_FrontID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLogoutAllField_FrontID_set(swigCPtr, this, value);
   }
 
   public int getFrontID() {
-    return ctpJNI.CThostFtdcLogoutAllField_FrontID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLogoutAllField_FrontID_get(swigCPtr, this);
   }
 
   public void setSessionID(int value) {
-    ctpJNI.CThostFtdcLogoutAllField_SessionID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLogoutAllField_SessionID_set(swigCPtr, this, value);
   }
 
   public int getSessionID() {
-    return ctpJNI.CThostFtdcLogoutAllField_SessionID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLogoutAllField_SessionID_get(swigCPtr, this);
   }
 
   public void setSystemName(String value) {
-    ctpJNI.CThostFtdcLogoutAllField_SystemName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLogoutAllField_SystemName_set(swigCPtr, this, value);
   }
 
   public String getSystemName() {
-    return ctpJNI.CThostFtdcLogoutAllField_SystemName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLogoutAllField_SystemName_get(swigCPtr, this);
   }
 
   public CThostFtdcLogoutAllField() {
-    this(ctpJNI.new_CThostFtdcLogoutAllField(), true);
+    this(ctpapiJNI.new_CThostFtdcLogoutAllField(), true);
   }
 
 }

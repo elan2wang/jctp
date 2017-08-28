@@ -29,46 +29,46 @@ public class CThostFtdcQryEWarrantOffsetField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryEWarrantOffsetField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryEWarrantOffsetField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryEWarrantOffsetField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryEWarrantOffsetField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryEWarrantOffsetField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryEWarrantOffsetField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryEWarrantOffsetField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryEWarrantOffsetField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryEWarrantOffsetField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryEWarrantOffsetField_InvestorID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryEWarrantOffsetField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryEWarrantOffsetField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryEWarrantOffsetField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryEWarrantOffsetField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryEWarrantOffsetField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryEWarrantOffsetField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryEWarrantOffsetField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryEWarrantOffsetField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryEWarrantOffsetField() {
-    this(ctpJNI.new_CThostFtdcQryEWarrantOffsetField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryEWarrantOffsetField(), true);
   }
 
 }

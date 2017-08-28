@@ -29,30 +29,30 @@ public class CThostFtdcDisseminationField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcDisseminationField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcDisseminationField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setSequenceSeries(short value) {
-    ctpJNI.CThostFtdcDisseminationField_SequenceSeries_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDisseminationField_SequenceSeries_set(swigCPtr, this, value);
   }
 
   public short getSequenceSeries() {
-    return ctpJNI.CThostFtdcDisseminationField_SequenceSeries_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDisseminationField_SequenceSeries_get(swigCPtr, this);
   }
 
   public void setSequenceNo(int value) {
-    ctpJNI.CThostFtdcDisseminationField_SequenceNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDisseminationField_SequenceNo_set(swigCPtr, this, value);
   }
 
   public int getSequenceNo() {
-    return ctpJNI.CThostFtdcDisseminationField_SequenceNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDisseminationField_SequenceNo_get(swigCPtr, this);
   }
 
   public CThostFtdcDisseminationField() {
-    this(ctpJNI.new_CThostFtdcDisseminationField(), true);
+    this(ctpapiJNI.new_CThostFtdcDisseminationField(), true);
   }
 
 }

@@ -29,46 +29,46 @@ public class CThostFtdcQryParkedOrderActionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryParkedOrderActionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryParkedOrderActionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryParkedOrderActionField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryParkedOrderActionField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryParkedOrderActionField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryParkedOrderActionField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryParkedOrderActionField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryParkedOrderActionField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryParkedOrderActionField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryParkedOrderActionField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryParkedOrderActionField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryParkedOrderActionField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryParkedOrderActionField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryParkedOrderActionField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryParkedOrderActionField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryParkedOrderActionField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryParkedOrderActionField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryParkedOrderActionField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryParkedOrderActionField() {
-    this(ctpJNI.new_CThostFtdcQryParkedOrderActionField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryParkedOrderActionField(), true);
   }
 
 }

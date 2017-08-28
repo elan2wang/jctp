@@ -29,70 +29,70 @@ public class CThostFtdcExchangeMarginRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcExchangeMarginRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcExchangeMarginRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcExchangeMarginRateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeMarginRateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcExchangeMarginRateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeMarginRateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcExchangeMarginRateField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeMarginRateField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcExchangeMarginRateField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeMarginRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
-    ctpJNI.CThostFtdcExchangeMarginRateField_HedgeFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeMarginRateField_HedgeFlag_set(swigCPtr, this, value);
   }
 
   public char getHedgeFlag() {
-    return ctpJNI.CThostFtdcExchangeMarginRateField_HedgeFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeMarginRateField_HedgeFlag_get(swigCPtr, this);
   }
 
   public void setLongMarginRatioByMoney(double value) {
-    ctpJNI.CThostFtdcExchangeMarginRateField_LongMarginRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeMarginRateField_LongMarginRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getLongMarginRatioByMoney() {
-    return ctpJNI.CThostFtdcExchangeMarginRateField_LongMarginRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeMarginRateField_LongMarginRatioByMoney_get(swigCPtr, this);
   }
 
   public void setLongMarginRatioByVolume(double value) {
-    ctpJNI.CThostFtdcExchangeMarginRateField_LongMarginRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeMarginRateField_LongMarginRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getLongMarginRatioByVolume() {
-    return ctpJNI.CThostFtdcExchangeMarginRateField_LongMarginRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeMarginRateField_LongMarginRatioByVolume_get(swigCPtr, this);
   }
 
   public void setShortMarginRatioByMoney(double value) {
-    ctpJNI.CThostFtdcExchangeMarginRateField_ShortMarginRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeMarginRateField_ShortMarginRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getShortMarginRatioByMoney() {
-    return ctpJNI.CThostFtdcExchangeMarginRateField_ShortMarginRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeMarginRateField_ShortMarginRatioByMoney_get(swigCPtr, this);
   }
 
   public void setShortMarginRatioByVolume(double value) {
-    ctpJNI.CThostFtdcExchangeMarginRateField_ShortMarginRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeMarginRateField_ShortMarginRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getShortMarginRatioByVolume() {
-    return ctpJNI.CThostFtdcExchangeMarginRateField_ShortMarginRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeMarginRateField_ShortMarginRatioByVolume_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeMarginRateField() {
-    this(ctpJNI.new_CThostFtdcExchangeMarginRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcExchangeMarginRateField(), true);
   }
 
 }

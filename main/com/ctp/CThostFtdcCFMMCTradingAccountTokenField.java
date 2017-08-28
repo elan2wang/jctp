@@ -29,54 +29,54 @@ public class CThostFtdcCFMMCTradingAccountTokenField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcCFMMCTradingAccountTokenField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcCFMMCTradingAccountTokenField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_BrokerID_get(swigCPtr, this);
   }
 
   public void setParticipantID(String value) {
-    ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_ParticipantID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_ParticipantID_set(swigCPtr, this, value);
   }
 
   public String getParticipantID() {
-    return ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_ParticipantID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_ParticipantID_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_AccountID_get(swigCPtr, this);
   }
 
   public void setKeyID(int value) {
-    ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_KeyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_KeyID_set(swigCPtr, this, value);
   }
 
   public int getKeyID() {
-    return ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_KeyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_KeyID_get(swigCPtr, this);
   }
 
   public void setToken(String value) {
-    ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_Token_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_Token_set(swigCPtr, this, value);
   }
 
   public String getToken() {
-    return ctpJNI.CThostFtdcCFMMCTradingAccountTokenField_Token_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCFMMCTradingAccountTokenField_Token_get(swigCPtr, this);
   }
 
   public CThostFtdcCFMMCTradingAccountTokenField() {
-    this(ctpJNI.new_CThostFtdcCFMMCTradingAccountTokenField(), true);
+    this(ctpapiJNI.new_CThostFtdcCFMMCTradingAccountTokenField(), true);
   }
 
 }

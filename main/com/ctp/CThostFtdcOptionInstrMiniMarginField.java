@@ -29,78 +29,78 @@ public class CThostFtdcOptionInstrMiniMarginField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcOptionInstrMiniMarginField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcOptionInstrMiniMarginField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcOptionInstrMiniMarginField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcOptionInstrMiniMarginField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcOptionInstrMiniMarginField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcOptionInstrMiniMarginField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcOptionInstrMiniMarginField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcOptionInstrMiniMarginField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcOptionInstrMiniMarginField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcOptionInstrMiniMarginField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_InvestorID_get(swigCPtr, this);
   }
 
   public void setMinMargin(double value) {
-    ctpJNI.CThostFtdcOptionInstrMiniMarginField_MinMargin_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_MinMargin_set(swigCPtr, this, value);
   }
 
   public double getMinMargin() {
-    return ctpJNI.CThostFtdcOptionInstrMiniMarginField_MinMargin_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_MinMargin_get(swigCPtr, this);
   }
 
   public void setValueMethod(char value) {
-    ctpJNI.CThostFtdcOptionInstrMiniMarginField_ValueMethod_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_ValueMethod_set(swigCPtr, this, value);
   }
 
   public char getValueMethod() {
-    return ctpJNI.CThostFtdcOptionInstrMiniMarginField_ValueMethod_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_ValueMethod_get(swigCPtr, this);
   }
 
   public void setIsRelative(int value) {
-    ctpJNI.CThostFtdcOptionInstrMiniMarginField_IsRelative_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_IsRelative_set(swigCPtr, this, value);
   }
 
   public int getIsRelative() {
-    return ctpJNI.CThostFtdcOptionInstrMiniMarginField_IsRelative_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_IsRelative_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcOptionInstrMiniMarginField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcOptionInstrMiniMarginField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMiniMarginField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcOptionInstrMiniMarginField() {
-    this(ctpJNI.new_CThostFtdcOptionInstrMiniMarginField(), true);
+    this(ctpapiJNI.new_CThostFtdcOptionInstrMiniMarginField(), true);
   }
 
 }

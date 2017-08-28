@@ -32,83 +32,83 @@ public class CThostFtdcMdApi {
   }
 
   public static CThostFtdcMdApi CreateFtdcMdApi(String pszFlowPath, boolean bIsUsingUdp, boolean bIsMulticast) {
-    long cPtr = ctpJNI.CThostFtdcMdApi_CreateFtdcMdApi__SWIG_0(pszFlowPath, bIsUsingUdp, bIsMulticast);
+    long cPtr = ctpapiJNI.CThostFtdcMdApi_CreateFtdcMdApi__SWIG_0(pszFlowPath, bIsUsingUdp, bIsMulticast);
     return (cPtr == 0) ? null : new CThostFtdcMdApi(cPtr, false);
   }
 
   public static CThostFtdcMdApi CreateFtdcMdApi(String pszFlowPath, boolean bIsUsingUdp) {
-    long cPtr = ctpJNI.CThostFtdcMdApi_CreateFtdcMdApi__SWIG_1(pszFlowPath, bIsUsingUdp);
+    long cPtr = ctpapiJNI.CThostFtdcMdApi_CreateFtdcMdApi__SWIG_1(pszFlowPath, bIsUsingUdp);
     return (cPtr == 0) ? null : new CThostFtdcMdApi(cPtr, false);
   }
 
   public static CThostFtdcMdApi CreateFtdcMdApi(String pszFlowPath) {
-    long cPtr = ctpJNI.CThostFtdcMdApi_CreateFtdcMdApi__SWIG_2(pszFlowPath);
+    long cPtr = ctpapiJNI.CThostFtdcMdApi_CreateFtdcMdApi__SWIG_2(pszFlowPath);
     return (cPtr == 0) ? null : new CThostFtdcMdApi(cPtr, false);
   }
 
   public static CThostFtdcMdApi CreateFtdcMdApi() {
-    long cPtr = ctpJNI.CThostFtdcMdApi_CreateFtdcMdApi__SWIG_3();
+    long cPtr = ctpapiJNI.CThostFtdcMdApi_CreateFtdcMdApi__SWIG_3();
     return (cPtr == 0) ? null : new CThostFtdcMdApi(cPtr, false);
   }
 
   public static String GetApiVersion() {
-    return ctpJNI.CThostFtdcMdApi_GetApiVersion();
+    return ctpapiJNI.CThostFtdcMdApi_GetApiVersion();
   }
 
   public void Release() {
-    ctpJNI.CThostFtdcMdApi_Release(swigCPtr, this);
+    ctpapiJNI.CThostFtdcMdApi_Release(swigCPtr, this);
   }
 
   public void Init() {
-    ctpJNI.CThostFtdcMdApi_Init(swigCPtr, this);
+    ctpapiJNI.CThostFtdcMdApi_Init(swigCPtr, this);
   }
 
   public int Join() {
-    return ctpJNI.CThostFtdcMdApi_Join(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMdApi_Join(swigCPtr, this);
   }
 
   public String GetTradingDay() {
-    return ctpJNI.CThostFtdcMdApi_GetTradingDay(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMdApi_GetTradingDay(swigCPtr, this);
   }
 
   public void RegisterFront(String pszFrontAddress) {
-    ctpJNI.CThostFtdcMdApi_RegisterFront(swigCPtr, this, pszFrontAddress);
+    ctpapiJNI.CThostFtdcMdApi_RegisterFront(swigCPtr, this, pszFrontAddress);
   }
 
   public void RegisterNameServer(String pszNsAddress) {
-    ctpJNI.CThostFtdcMdApi_RegisterNameServer(swigCPtr, this, pszNsAddress);
+    ctpapiJNI.CThostFtdcMdApi_RegisterNameServer(swigCPtr, this, pszNsAddress);
   }
 
   public void RegisterFensUserInfo(CThostFtdcFensUserInfoField pFensUserInfo) {
-    ctpJNI.CThostFtdcMdApi_RegisterFensUserInfo(swigCPtr, this, CThostFtdcFensUserInfoField.getCPtr(pFensUserInfo), pFensUserInfo);
+    ctpapiJNI.CThostFtdcMdApi_RegisterFensUserInfo(swigCPtr, this, CThostFtdcFensUserInfoField.getCPtr(pFensUserInfo), pFensUserInfo);
   }
 
   public void RegisterSpi(CThostFtdcMdSpi pSpi) {
-    ctpJNI.CThostFtdcMdApi_RegisterSpi(swigCPtr, this, CThostFtdcMdSpi.getCPtr(pSpi), pSpi);
+    ctpapiJNI.CThostFtdcMdApi_RegisterSpi(swigCPtr, this, CThostFtdcMdSpi.getCPtr(pSpi), pSpi);
   }
 
-  public int SubscribeMarketData(SWIGTYPE_p_p_char ppInstrumentID, int nCount) {
-    return ctpJNI.CThostFtdcMdApi_SubscribeMarketData(swigCPtr, this, SWIGTYPE_p_p_char.getCPtr(ppInstrumentID), nCount);
+  public int SubscribeMarketData(String[] ppInstrumentID, int nCount) {
+    return ctpapiJNI.CThostFtdcMdApi_SubscribeMarketData(swigCPtr, this, ppInstrumentID, nCount);
   }
 
-  public int UnSubscribeMarketData(SWIGTYPE_p_p_char ppInstrumentID, int nCount) {
-    return ctpJNI.CThostFtdcMdApi_UnSubscribeMarketData(swigCPtr, this, SWIGTYPE_p_p_char.getCPtr(ppInstrumentID), nCount);
+  public int UnSubscribeMarketData(String[] ppInstrumentID, int nCount) {
+    return ctpapiJNI.CThostFtdcMdApi_UnSubscribeMarketData(swigCPtr, this, ppInstrumentID, nCount);
   }
 
-  public int SubscribeForQuoteRsp(SWIGTYPE_p_p_char ppInstrumentID, int nCount) {
-    return ctpJNI.CThostFtdcMdApi_SubscribeForQuoteRsp(swigCPtr, this, SWIGTYPE_p_p_char.getCPtr(ppInstrumentID), nCount);
+  public int SubscribeForQuoteRsp(String[] ppInstrumentID, int nCount) {
+    return ctpapiJNI.CThostFtdcMdApi_SubscribeForQuoteRsp(swigCPtr, this, ppInstrumentID, nCount);
   }
 
-  public int UnSubscribeForQuoteRsp(SWIGTYPE_p_p_char ppInstrumentID, int nCount) {
-    return ctpJNI.CThostFtdcMdApi_UnSubscribeForQuoteRsp(swigCPtr, this, SWIGTYPE_p_p_char.getCPtr(ppInstrumentID), nCount);
+  public int UnSubscribeForQuoteRsp(String[] ppInstrumentID, int nCount) {
+    return ctpapiJNI.CThostFtdcMdApi_UnSubscribeForQuoteRsp(swigCPtr, this, ppInstrumentID, nCount);
   }
 
   public int ReqUserLogin(CThostFtdcReqUserLoginField pReqUserLoginField, int nRequestID) {
-    return ctpJNI.CThostFtdcMdApi_ReqUserLogin(swigCPtr, this, CThostFtdcReqUserLoginField.getCPtr(pReqUserLoginField), pReqUserLoginField, nRequestID);
+    return ctpapiJNI.CThostFtdcMdApi_ReqUserLogin(swigCPtr, this, CThostFtdcReqUserLoginField.getCPtr(pReqUserLoginField), pReqUserLoginField, nRequestID);
   }
 
   public int ReqUserLogout(CThostFtdcUserLogoutField pUserLogout, int nRequestID) {
-    return ctpJNI.CThostFtdcMdApi_ReqUserLogout(swigCPtr, this, CThostFtdcUserLogoutField.getCPtr(pUserLogout), pUserLogout, nRequestID);
+    return ctpapiJNI.CThostFtdcMdApi_ReqUserLogout(swigCPtr, this, CThostFtdcUserLogoutField.getCPtr(pUserLogout), pUserLogout, nRequestID);
   }
 
 }

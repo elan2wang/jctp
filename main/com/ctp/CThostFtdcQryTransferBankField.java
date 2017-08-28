@@ -29,30 +29,30 @@ public class CThostFtdcQryTransferBankField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryTransferBankField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryTransferBankField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBankID(String value) {
-    ctpJNI.CThostFtdcQryTransferBankField_BankID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTransferBankField_BankID_set(swigCPtr, this, value);
   }
 
   public String getBankID() {
-    return ctpJNI.CThostFtdcQryTransferBankField_BankID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTransferBankField_BankID_get(swigCPtr, this);
   }
 
   public void setBankBrchID(String value) {
-    ctpJNI.CThostFtdcQryTransferBankField_BankBrchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTransferBankField_BankBrchID_set(swigCPtr, this, value);
   }
 
   public String getBankBrchID() {
-    return ctpJNI.CThostFtdcQryTransferBankField_BankBrchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTransferBankField_BankBrchID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryTransferBankField() {
-    this(ctpJNI.new_CThostFtdcQryTransferBankField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryTransferBankField(), true);
   }
 
 }

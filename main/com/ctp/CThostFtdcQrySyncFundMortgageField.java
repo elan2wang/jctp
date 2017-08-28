@@ -29,30 +29,30 @@ public class CThostFtdcQrySyncFundMortgageField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQrySyncFundMortgageField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQrySyncFundMortgageField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQrySyncFundMortgageField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySyncFundMortgageField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQrySyncFundMortgageField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySyncFundMortgageField_BrokerID_get(swigCPtr, this);
   }
 
   public void setMortgageSeqNo(String value) {
-    ctpJNI.CThostFtdcQrySyncFundMortgageField_MortgageSeqNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySyncFundMortgageField_MortgageSeqNo_set(swigCPtr, this, value);
   }
 
   public String getMortgageSeqNo() {
-    return ctpJNI.CThostFtdcQrySyncFundMortgageField_MortgageSeqNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySyncFundMortgageField_MortgageSeqNo_get(swigCPtr, this);
   }
 
   public CThostFtdcQrySyncFundMortgageField() {
-    this(ctpJNI.new_CThostFtdcQrySyncFundMortgageField(), true);
+    this(ctpapiJNI.new_CThostFtdcQrySyncFundMortgageField(), true);
   }
 
 }

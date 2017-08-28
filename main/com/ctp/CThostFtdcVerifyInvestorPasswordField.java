@@ -29,38 +29,38 @@ public class CThostFtdcVerifyInvestorPasswordField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcVerifyInvestorPasswordField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcVerifyInvestorPasswordField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcVerifyInvestorPasswordField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcVerifyInvestorPasswordField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcVerifyInvestorPasswordField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcVerifyInvestorPasswordField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcVerifyInvestorPasswordField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcVerifyInvestorPasswordField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcVerifyInvestorPasswordField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcVerifyInvestorPasswordField_InvestorID_get(swigCPtr, this);
   }
 
   public void setPassword(String value) {
-    ctpJNI.CThostFtdcVerifyInvestorPasswordField_Password_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcVerifyInvestorPasswordField_Password_set(swigCPtr, this, value);
   }
 
   public String getPassword() {
-    return ctpJNI.CThostFtdcVerifyInvestorPasswordField_Password_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcVerifyInvestorPasswordField_Password_get(swigCPtr, this);
   }
 
   public CThostFtdcVerifyInvestorPasswordField() {
-    this(ctpJNI.new_CThostFtdcVerifyInvestorPasswordField(), true);
+    this(ctpapiJNI.new_CThostFtdcVerifyInvestorPasswordField(), true);
   }
 
 }

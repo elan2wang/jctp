@@ -29,126 +29,126 @@ public class CThostFtdcOptionInstrMarginAdjustField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcOptionInstrMarginAdjustField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcOptionInstrMarginAdjustField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_InvestorID_get(swigCPtr, this);
   }
 
   public void setSShortMarginRatioByMoney(double value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_SShortMarginRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_SShortMarginRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getSShortMarginRatioByMoney() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_SShortMarginRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_SShortMarginRatioByMoney_get(swigCPtr, this);
   }
 
   public void setSShortMarginRatioByVolume(double value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_SShortMarginRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_SShortMarginRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getSShortMarginRatioByVolume() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_SShortMarginRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_SShortMarginRatioByVolume_get(swigCPtr, this);
   }
 
   public void setHShortMarginRatioByMoney(double value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_HShortMarginRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_HShortMarginRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getHShortMarginRatioByMoney() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_HShortMarginRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_HShortMarginRatioByMoney_get(swigCPtr, this);
   }
 
   public void setHShortMarginRatioByVolume(double value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_HShortMarginRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_HShortMarginRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getHShortMarginRatioByVolume() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_HShortMarginRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_HShortMarginRatioByVolume_get(swigCPtr, this);
   }
 
   public void setAShortMarginRatioByMoney(double value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_AShortMarginRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_AShortMarginRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getAShortMarginRatioByMoney() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_AShortMarginRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_AShortMarginRatioByMoney_get(swigCPtr, this);
   }
 
   public void setAShortMarginRatioByVolume(double value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_AShortMarginRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_AShortMarginRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getAShortMarginRatioByVolume() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_AShortMarginRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_AShortMarginRatioByVolume_get(swigCPtr, this);
   }
 
   public void setIsRelative(int value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_IsRelative_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_IsRelative_set(swigCPtr, this, value);
   }
 
   public int getIsRelative() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_IsRelative_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_IsRelative_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setMShortMarginRatioByMoney(double value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByMoney_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByMoney_set(swigCPtr, this, value);
   }
 
   public double getMShortMarginRatioByMoney() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByMoney_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByMoney_get(swigCPtr, this);
   }
 
   public void setMShortMarginRatioByVolume(double value) {
-    ctpJNI.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_set(swigCPtr, this, value);
   }
 
   public double getMShortMarginRatioByVolume() {
-    return ctpJNI.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_get(swigCPtr, this);
   }
 
   public CThostFtdcOptionInstrMarginAdjustField() {
-    this(ctpJNI.new_CThostFtdcOptionInstrMarginAdjustField(), true);
+    this(ctpapiJNI.new_CThostFtdcOptionInstrMarginAdjustField(), true);
   }
 
 }

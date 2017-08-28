@@ -29,46 +29,46 @@ public class CThostFtdcQryETFOptionInstrCommRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryETFOptionInstrCommRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryETFOptionInstrCommRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryETFOptionInstrCommRateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryETFOptionInstrCommRateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryETFOptionInstrCommRateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryETFOptionInstrCommRateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryETFOptionInstrCommRateField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryETFOptionInstrCommRateField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryETFOptionInstrCommRateField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryETFOptionInstrCommRateField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryETFOptionInstrCommRateField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryETFOptionInstrCommRateField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryETFOptionInstrCommRateField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryETFOptionInstrCommRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryETFOptionInstrCommRateField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryETFOptionInstrCommRateField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryETFOptionInstrCommRateField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryETFOptionInstrCommRateField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryETFOptionInstrCommRateField() {
-    this(ctpJNI.new_CThostFtdcQryETFOptionInstrCommRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryETFOptionInstrCommRateField(), true);
   }
 
 }

@@ -29,46 +29,46 @@ public class CThostFtdcDRTransferField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcDRTransferField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcDRTransferField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setOrigDRIdentityID(int value) {
-    ctpJNI.CThostFtdcDRTransferField_OrigDRIdentityID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDRTransferField_OrigDRIdentityID_set(swigCPtr, this, value);
   }
 
   public int getOrigDRIdentityID() {
-    return ctpJNI.CThostFtdcDRTransferField_OrigDRIdentityID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDRTransferField_OrigDRIdentityID_get(swigCPtr, this);
   }
 
   public void setDestDRIdentityID(int value) {
-    ctpJNI.CThostFtdcDRTransferField_DestDRIdentityID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDRTransferField_DestDRIdentityID_set(swigCPtr, this, value);
   }
 
   public int getDestDRIdentityID() {
-    return ctpJNI.CThostFtdcDRTransferField_DestDRIdentityID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDRTransferField_DestDRIdentityID_get(swigCPtr, this);
   }
 
   public void setOrigBrokerID(String value) {
-    ctpJNI.CThostFtdcDRTransferField_OrigBrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDRTransferField_OrigBrokerID_set(swigCPtr, this, value);
   }
 
   public String getOrigBrokerID() {
-    return ctpJNI.CThostFtdcDRTransferField_OrigBrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDRTransferField_OrigBrokerID_get(swigCPtr, this);
   }
 
   public void setDestBrokerID(String value) {
-    ctpJNI.CThostFtdcDRTransferField_DestBrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcDRTransferField_DestBrokerID_set(swigCPtr, this, value);
   }
 
   public String getDestBrokerID() {
-    return ctpJNI.CThostFtdcDRTransferField_DestBrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcDRTransferField_DestBrokerID_get(swigCPtr, this);
   }
 
   public CThostFtdcDRTransferField() {
-    this(ctpJNI.new_CThostFtdcDRTransferField(), true);
+    this(ctpapiJNI.new_CThostFtdcDRTransferField(), true);
   }
 
 }

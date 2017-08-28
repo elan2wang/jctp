@@ -29,46 +29,46 @@ public class CThostFtdcQryParkedOrderField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryParkedOrderField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryParkedOrderField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryParkedOrderField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryParkedOrderField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryParkedOrderField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryParkedOrderField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryParkedOrderField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryParkedOrderField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryParkedOrderField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryParkedOrderField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryParkedOrderField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryParkedOrderField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryParkedOrderField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryParkedOrderField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcQryParkedOrderField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryParkedOrderField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcQryParkedOrderField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryParkedOrderField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryParkedOrderField() {
-    this(ctpJNI.new_CThostFtdcQryParkedOrderField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryParkedOrderField(), true);
   }
 
 }

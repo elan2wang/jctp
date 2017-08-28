@@ -29,46 +29,46 @@ public class CThostFtdcQryTransferSerialField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryTransferSerialField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryTransferSerialField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryTransferSerialField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTransferSerialField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryTransferSerialField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTransferSerialField_BrokerID_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcQryTransferSerialField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTransferSerialField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcQryTransferSerialField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTransferSerialField_AccountID_get(swigCPtr, this);
   }
 
   public void setBankID(String value) {
-    ctpJNI.CThostFtdcQryTransferSerialField_BankID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTransferSerialField_BankID_set(swigCPtr, this, value);
   }
 
   public String getBankID() {
-    return ctpJNI.CThostFtdcQryTransferSerialField_BankID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTransferSerialField_BankID_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcQryTransferSerialField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryTransferSerialField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcQryTransferSerialField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryTransferSerialField_CurrencyID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryTransferSerialField() {
-    this(ctpJNI.new_CThostFtdcQryTransferSerialField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryTransferSerialField(), true);
   }
 
 }

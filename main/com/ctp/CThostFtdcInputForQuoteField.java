@@ -29,86 +29,86 @@ public class CThostFtdcInputForQuoteField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInputForQuoteField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInputForQuoteField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInputForQuoteField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInputForQuoteField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcInputForQuoteField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setForQuoteRef(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_ForQuoteRef_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_ForQuoteRef_set(swigCPtr, this, value);
   }
 
   public String getForQuoteRef() {
-    return ctpJNI.CThostFtdcInputForQuoteField_ForQuoteRef_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_ForQuoteRef_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcInputForQuoteField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_UserID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcInputForQuoteField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setInvestUnitID(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_InvestUnitID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_InvestUnitID_set(swigCPtr, this, value);
   }
 
   public String getInvestUnitID() {
-    return ctpJNI.CThostFtdcInputForQuoteField_InvestUnitID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_InvestUnitID_get(swigCPtr, this);
   }
 
   public void setIPAddress(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_IPAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_IPAddress_set(swigCPtr, this, value);
   }
 
   public String getIPAddress() {
-    return ctpJNI.CThostFtdcInputForQuoteField_IPAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_IPAddress_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
-    ctpJNI.CThostFtdcInputForQuoteField_MacAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputForQuoteField_MacAddress_set(swigCPtr, this, value);
   }
 
   public String getMacAddress() {
-    return ctpJNI.CThostFtdcInputForQuoteField_MacAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputForQuoteField_MacAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcInputForQuoteField() {
-    this(ctpJNI.new_CThostFtdcInputForQuoteField(), true);
+    this(ctpapiJNI.new_CThostFtdcInputForQuoteField(), true);
   }
 
 }

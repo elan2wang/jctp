@@ -29,38 +29,38 @@ public class CThostFtdcQryBrokerTradingParamsField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryBrokerTradingParamsField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryBrokerTradingParamsField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryBrokerTradingParamsField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryBrokerTradingParamsField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryBrokerTradingParamsField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryBrokerTradingParamsField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcQryBrokerTradingParamsField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryBrokerTradingParamsField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcQryBrokerTradingParamsField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryBrokerTradingParamsField_InvestorID_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcQryBrokerTradingParamsField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryBrokerTradingParamsField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcQryBrokerTradingParamsField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryBrokerTradingParamsField_CurrencyID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryBrokerTradingParamsField() {
-    this(ctpJNI.new_CThostFtdcQryBrokerTradingParamsField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryBrokerTradingParamsField(), true);
   }
 
 }

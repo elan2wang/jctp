@@ -29,30 +29,30 @@ public class CThostFtdcSyncStatusField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcSyncStatusField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcSyncStatusField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcSyncStatusField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncStatusField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcSyncStatusField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncStatusField_TradingDay_get(swigCPtr, this);
   }
 
   public void setDataSyncStatus(char value) {
-    ctpJNI.CThostFtdcSyncStatusField_DataSyncStatus_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSyncStatusField_DataSyncStatus_set(swigCPtr, this, value);
   }
 
   public char getDataSyncStatus() {
-    return ctpJNI.CThostFtdcSyncStatusField_DataSyncStatus_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSyncStatusField_DataSyncStatus_get(swigCPtr, this);
   }
 
   public CThostFtdcSyncStatusField() {
-    this(ctpJNI.new_CThostFtdcSyncStatusField(), true);
+    this(ctpapiJNI.new_CThostFtdcSyncStatusField(), true);
   }
 
 }

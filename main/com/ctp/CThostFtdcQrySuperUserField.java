@@ -29,22 +29,22 @@ public class CThostFtdcQrySuperUserField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQrySuperUserField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQrySuperUserField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcQrySuperUserField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQrySuperUserField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcQrySuperUserField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQrySuperUserField_UserID_get(swigCPtr, this);
   }
 
   public CThostFtdcQrySuperUserField() {
-    this(ctpJNI.new_CThostFtdcQrySuperUserField(), true);
+    this(ctpapiJNI.new_CThostFtdcQrySuperUserField(), true);
   }
 
 }

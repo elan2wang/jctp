@@ -29,62 +29,62 @@ public class CThostFtdcInvestorWithdrawAlgorithmField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInvestorWithdrawAlgorithmField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInvestorWithdrawAlgorithmField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_InvestorID_get(swigCPtr, this);
   }
 
   public void setUsingRatio(double value) {
-    ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_UsingRatio_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_UsingRatio_set(swigCPtr, this, value);
   }
 
   public double getUsingRatio() {
-    return ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_UsingRatio_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_UsingRatio_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_CurrencyID_get(swigCPtr, this);
   }
 
   public void setFundMortgageRatio(double value) {
-    ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_FundMortgageRatio_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_FundMortgageRatio_set(swigCPtr, this, value);
   }
 
   public double getFundMortgageRatio() {
-    return ctpJNI.CThostFtdcInvestorWithdrawAlgorithmField_FundMortgageRatio_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInvestorWithdrawAlgorithmField_FundMortgageRatio_get(swigCPtr, this);
   }
 
   public CThostFtdcInvestorWithdrawAlgorithmField() {
-    this(ctpJNI.new_CThostFtdcInvestorWithdrawAlgorithmField(), true);
+    this(ctpapiJNI.new_CThostFtdcInvestorWithdrawAlgorithmField(), true);
   }
 
 }

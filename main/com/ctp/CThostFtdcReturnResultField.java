@@ -29,30 +29,30 @@ public class CThostFtdcReturnResultField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcReturnResultField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcReturnResultField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setReturnCode(String value) {
-    ctpJNI.CThostFtdcReturnResultField_ReturnCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReturnResultField_ReturnCode_set(swigCPtr, this, value);
   }
 
   public String getReturnCode() {
-    return ctpJNI.CThostFtdcReturnResultField_ReturnCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReturnResultField_ReturnCode_get(swigCPtr, this);
   }
 
   public void setDescrInfoForReturnCode(String value) {
-    ctpJNI.CThostFtdcReturnResultField_DescrInfoForReturnCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReturnResultField_DescrInfoForReturnCode_set(swigCPtr, this, value);
   }
 
   public String getDescrInfoForReturnCode() {
-    return ctpJNI.CThostFtdcReturnResultField_DescrInfoForReturnCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReturnResultField_DescrInfoForReturnCode_get(swigCPtr, this);
   }
 
   public CThostFtdcReturnResultField() {
-    this(ctpJNI.new_CThostFtdcReturnResultField(), true);
+    this(ctpapiJNI.new_CThostFtdcReturnResultField(), true);
   }
 
 }

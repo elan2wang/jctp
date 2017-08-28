@@ -29,22 +29,22 @@ public class CThostFtdcQryNoticeField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryNoticeField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryNoticeField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryNoticeField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryNoticeField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryNoticeField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryNoticeField_BrokerID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryNoticeField() {
-    this(ctpJNI.new_CThostFtdcQryNoticeField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryNoticeField(), true);
   }
 
 }

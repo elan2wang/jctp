@@ -29,46 +29,46 @@ public class CThostFtdcIndexPriceField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcIndexPriceField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcIndexPriceField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcIndexPriceField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcIndexPriceField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcIndexPriceField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcIndexPriceField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcIndexPriceField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcIndexPriceField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcIndexPriceField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcIndexPriceField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setClosePrice(double value) {
-    ctpJNI.CThostFtdcIndexPriceField_ClosePrice_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcIndexPriceField_ClosePrice_set(swigCPtr, this, value);
   }
 
   public double getClosePrice() {
-    return ctpJNI.CThostFtdcIndexPriceField_ClosePrice_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcIndexPriceField_ClosePrice_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcIndexPriceField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcIndexPriceField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcIndexPriceField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcIndexPriceField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcIndexPriceField() {
-    this(ctpJNI.new_CThostFtdcIndexPriceField(), true);
+    this(ctpapiJNI.new_CThostFtdcIndexPriceField(), true);
   }
 
 }

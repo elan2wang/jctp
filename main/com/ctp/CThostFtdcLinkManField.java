@@ -29,110 +29,110 @@ public class CThostFtdcLinkManField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcLinkManField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcLinkManField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcLinkManField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcLinkManField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcLinkManField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcLinkManField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_InvestorID_get(swigCPtr, this);
   }
 
   public void setPersonType(char value) {
-    ctpJNI.CThostFtdcLinkManField_PersonType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_PersonType_set(swigCPtr, this, value);
   }
 
   public char getPersonType() {
-    return ctpJNI.CThostFtdcLinkManField_PersonType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_PersonType_get(swigCPtr, this);
   }
 
   public void setIdentifiedCardType(char value) {
-    ctpJNI.CThostFtdcLinkManField_IdentifiedCardType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_IdentifiedCardType_set(swigCPtr, this, value);
   }
 
   public char getIdentifiedCardType() {
-    return ctpJNI.CThostFtdcLinkManField_IdentifiedCardType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_IdentifiedCardType_get(swigCPtr, this);
   }
 
   public void setIdentifiedCardNo(String value) {
-    ctpJNI.CThostFtdcLinkManField_IdentifiedCardNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_IdentifiedCardNo_set(swigCPtr, this, value);
   }
 
   public String getIdentifiedCardNo() {
-    return ctpJNI.CThostFtdcLinkManField_IdentifiedCardNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_IdentifiedCardNo_get(swigCPtr, this);
   }
 
   public void setPersonName(String value) {
-    ctpJNI.CThostFtdcLinkManField_PersonName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_PersonName_set(swigCPtr, this, value);
   }
 
   public String getPersonName() {
-    return ctpJNI.CThostFtdcLinkManField_PersonName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_PersonName_get(swigCPtr, this);
   }
 
   public void setTelephone(String value) {
-    ctpJNI.CThostFtdcLinkManField_Telephone_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_Telephone_set(swigCPtr, this, value);
   }
 
   public String getTelephone() {
-    return ctpJNI.CThostFtdcLinkManField_Telephone_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_Telephone_get(swigCPtr, this);
   }
 
   public void setAddress(String value) {
-    ctpJNI.CThostFtdcLinkManField_Address_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_Address_set(swigCPtr, this, value);
   }
 
   public String getAddress() {
-    return ctpJNI.CThostFtdcLinkManField_Address_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_Address_get(swigCPtr, this);
   }
 
   public void setZipCode(String value) {
-    ctpJNI.CThostFtdcLinkManField_ZipCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_ZipCode_set(swigCPtr, this, value);
   }
 
   public String getZipCode() {
-    return ctpJNI.CThostFtdcLinkManField_ZipCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_ZipCode_get(swigCPtr, this);
   }
 
   public void setPriority(int value) {
-    ctpJNI.CThostFtdcLinkManField_Priority_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_Priority_set(swigCPtr, this, value);
   }
 
   public int getPriority() {
-    return ctpJNI.CThostFtdcLinkManField_Priority_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_Priority_get(swigCPtr, this);
   }
 
   public void setUOAZipCode(String value) {
-    ctpJNI.CThostFtdcLinkManField_UOAZipCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_UOAZipCode_set(swigCPtr, this, value);
   }
 
   public String getUOAZipCode() {
-    return ctpJNI.CThostFtdcLinkManField_UOAZipCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_UOAZipCode_get(swigCPtr, this);
   }
 
   public void setPersonFullName(String value) {
-    ctpJNI.CThostFtdcLinkManField_PersonFullName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLinkManField_PersonFullName_set(swigCPtr, this, value);
   }
 
   public String getPersonFullName() {
-    return ctpJNI.CThostFtdcLinkManField_PersonFullName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLinkManField_PersonFullName_get(swigCPtr, this);
   }
 
   public CThostFtdcLinkManField() {
-    this(ctpJNI.new_CThostFtdcLinkManField(), true);
+    this(ctpapiJNI.new_CThostFtdcLinkManField(), true);
   }
 
 }

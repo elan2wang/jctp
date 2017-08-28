@@ -29,54 +29,54 @@ public class CThostFtdcForQuoteParamField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcForQuoteParamField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcForQuoteParamField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcForQuoteParamField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteParamField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcForQuoteParamField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteParamField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcForQuoteParamField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteParamField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcForQuoteParamField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteParamField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcForQuoteParamField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteParamField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcForQuoteParamField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteParamField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setLastPrice(double value) {
-    ctpJNI.CThostFtdcForQuoteParamField_LastPrice_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteParamField_LastPrice_set(swigCPtr, this, value);
   }
 
   public double getLastPrice() {
-    return ctpJNI.CThostFtdcForQuoteParamField_LastPrice_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteParamField_LastPrice_get(swigCPtr, this);
   }
 
   public void setPriceInterval(double value) {
-    ctpJNI.CThostFtdcForQuoteParamField_PriceInterval_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcForQuoteParamField_PriceInterval_set(swigCPtr, this, value);
   }
 
   public double getPriceInterval() {
-    return ctpJNI.CThostFtdcForQuoteParamField_PriceInterval_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcForQuoteParamField_PriceInterval_get(swigCPtr, this);
   }
 
   public CThostFtdcForQuoteParamField() {
-    this(ctpJNI.new_CThostFtdcForQuoteParamField(), true);
+    this(ctpapiJNI.new_CThostFtdcForQuoteParamField(), true);
   }
 
 }

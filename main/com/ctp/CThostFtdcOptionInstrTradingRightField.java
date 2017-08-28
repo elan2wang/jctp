@@ -29,78 +29,78 @@ public class CThostFtdcOptionInstrTradingRightField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcOptionInstrTradingRightField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcOptionInstrTradingRightField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcOptionInstrTradingRightField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrTradingRightField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcOptionInstrTradingRightField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrTradingRightField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcOptionInstrTradingRightField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrTradingRightField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcOptionInstrTradingRightField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrTradingRightField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcOptionInstrTradingRightField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrTradingRightField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcOptionInstrTradingRightField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrTradingRightField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcOptionInstrTradingRightField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrTradingRightField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcOptionInstrTradingRightField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrTradingRightField_InvestorID_get(swigCPtr, this);
   }
 
   public void setDirection(char value) {
-    ctpJNI.CThostFtdcOptionInstrTradingRightField_Direction_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrTradingRightField_Direction_set(swigCPtr, this, value);
   }
 
   public char getDirection() {
-    return ctpJNI.CThostFtdcOptionInstrTradingRightField_Direction_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrTradingRightField_Direction_get(swigCPtr, this);
   }
 
   public void setTradingRight(char value) {
-    ctpJNI.CThostFtdcOptionInstrTradingRightField_TradingRight_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrTradingRightField_TradingRight_set(swigCPtr, this, value);
   }
 
   public char getTradingRight() {
-    return ctpJNI.CThostFtdcOptionInstrTradingRightField_TradingRight_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrTradingRightField_TradingRight_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcOptionInstrTradingRightField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrTradingRightField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcOptionInstrTradingRightField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrTradingRightField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
-    ctpJNI.CThostFtdcOptionInstrTradingRightField_HedgeFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcOptionInstrTradingRightField_HedgeFlag_set(swigCPtr, this, value);
   }
 
   public char getHedgeFlag() {
-    return ctpJNI.CThostFtdcOptionInstrTradingRightField_HedgeFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcOptionInstrTradingRightField_HedgeFlag_get(swigCPtr, this);
   }
 
   public CThostFtdcOptionInstrTradingRightField() {
-    this(ctpJNI.new_CThostFtdcOptionInstrTradingRightField(), true);
+    this(ctpapiJNI.new_CThostFtdcOptionInstrTradingRightField(), true);
   }
 
 }

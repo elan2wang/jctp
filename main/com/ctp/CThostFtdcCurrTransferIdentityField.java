@@ -29,22 +29,22 @@ public class CThostFtdcCurrTransferIdentityField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcCurrTransferIdentityField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcCurrTransferIdentityField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setIdentityID(int value) {
-    ctpJNI.CThostFtdcCurrTransferIdentityField_IdentityID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcCurrTransferIdentityField_IdentityID_set(swigCPtr, this, value);
   }
 
   public int getIdentityID() {
-    return ctpJNI.CThostFtdcCurrTransferIdentityField_IdentityID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcCurrTransferIdentityField_IdentityID_get(swigCPtr, this);
   }
 
   public CThostFtdcCurrTransferIdentityField() {
-    this(ctpJNI.new_CThostFtdcCurrTransferIdentityField(), true);
+    this(ctpapiJNI.new_CThostFtdcCurrTransferIdentityField(), true);
   }
 
 }

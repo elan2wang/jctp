@@ -29,22 +29,22 @@ public class CThostFtdcMarketDataAveragePriceField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcMarketDataAveragePriceField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcMarketDataAveragePriceField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setAveragePrice(double value) {
-    ctpJNI.CThostFtdcMarketDataAveragePriceField_AveragePrice_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataAveragePriceField_AveragePrice_set(swigCPtr, this, value);
   }
 
   public double getAveragePrice() {
-    return ctpJNI.CThostFtdcMarketDataAveragePriceField_AveragePrice_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataAveragePriceField_AveragePrice_get(swigCPtr, this);
   }
 
   public CThostFtdcMarketDataAveragePriceField() {
-    this(ctpJNI.new_CThostFtdcMarketDataAveragePriceField(), true);
+    this(ctpapiJNI.new_CThostFtdcMarketDataAveragePriceField(), true);
   }
 
 }

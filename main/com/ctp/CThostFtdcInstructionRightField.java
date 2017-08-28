@@ -29,54 +29,54 @@ public class CThostFtdcInstructionRightField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInstructionRightField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInstructionRightField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInstructionRightField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstructionRightField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInstructionRightField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstructionRightField_BrokerID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcInstructionRightField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstructionRightField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcInstructionRightField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstructionRightField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInstructionRightField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstructionRightField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInstructionRightField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstructionRightField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstructionRight(char value) {
-    ctpJNI.CThostFtdcInstructionRightField_InstructionRight_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstructionRightField_InstructionRight_set(swigCPtr, this, value);
   }
 
   public char getInstructionRight() {
-    return ctpJNI.CThostFtdcInstructionRightField_InstructionRight_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstructionRightField_InstructionRight_get(swigCPtr, this);
   }
 
   public void setIsForbidden(int value) {
-    ctpJNI.CThostFtdcInstructionRightField_IsForbidden_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstructionRightField_IsForbidden_set(swigCPtr, this, value);
   }
 
   public int getIsForbidden() {
-    return ctpJNI.CThostFtdcInstructionRightField_IsForbidden_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstructionRightField_IsForbidden_get(swigCPtr, this);
   }
 
   public CThostFtdcInstructionRightField() {
-    this(ctpJNI.new_CThostFtdcInstructionRightField(), true);
+    this(ctpapiJNI.new_CThostFtdcInstructionRightField(), true);
   }
 
 }

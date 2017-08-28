@@ -29,110 +29,110 @@ public class CThostFtdcInputCombActionField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInputCombActionField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInputCombActionField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInputCombActionField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInputCombActionField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInputCombActionField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInputCombActionField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_InvestorID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcInputCombActionField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcInputCombActionField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setCombActionRef(String value) {
-    ctpJNI.CThostFtdcInputCombActionField_CombActionRef_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_CombActionRef_set(swigCPtr, this, value);
   }
 
   public String getCombActionRef() {
-    return ctpJNI.CThostFtdcInputCombActionField_CombActionRef_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_CombActionRef_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcInputCombActionField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcInputCombActionField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_UserID_get(swigCPtr, this);
   }
 
   public void setDirection(char value) {
-    ctpJNI.CThostFtdcInputCombActionField_Direction_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_Direction_set(swigCPtr, this, value);
   }
 
   public char getDirection() {
-    return ctpJNI.CThostFtdcInputCombActionField_Direction_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_Direction_get(swigCPtr, this);
   }
 
   public void setVolume(int value) {
-    ctpJNI.CThostFtdcInputCombActionField_Volume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_Volume_set(swigCPtr, this, value);
   }
 
   public int getVolume() {
-    return ctpJNI.CThostFtdcInputCombActionField_Volume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_Volume_get(swigCPtr, this);
   }
 
   public void setCombDirection(char value) {
-    ctpJNI.CThostFtdcInputCombActionField_CombDirection_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_CombDirection_set(swigCPtr, this, value);
   }
 
   public char getCombDirection() {
-    return ctpJNI.CThostFtdcInputCombActionField_CombDirection_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_CombDirection_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
-    ctpJNI.CThostFtdcInputCombActionField_HedgeFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_HedgeFlag_set(swigCPtr, this, value);
   }
 
   public char getHedgeFlag() {
-    return ctpJNI.CThostFtdcInputCombActionField_HedgeFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_HedgeFlag_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcInputCombActionField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcInputCombActionField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setIPAddress(String value) {
-    ctpJNI.CThostFtdcInputCombActionField_IPAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_IPAddress_set(swigCPtr, this, value);
   }
 
   public String getIPAddress() {
-    return ctpJNI.CThostFtdcInputCombActionField_IPAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_IPAddress_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
-    ctpJNI.CThostFtdcInputCombActionField_MacAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputCombActionField_MacAddress_set(swigCPtr, this, value);
   }
 
   public String getMacAddress() {
-    return ctpJNI.CThostFtdcInputCombActionField_MacAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputCombActionField_MacAddress_get(swigCPtr, this);
   }
 
   public CThostFtdcInputCombActionField() {
-    this(ctpJNI.new_CThostFtdcInputCombActionField(), true);
+    this(ctpapiJNI.new_CThostFtdcInputCombActionField(), true);
   }
 
 }

@@ -29,78 +29,78 @@ public class CThostFtdcBrokerUserOTPParamField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcBrokerUserOTPParamField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcBrokerUserOTPParamField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcBrokerUserOTPParamField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserOTPParamField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcBrokerUserOTPParamField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserOTPParamField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcBrokerUserOTPParamField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserOTPParamField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcBrokerUserOTPParamField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserOTPParamField_UserID_get(swigCPtr, this);
   }
 
   public void setOTPVendorsID(String value) {
-    ctpJNI.CThostFtdcBrokerUserOTPParamField_OTPVendorsID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserOTPParamField_OTPVendorsID_set(swigCPtr, this, value);
   }
 
   public String getOTPVendorsID() {
-    return ctpJNI.CThostFtdcBrokerUserOTPParamField_OTPVendorsID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserOTPParamField_OTPVendorsID_get(swigCPtr, this);
   }
 
   public void setSerialNumber(String value) {
-    ctpJNI.CThostFtdcBrokerUserOTPParamField_SerialNumber_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserOTPParamField_SerialNumber_set(swigCPtr, this, value);
   }
 
   public String getSerialNumber() {
-    return ctpJNI.CThostFtdcBrokerUserOTPParamField_SerialNumber_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserOTPParamField_SerialNumber_get(swigCPtr, this);
   }
 
   public void setAuthKey(String value) {
-    ctpJNI.CThostFtdcBrokerUserOTPParamField_AuthKey_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserOTPParamField_AuthKey_set(swigCPtr, this, value);
   }
 
   public String getAuthKey() {
-    return ctpJNI.CThostFtdcBrokerUserOTPParamField_AuthKey_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserOTPParamField_AuthKey_get(swigCPtr, this);
   }
 
   public void setLastDrift(int value) {
-    ctpJNI.CThostFtdcBrokerUserOTPParamField_LastDrift_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserOTPParamField_LastDrift_set(swigCPtr, this, value);
   }
 
   public int getLastDrift() {
-    return ctpJNI.CThostFtdcBrokerUserOTPParamField_LastDrift_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserOTPParamField_LastDrift_get(swigCPtr, this);
   }
 
   public void setLastSuccess(int value) {
-    ctpJNI.CThostFtdcBrokerUserOTPParamField_LastSuccess_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserOTPParamField_LastSuccess_set(swigCPtr, this, value);
   }
 
   public int getLastSuccess() {
-    return ctpJNI.CThostFtdcBrokerUserOTPParamField_LastSuccess_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserOTPParamField_LastSuccess_get(swigCPtr, this);
   }
 
   public void setOTPType(char value) {
-    ctpJNI.CThostFtdcBrokerUserOTPParamField_OTPType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBrokerUserOTPParamField_OTPType_set(swigCPtr, this, value);
   }
 
   public char getOTPType() {
-    return ctpJNI.CThostFtdcBrokerUserOTPParamField_OTPType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBrokerUserOTPParamField_OTPType_get(swigCPtr, this);
   }
 
   public CThostFtdcBrokerUserOTPParamField() {
-    this(ctpJNI.new_CThostFtdcBrokerUserOTPParamField(), true);
+    this(ctpapiJNI.new_CThostFtdcBrokerUserOTPParamField(), true);
   }
 
 }

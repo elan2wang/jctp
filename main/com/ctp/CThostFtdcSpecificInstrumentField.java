@@ -29,22 +29,22 @@ public class CThostFtdcSpecificInstrumentField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcSpecificInstrumentField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcSpecificInstrumentField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcSpecificInstrumentField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcSpecificInstrumentField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcSpecificInstrumentField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcSpecificInstrumentField_InstrumentID_get(swigCPtr, this);
   }
 
   public CThostFtdcSpecificInstrumentField() {
-    this(ctpJNI.new_CThostFtdcSpecificInstrumentField(), true);
+    this(ctpapiJNI.new_CThostFtdcSpecificInstrumentField(), true);
   }
 
 }

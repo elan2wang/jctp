@@ -29,54 +29,54 @@ public class CThostFtdcMarketDataUpdateTimeField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcMarketDataUpdateTimeField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcMarketDataUpdateTimeField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcMarketDataUpdateTimeField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcMarketDataUpdateTimeField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setUpdateTime(String value) {
-    ctpJNI.CThostFtdcMarketDataUpdateTimeField_UpdateTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_UpdateTime_set(swigCPtr, this, value);
   }
 
   public String getUpdateTime() {
-    return ctpJNI.CThostFtdcMarketDataUpdateTimeField_UpdateTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_UpdateTime_get(swigCPtr, this);
   }
 
   public void setUpdateMillisec(int value) {
-    ctpJNI.CThostFtdcMarketDataUpdateTimeField_UpdateMillisec_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_UpdateMillisec_set(swigCPtr, this, value);
   }
 
   public int getUpdateMillisec() {
-    return ctpJNI.CThostFtdcMarketDataUpdateTimeField_UpdateMillisec_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_UpdateMillisec_get(swigCPtr, this);
   }
 
   public void setActionDay(String value) {
-    ctpJNI.CThostFtdcMarketDataUpdateTimeField_ActionDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_ActionDay_set(swigCPtr, this, value);
   }
 
   public String getActionDay() {
-    return ctpJNI.CThostFtdcMarketDataUpdateTimeField_ActionDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_ActionDay_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcMarketDataUpdateTimeField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcMarketDataUpdateTimeField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataUpdateTimeField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcMarketDataUpdateTimeField() {
-    this(ctpJNI.new_CThostFtdcMarketDataUpdateTimeField(), true);
+    this(ctpapiJNI.new_CThostFtdcMarketDataUpdateTimeField(), true);
   }
 
 }

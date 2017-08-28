@@ -29,46 +29,46 @@ public class CThostFtdcFrontStatusField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcFrontStatusField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcFrontStatusField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setFrontID(int value) {
-    ctpJNI.CThostFtdcFrontStatusField_FrontID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcFrontStatusField_FrontID_set(swigCPtr, this, value);
   }
 
   public int getFrontID() {
-    return ctpJNI.CThostFtdcFrontStatusField_FrontID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcFrontStatusField_FrontID_get(swigCPtr, this);
   }
 
   public void setLastReportDate(String value) {
-    ctpJNI.CThostFtdcFrontStatusField_LastReportDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcFrontStatusField_LastReportDate_set(swigCPtr, this, value);
   }
 
   public String getLastReportDate() {
-    return ctpJNI.CThostFtdcFrontStatusField_LastReportDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcFrontStatusField_LastReportDate_get(swigCPtr, this);
   }
 
   public void setLastReportTime(String value) {
-    ctpJNI.CThostFtdcFrontStatusField_LastReportTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcFrontStatusField_LastReportTime_set(swigCPtr, this, value);
   }
 
   public String getLastReportTime() {
-    return ctpJNI.CThostFtdcFrontStatusField_LastReportTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcFrontStatusField_LastReportTime_get(swigCPtr, this);
   }
 
   public void setIsActive(int value) {
-    ctpJNI.CThostFtdcFrontStatusField_IsActive_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcFrontStatusField_IsActive_set(swigCPtr, this, value);
   }
 
   public int getIsActive() {
-    return ctpJNI.CThostFtdcFrontStatusField_IsActive_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcFrontStatusField_IsActive_get(swigCPtr, this);
   }
 
   public CThostFtdcFrontStatusField() {
-    this(ctpJNI.new_CThostFtdcFrontStatusField(), true);
+    this(ctpapiJNI.new_CThostFtdcFrontStatusField(), true);
   }
 
 }

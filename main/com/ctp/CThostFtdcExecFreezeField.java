@@ -29,78 +29,78 @@ public class CThostFtdcExecFreezeField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcExecFreezeField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcExecFreezeField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcExecFreezeField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExecFreezeField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcExecFreezeField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExecFreezeField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcExecFreezeField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExecFreezeField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcExecFreezeField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExecFreezeField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcExecFreezeField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExecFreezeField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcExecFreezeField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExecFreezeField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcExecFreezeField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExecFreezeField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcExecFreezeField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExecFreezeField_InvestorID_get(swigCPtr, this);
   }
 
   public void setPosiDirection(char value) {
-    ctpJNI.CThostFtdcExecFreezeField_PosiDirection_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExecFreezeField_PosiDirection_set(swigCPtr, this, value);
   }
 
   public char getPosiDirection() {
-    return ctpJNI.CThostFtdcExecFreezeField_PosiDirection_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExecFreezeField_PosiDirection_get(swigCPtr, this);
   }
 
   public void setOptionsType(char value) {
-    ctpJNI.CThostFtdcExecFreezeField_OptionsType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExecFreezeField_OptionsType_set(swigCPtr, this, value);
   }
 
   public char getOptionsType() {
-    return ctpJNI.CThostFtdcExecFreezeField_OptionsType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExecFreezeField_OptionsType_get(swigCPtr, this);
   }
 
   public void setVolume(int value) {
-    ctpJNI.CThostFtdcExecFreezeField_Volume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExecFreezeField_Volume_set(swigCPtr, this, value);
   }
 
   public int getVolume() {
-    return ctpJNI.CThostFtdcExecFreezeField_Volume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExecFreezeField_Volume_get(swigCPtr, this);
   }
 
   public void setFrozenAmount(double value) {
-    ctpJNI.CThostFtdcExecFreezeField_FrozenAmount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExecFreezeField_FrozenAmount_set(swigCPtr, this, value);
   }
 
   public double getFrozenAmount() {
-    return ctpJNI.CThostFtdcExecFreezeField_FrozenAmount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExecFreezeField_FrozenAmount_get(swigCPtr, this);
   }
 
   public CThostFtdcExecFreezeField() {
-    this(ctpJNI.new_CThostFtdcExecFreezeField(), true);
+    this(ctpapiJNI.new_CThostFtdcExecFreezeField(), true);
   }
 
 }

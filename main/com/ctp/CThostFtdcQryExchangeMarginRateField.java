@@ -29,38 +29,38 @@ public class CThostFtdcQryExchangeMarginRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryExchangeMarginRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryExchangeMarginRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcQryExchangeMarginRateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeMarginRateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcQryExchangeMarginRateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeMarginRateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcQryExchangeMarginRateField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeMarginRateField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcQryExchangeMarginRateField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeMarginRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
-    ctpJNI.CThostFtdcQryExchangeMarginRateField_HedgeFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryExchangeMarginRateField_HedgeFlag_set(swigCPtr, this, value);
   }
 
   public char getHedgeFlag() {
-    return ctpJNI.CThostFtdcQryExchangeMarginRateField_HedgeFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryExchangeMarginRateField_HedgeFlag_get(swigCPtr, this);
   }
 
   public CThostFtdcQryExchangeMarginRateField() {
-    this(ctpJNI.new_CThostFtdcQryExchangeMarginRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryExchangeMarginRateField(), true);
   }
 
 }

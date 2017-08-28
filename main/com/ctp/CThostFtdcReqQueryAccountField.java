@@ -29,302 +29,302 @@ public class CThostFtdcReqQueryAccountField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcReqQueryAccountField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcReqQueryAccountField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setTradeCode(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_TradeCode_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_TradeCode_set(swigCPtr, this, value);
   }
 
   public String getTradeCode() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_TradeCode_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_TradeCode_get(swigCPtr, this);
   }
 
   public void setBankID(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankID_set(swigCPtr, this, value);
   }
 
   public String getBankID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankID_get(swigCPtr, this);
   }
 
   public void setBankBranchID(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankBranchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankBranchID_set(swigCPtr, this, value);
   }
 
   public String getBankBranchID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankBranchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankBranchID_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BrokerID_get(swigCPtr, this);
   }
 
   public void setBrokerBranchID(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BrokerBranchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BrokerBranchID_set(swigCPtr, this, value);
   }
 
   public String getBrokerBranchID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BrokerBranchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BrokerBranchID_get(swigCPtr, this);
   }
 
   public void setTradeDate(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_TradeDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_TradeDate_set(swigCPtr, this, value);
   }
 
   public String getTradeDate() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_TradeDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_TradeDate_get(swigCPtr, this);
   }
 
   public void setTradeTime(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_TradeTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_TradeTime_set(swigCPtr, this, value);
   }
 
   public String getTradeTime() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_TradeTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_TradeTime_get(swigCPtr, this);
   }
 
   public void setBankSerial(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankSerial_set(swigCPtr, this, value);
   }
 
   public String getBankSerial() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankSerial_get(swigCPtr, this);
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_TradingDay_get(swigCPtr, this);
   }
 
   public void setPlateSerial(int value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_PlateSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_PlateSerial_set(swigCPtr, this, value);
   }
 
   public int getPlateSerial() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_PlateSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_PlateSerial_get(swigCPtr, this);
   }
 
   public void setLastFragment(char value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_LastFragment_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_LastFragment_set(swigCPtr, this, value);
   }
 
   public char getLastFragment() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_LastFragment_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_LastFragment_get(swigCPtr, this);
   }
 
   public void setSessionID(int value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_SessionID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_SessionID_set(swigCPtr, this, value);
   }
 
   public int getSessionID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_SessionID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_SessionID_get(swigCPtr, this);
   }
 
   public void setCustomerName(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_CustomerName_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_CustomerName_set(swigCPtr, this, value);
   }
 
   public String getCustomerName() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_CustomerName_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_CustomerName_get(swigCPtr, this);
   }
 
   public void setIdCardType(char value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_IdCardType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_IdCardType_set(swigCPtr, this, value);
   }
 
   public char getIdCardType() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_IdCardType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_IdCardType_get(swigCPtr, this);
   }
 
   public void setIdentifiedCardNo(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_IdentifiedCardNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_IdentifiedCardNo_set(swigCPtr, this, value);
   }
 
   public String getIdentifiedCardNo() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_IdentifiedCardNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_IdentifiedCardNo_get(swigCPtr, this);
   }
 
   public void setCustType(char value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_CustType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_CustType_set(swigCPtr, this, value);
   }
 
   public char getCustType() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_CustType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_CustType_get(swigCPtr, this);
   }
 
   public void setBankAccount(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankAccount_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankAccount_set(swigCPtr, this, value);
   }
 
   public String getBankAccount() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankAccount_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankAccount_get(swigCPtr, this);
   }
 
   public void setBankPassWord(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankPassWord_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankPassWord_set(swigCPtr, this, value);
   }
 
   public String getBankPassWord() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankPassWord_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankPassWord_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_AccountID_get(swigCPtr, this);
   }
 
   public void setPassword(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_Password_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_Password_set(swigCPtr, this, value);
   }
 
   public String getPassword() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_Password_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_Password_get(swigCPtr, this);
   }
 
   public void setFutureSerial(int value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_FutureSerial_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_FutureSerial_set(swigCPtr, this, value);
   }
 
   public int getFutureSerial() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_FutureSerial_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_FutureSerial_get(swigCPtr, this);
   }
 
   public void setInstallID(int value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_InstallID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_InstallID_set(swigCPtr, this, value);
   }
 
   public int getInstallID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_InstallID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_InstallID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_UserID_get(swigCPtr, this);
   }
 
   public void setVerifyCertNoFlag(char value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_VerifyCertNoFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_VerifyCertNoFlag_set(swigCPtr, this, value);
   }
 
   public char getVerifyCertNoFlag() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_VerifyCertNoFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_VerifyCertNoFlag_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_CurrencyID_get(swigCPtr, this);
   }
 
   public void setDigest(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_Digest_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_Digest_set(swigCPtr, this, value);
   }
 
   public String getDigest() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_Digest_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_Digest_get(swigCPtr, this);
   }
 
   public void setBankAccType(char value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankAccType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankAccType_set(swigCPtr, this, value);
   }
 
   public char getBankAccType() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankAccType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankAccType_get(swigCPtr, this);
   }
 
   public void setDeviceID(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_DeviceID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_DeviceID_set(swigCPtr, this, value);
   }
 
   public String getDeviceID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_DeviceID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_DeviceID_get(swigCPtr, this);
   }
 
   public void setBankSecuAccType(char value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankSecuAccType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankSecuAccType_set(swigCPtr, this, value);
   }
 
   public char getBankSecuAccType() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankSecuAccType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankSecuAccType_get(swigCPtr, this);
   }
 
   public void setBrokerIDByBank(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BrokerIDByBank_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BrokerIDByBank_set(swigCPtr, this, value);
   }
 
   public String getBrokerIDByBank() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BrokerIDByBank_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BrokerIDByBank_get(swigCPtr, this);
   }
 
   public void setBankSecuAcc(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankSecuAcc_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankSecuAcc_set(swigCPtr, this, value);
   }
 
   public String getBankSecuAcc() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankSecuAcc_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankSecuAcc_get(swigCPtr, this);
   }
 
   public void setBankPwdFlag(char value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_BankPwdFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_BankPwdFlag_set(swigCPtr, this, value);
   }
 
   public char getBankPwdFlag() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_BankPwdFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_BankPwdFlag_get(swigCPtr, this);
   }
 
   public void setSecuPwdFlag(char value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_SecuPwdFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_SecuPwdFlag_set(swigCPtr, this, value);
   }
 
   public char getSecuPwdFlag() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_SecuPwdFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_SecuPwdFlag_get(swigCPtr, this);
   }
 
   public void setOperNo(String value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_OperNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_OperNo_set(swigCPtr, this, value);
   }
 
   public String getOperNo() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_OperNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_OperNo_get(swigCPtr, this);
   }
 
   public void setRequestID(int value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_RequestID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_RequestID_set(swigCPtr, this, value);
   }
 
   public int getRequestID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_RequestID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_RequestID_get(swigCPtr, this);
   }
 
   public void setTID(int value) {
-    ctpJNI.CThostFtdcReqQueryAccountField_TID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcReqQueryAccountField_TID_set(swigCPtr, this, value);
   }
 
   public int getTID() {
-    return ctpJNI.CThostFtdcReqQueryAccountField_TID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcReqQueryAccountField_TID_get(swigCPtr, this);
   }
 
   public CThostFtdcReqQueryAccountField() {
-    this(ctpJNI.new_CThostFtdcReqQueryAccountField(), true);
+    this(ctpapiJNI.new_CThostFtdcReqQueryAccountField(), true);
   }
 
 }

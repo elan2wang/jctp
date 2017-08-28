@@ -29,46 +29,46 @@ public class CThostFtdcTradingAccountPasswordField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcTradingAccountPasswordField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcTradingAccountPasswordField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordField_BrokerID_get(swigCPtr, this);
   }
 
   public void setAccountID(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordField_AccountID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordField_AccountID_set(swigCPtr, this, value);
   }
 
   public String getAccountID() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordField_AccountID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordField_AccountID_get(swigCPtr, this);
   }
 
   public void setPassword(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordField_Password_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordField_Password_set(swigCPtr, this, value);
   }
 
   public String getPassword() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordField_Password_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordField_Password_get(swigCPtr, this);
   }
 
   public void setCurrencyID(String value) {
-    ctpJNI.CThostFtdcTradingAccountPasswordField_CurrencyID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcTradingAccountPasswordField_CurrencyID_set(swigCPtr, this, value);
   }
 
   public String getCurrencyID() {
-    return ctpJNI.CThostFtdcTradingAccountPasswordField_CurrencyID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcTradingAccountPasswordField_CurrencyID_get(swigCPtr, this);
   }
 
   public CThostFtdcTradingAccountPasswordField() {
-    this(ctpJNI.new_CThostFtdcTradingAccountPasswordField(), true);
+    this(ctpapiJNI.new_CThostFtdcTradingAccountPasswordField(), true);
   }
 
 }

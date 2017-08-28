@@ -29,30 +29,30 @@ public class CThostFtdcUserLogoutField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcUserLogoutField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcUserLogoutField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcUserLogoutField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserLogoutField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcUserLogoutField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserLogoutField_BrokerID_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcUserLogoutField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcUserLogoutField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcUserLogoutField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcUserLogoutField_UserID_get(swigCPtr, this);
   }
 
   public CThostFtdcUserLogoutField() {
-    this(ctpJNI.new_CThostFtdcUserLogoutField(), true);
+    this(ctpapiJNI.new_CThostFtdcUserLogoutField(), true);
   }
 
 }

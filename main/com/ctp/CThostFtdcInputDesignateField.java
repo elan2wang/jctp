@@ -29,62 +29,62 @@ public class CThostFtdcInputDesignateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInputDesignateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInputDesignateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInputDesignateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputDesignateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInputDesignateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputDesignateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInputDesignateField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputDesignateField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInputDesignateField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputDesignateField_InvestorID_get(swigCPtr, this);
   }
 
   public void setDesignateRef(String value) {
-    ctpJNI.CThostFtdcInputDesignateField_DesignateRef_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputDesignateField_DesignateRef_set(swigCPtr, this, value);
   }
 
   public String getDesignateRef() {
-    return ctpJNI.CThostFtdcInputDesignateField_DesignateRef_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputDesignateField_DesignateRef_get(swigCPtr, this);
   }
 
   public void setUserID(String value) {
-    ctpJNI.CThostFtdcInputDesignateField_UserID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputDesignateField_UserID_set(swigCPtr, this, value);
   }
 
   public String getUserID() {
-    return ctpJNI.CThostFtdcInputDesignateField_UserID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputDesignateField_UserID_get(swigCPtr, this);
   }
 
   public void setDesignateType(char value) {
-    ctpJNI.CThostFtdcInputDesignateField_DesignateType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputDesignateField_DesignateType_set(swigCPtr, this, value);
   }
 
   public char getDesignateType() {
-    return ctpJNI.CThostFtdcInputDesignateField_DesignateType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputDesignateField_DesignateType_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcInputDesignateField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInputDesignateField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcInputDesignateField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInputDesignateField_ExchangeID_get(swigCPtr, this);
   }
 
   public CThostFtdcInputDesignateField() {
-    this(ctpJNI.new_CThostFtdcInputDesignateField(), true);
+    this(ctpapiJNI.new_CThostFtdcInputDesignateField(), true);
   }
 
 }

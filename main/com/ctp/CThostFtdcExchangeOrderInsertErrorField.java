@@ -29,70 +29,70 @@ public class CThostFtdcExchangeOrderInsertErrorField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcExchangeOrderInsertErrorField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcExchangeOrderInsertErrorField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcExchangeOrderInsertErrorField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcExchangeOrderInsertErrorField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setParticipantID(String value) {
-    ctpJNI.CThostFtdcExchangeOrderInsertErrorField_ParticipantID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_ParticipantID_set(swigCPtr, this, value);
   }
 
   public String getParticipantID() {
-    return ctpJNI.CThostFtdcExchangeOrderInsertErrorField_ParticipantID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_ParticipantID_get(swigCPtr, this);
   }
 
   public void setTraderID(String value) {
-    ctpJNI.CThostFtdcExchangeOrderInsertErrorField_TraderID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_TraderID_set(swigCPtr, this, value);
   }
 
   public String getTraderID() {
-    return ctpJNI.CThostFtdcExchangeOrderInsertErrorField_TraderID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_TraderID_get(swigCPtr, this);
   }
 
   public void setInstallID(int value) {
-    ctpJNI.CThostFtdcExchangeOrderInsertErrorField_InstallID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_InstallID_set(swigCPtr, this, value);
   }
 
   public int getInstallID() {
-    return ctpJNI.CThostFtdcExchangeOrderInsertErrorField_InstallID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_InstallID_get(swigCPtr, this);
   }
 
   public void setOrderLocalID(String value) {
-    ctpJNI.CThostFtdcExchangeOrderInsertErrorField_OrderLocalID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_OrderLocalID_set(swigCPtr, this, value);
   }
 
   public String getOrderLocalID() {
-    return ctpJNI.CThostFtdcExchangeOrderInsertErrorField_OrderLocalID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_OrderLocalID_get(swigCPtr, this);
   }
 
   public void setErrorID(int value) {
-    ctpJNI.CThostFtdcExchangeOrderInsertErrorField_ErrorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_ErrorID_set(swigCPtr, this, value);
   }
 
   public int getErrorID() {
-    return ctpJNI.CThostFtdcExchangeOrderInsertErrorField_ErrorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_ErrorID_get(swigCPtr, this);
   }
 
   public void setErrorMsg(String value) {
-    ctpJNI.CThostFtdcExchangeOrderInsertErrorField_ErrorMsg_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_ErrorMsg_set(swigCPtr, this, value);
   }
 
   public String getErrorMsg() {
-    return ctpJNI.CThostFtdcExchangeOrderInsertErrorField_ErrorMsg_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeOrderInsertErrorField_ErrorMsg_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeOrderInsertErrorField() {
-    this(ctpJNI.new_CThostFtdcExchangeOrderInsertErrorField(), true);
+    this(ctpapiJNI.new_CThostFtdcExchangeOrderInsertErrorField(), true);
   }
 
 }

@@ -29,118 +29,118 @@ public class CThostFtdcExchangeForQuoteField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcExchangeForQuoteField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcExchangeForQuoteField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setForQuoteLocalID(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_ForQuoteLocalID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_ForQuoteLocalID_set(swigCPtr, this, value);
   }
 
   public String getForQuoteLocalID() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_ForQuoteLocalID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_ForQuoteLocalID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setParticipantID(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_ParticipantID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_ParticipantID_set(swigCPtr, this, value);
   }
 
   public String getParticipantID() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_ParticipantID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_ParticipantID_get(swigCPtr, this);
   }
 
   public void setClientID(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_ClientID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_ClientID_set(swigCPtr, this, value);
   }
 
   public String getClientID() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_ClientID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_ClientID_get(swigCPtr, this);
   }
 
   public void setExchangeInstID(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_ExchangeInstID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_ExchangeInstID_set(swigCPtr, this, value);
   }
 
   public String getExchangeInstID() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_ExchangeInstID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_ExchangeInstID_get(swigCPtr, this);
   }
 
   public void setTraderID(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_TraderID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_TraderID_set(swigCPtr, this, value);
   }
 
   public String getTraderID() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_TraderID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_TraderID_get(swigCPtr, this);
   }
 
   public void setInstallID(int value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_InstallID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_InstallID_set(swigCPtr, this, value);
   }
 
   public int getInstallID() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_InstallID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_InstallID_get(swigCPtr, this);
   }
 
   public void setInsertDate(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_InsertDate_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_InsertDate_set(swigCPtr, this, value);
   }
 
   public String getInsertDate() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_InsertDate_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_InsertDate_get(swigCPtr, this);
   }
 
   public void setInsertTime(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_InsertTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_InsertTime_set(swigCPtr, this, value);
   }
 
   public String getInsertTime() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_InsertTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_InsertTime_get(swigCPtr, this);
   }
 
   public void setForQuoteStatus(char value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_ForQuoteStatus_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_ForQuoteStatus_set(swigCPtr, this, value);
   }
 
   public char getForQuoteStatus() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_ForQuoteStatus_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_ForQuoteStatus_get(swigCPtr, this);
   }
 
   public void setIPAddress(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_IPAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_IPAddress_set(swigCPtr, this, value);
   }
 
   public String getIPAddress() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_IPAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_IPAddress_get(swigCPtr, this);
   }
 
   public void setMacAddress(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_MacAddress_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_MacAddress_set(swigCPtr, this, value);
   }
 
   public String getMacAddress() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_MacAddress_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_MacAddress_get(swigCPtr, this);
   }
 
   public void setBranchID(String value) {
-    ctpJNI.CThostFtdcExchangeForQuoteField_BranchID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcExchangeForQuoteField_BranchID_set(swigCPtr, this, value);
   }
 
   public String getBranchID() {
-    return ctpJNI.CThostFtdcExchangeForQuoteField_BranchID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcExchangeForQuoteField_BranchID_get(swigCPtr, this);
   }
 
   public CThostFtdcExchangeForQuoteField() {
-    this(ctpJNI.new_CThostFtdcExchangeForQuoteField(), true);
+    this(ctpapiJNI.new_CThostFtdcExchangeForQuoteField(), true);
   }
 
 }

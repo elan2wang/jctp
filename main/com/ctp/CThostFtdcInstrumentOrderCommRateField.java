@@ -29,78 +29,78 @@ public class CThostFtdcInstrumentOrderCommRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcInstrumentOrderCommRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcInstrumentOrderCommRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcInstrumentOrderCommRateField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcInstrumentOrderCommRateField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcInstrumentOrderCommRateField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcInstrumentOrderCommRateField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcInstrumentOrderCommRateField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcInstrumentOrderCommRateField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_InvestorID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcInstrumentOrderCommRateField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcInstrumentOrderCommRateField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setHedgeFlag(char value) {
-    ctpJNI.CThostFtdcInstrumentOrderCommRateField_HedgeFlag_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_HedgeFlag_set(swigCPtr, this, value);
   }
 
   public char getHedgeFlag() {
-    return ctpJNI.CThostFtdcInstrumentOrderCommRateField_HedgeFlag_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_HedgeFlag_get(swigCPtr, this);
   }
 
   public void setOrderCommByVolume(double value) {
-    ctpJNI.CThostFtdcInstrumentOrderCommRateField_OrderCommByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_OrderCommByVolume_set(swigCPtr, this, value);
   }
 
   public double getOrderCommByVolume() {
-    return ctpJNI.CThostFtdcInstrumentOrderCommRateField_OrderCommByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_OrderCommByVolume_get(swigCPtr, this);
   }
 
   public void setOrderActionCommByVolume(double value) {
-    ctpJNI.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByVolume_set(swigCPtr, this, value);
   }
 
   public double getOrderActionCommByVolume() {
-    return ctpJNI.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcInstrumentOrderCommRateField_OrderActionCommByVolume_get(swigCPtr, this);
   }
 
   public CThostFtdcInstrumentOrderCommRateField() {
-    this(ctpJNI.new_CThostFtdcInstrumentOrderCommRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcInstrumentOrderCommRateField(), true);
   }
 
 }

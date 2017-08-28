@@ -29,110 +29,110 @@ public class CThostFtdcBulletinField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcBulletinField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcBulletinField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcBulletinField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcBulletinField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setTradingDay(String value) {
-    ctpJNI.CThostFtdcBulletinField_TradingDay_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_TradingDay_set(swigCPtr, this, value);
   }
 
   public String getTradingDay() {
-    return ctpJNI.CThostFtdcBulletinField_TradingDay_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_TradingDay_get(swigCPtr, this);
   }
 
   public void setBulletinID(int value) {
-    ctpJNI.CThostFtdcBulletinField_BulletinID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_BulletinID_set(swigCPtr, this, value);
   }
 
   public int getBulletinID() {
-    return ctpJNI.CThostFtdcBulletinField_BulletinID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_BulletinID_get(swigCPtr, this);
   }
 
   public void setSequenceNo(int value) {
-    ctpJNI.CThostFtdcBulletinField_SequenceNo_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_SequenceNo_set(swigCPtr, this, value);
   }
 
   public int getSequenceNo() {
-    return ctpJNI.CThostFtdcBulletinField_SequenceNo_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_SequenceNo_get(swigCPtr, this);
   }
 
   public void setNewsType(String value) {
-    ctpJNI.CThostFtdcBulletinField_NewsType_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_NewsType_set(swigCPtr, this, value);
   }
 
   public String getNewsType() {
-    return ctpJNI.CThostFtdcBulletinField_NewsType_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_NewsType_get(swigCPtr, this);
   }
 
   public void setNewsUrgency(char value) {
-    ctpJNI.CThostFtdcBulletinField_NewsUrgency_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_NewsUrgency_set(swigCPtr, this, value);
   }
 
   public char getNewsUrgency() {
-    return ctpJNI.CThostFtdcBulletinField_NewsUrgency_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_NewsUrgency_get(swigCPtr, this);
   }
 
   public void setSendTime(String value) {
-    ctpJNI.CThostFtdcBulletinField_SendTime_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_SendTime_set(swigCPtr, this, value);
   }
 
   public String getSendTime() {
-    return ctpJNI.CThostFtdcBulletinField_SendTime_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_SendTime_get(swigCPtr, this);
   }
 
   public void setAbstract(String value) {
-    ctpJNI.CThostFtdcBulletinField_Abstract_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_Abstract_set(swigCPtr, this, value);
   }
 
   public String getAbstract() {
-    return ctpJNI.CThostFtdcBulletinField_Abstract_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_Abstract_get(swigCPtr, this);
   }
 
   public void setComeFrom(String value) {
-    ctpJNI.CThostFtdcBulletinField_ComeFrom_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_ComeFrom_set(swigCPtr, this, value);
   }
 
   public String getComeFrom() {
-    return ctpJNI.CThostFtdcBulletinField_ComeFrom_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_ComeFrom_get(swigCPtr, this);
   }
 
   public void setContent(String value) {
-    ctpJNI.CThostFtdcBulletinField_Content_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_Content_set(swigCPtr, this, value);
   }
 
   public String getContent() {
-    return ctpJNI.CThostFtdcBulletinField_Content_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_Content_get(swigCPtr, this);
   }
 
   public void setURLLink(String value) {
-    ctpJNI.CThostFtdcBulletinField_URLLink_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_URLLink_set(swigCPtr, this, value);
   }
 
   public String getURLLink() {
-    return ctpJNI.CThostFtdcBulletinField_URLLink_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_URLLink_get(swigCPtr, this);
   }
 
   public void setMarketID(String value) {
-    ctpJNI.CThostFtdcBulletinField_MarketID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcBulletinField_MarketID_set(swigCPtr, this, value);
   }
 
   public String getMarketID() {
-    return ctpJNI.CThostFtdcBulletinField_MarketID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcBulletinField_MarketID_get(swigCPtr, this);
   }
 
   public CThostFtdcBulletinField() {
-    this(ctpJNI.new_CThostFtdcBulletinField(), true);
+    this(ctpapiJNI.new_CThostFtdcBulletinField(), true);
   }
 
 }

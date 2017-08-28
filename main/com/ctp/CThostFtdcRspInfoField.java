@@ -29,30 +29,30 @@ public class CThostFtdcRspInfoField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcRspInfoField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcRspInfoField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setErrorID(int value) {
-    ctpJNI.CThostFtdcRspInfoField_ErrorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspInfoField_ErrorID_set(swigCPtr, this, value);
   }
 
   public int getErrorID() {
-    return ctpJNI.CThostFtdcRspInfoField_ErrorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspInfoField_ErrorID_get(swigCPtr, this);
   }
 
   public void setErrorMsg(String value) {
-    ctpJNI.CThostFtdcRspInfoField_ErrorMsg_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcRspInfoField_ErrorMsg_set(swigCPtr, this, value);
   }
 
   public String getErrorMsg() {
-    return ctpJNI.CThostFtdcRspInfoField_ErrorMsg_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcRspInfoField_ErrorMsg_get(swigCPtr, this);
   }
 
   public CThostFtdcRspInfoField() {
-    this(ctpJNI.new_CThostFtdcRspInfoField(), true);
+    this(ctpapiJNI.new_CThostFtdcRspInfoField(), true);
   }
 
 }

@@ -29,22 +29,22 @@ public class CThostFtdcQryProductExchRateField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcQryProductExchRateField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcQryProductExchRateField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setProductID(String value) {
-    ctpJNI.CThostFtdcQryProductExchRateField_ProductID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcQryProductExchRateField_ProductID_set(swigCPtr, this, value);
   }
 
   public String getProductID() {
-    return ctpJNI.CThostFtdcQryProductExchRateField_ProductID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcQryProductExchRateField_ProductID_get(swigCPtr, this);
   }
 
   public CThostFtdcQryProductExchRateField() {
-    this(ctpJNI.new_CThostFtdcQryProductExchRateField(), true);
+    this(ctpapiJNI.new_CThostFtdcQryProductExchRateField(), true);
   }
 
 }

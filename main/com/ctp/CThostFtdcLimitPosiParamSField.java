@@ -29,70 +29,70 @@ public class CThostFtdcLimitPosiParamSField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcLimitPosiParamSField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcLimitPosiParamSField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setInstrumentID(String value) {
-    ctpJNI.CThostFtdcLimitPosiParamSField_InstrumentID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiParamSField_InstrumentID_set(swigCPtr, this, value);
   }
 
   public String getInstrumentID() {
-    return ctpJNI.CThostFtdcLimitPosiParamSField_InstrumentID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiParamSField_InstrumentID_get(swigCPtr, this);
   }
 
   public void setInvestorRange(char value) {
-    ctpJNI.CThostFtdcLimitPosiParamSField_InvestorRange_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiParamSField_InvestorRange_set(swigCPtr, this, value);
   }
 
   public char getInvestorRange() {
-    return ctpJNI.CThostFtdcLimitPosiParamSField_InvestorRange_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiParamSField_InvestorRange_get(swigCPtr, this);
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcLimitPosiParamSField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiParamSField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcLimitPosiParamSField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiParamSField_BrokerID_get(swigCPtr, this);
   }
 
   public void setInvestorID(String value) {
-    ctpJNI.CThostFtdcLimitPosiParamSField_InvestorID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiParamSField_InvestorID_set(swigCPtr, this, value);
   }
 
   public String getInvestorID() {
-    return ctpJNI.CThostFtdcLimitPosiParamSField_InvestorID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiParamSField_InvestorID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcLimitPosiParamSField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiParamSField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcLimitPosiParamSField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiParamSField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setTotalVolume(int value) {
-    ctpJNI.CThostFtdcLimitPosiParamSField_TotalVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiParamSField_TotalVolume_set(swigCPtr, this, value);
   }
 
   public int getTotalVolume() {
-    return ctpJNI.CThostFtdcLimitPosiParamSField_TotalVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiParamSField_TotalVolume_get(swigCPtr, this);
   }
 
   public void setOpenVolume(int value) {
-    ctpJNI.CThostFtdcLimitPosiParamSField_OpenVolume_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcLimitPosiParamSField_OpenVolume_set(swigCPtr, this, value);
   }
 
   public int getOpenVolume() {
-    return ctpJNI.CThostFtdcLimitPosiParamSField_OpenVolume_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcLimitPosiParamSField_OpenVolume_get(swigCPtr, this);
   }
 
   public CThostFtdcLimitPosiParamSField() {
-    this(ctpJNI.new_CThostFtdcLimitPosiParamSField(), true);
+    this(ctpapiJNI.new_CThostFtdcLimitPosiParamSField(), true);
   }
 
 }

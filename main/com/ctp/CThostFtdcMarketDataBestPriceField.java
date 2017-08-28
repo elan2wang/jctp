@@ -29,46 +29,46 @@ public class CThostFtdcMarketDataBestPriceField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcMarketDataBestPriceField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcMarketDataBestPriceField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBidPrice1(double value) {
-    ctpJNI.CThostFtdcMarketDataBestPriceField_BidPrice1_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBestPriceField_BidPrice1_set(swigCPtr, this, value);
   }
 
   public double getBidPrice1() {
-    return ctpJNI.CThostFtdcMarketDataBestPriceField_BidPrice1_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBestPriceField_BidPrice1_get(swigCPtr, this);
   }
 
   public void setBidVolume1(int value) {
-    ctpJNI.CThostFtdcMarketDataBestPriceField_BidVolume1_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBestPriceField_BidVolume1_set(swigCPtr, this, value);
   }
 
   public int getBidVolume1() {
-    return ctpJNI.CThostFtdcMarketDataBestPriceField_BidVolume1_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBestPriceField_BidVolume1_get(swigCPtr, this);
   }
 
   public void setAskPrice1(double value) {
-    ctpJNI.CThostFtdcMarketDataBestPriceField_AskPrice1_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBestPriceField_AskPrice1_set(swigCPtr, this, value);
   }
 
   public double getAskPrice1() {
-    return ctpJNI.CThostFtdcMarketDataBestPriceField_AskPrice1_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBestPriceField_AskPrice1_get(swigCPtr, this);
   }
 
   public void setAskVolume1(int value) {
-    ctpJNI.CThostFtdcMarketDataBestPriceField_AskVolume1_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcMarketDataBestPriceField_AskVolume1_set(swigCPtr, this, value);
   }
 
   public int getAskVolume1() {
-    return ctpJNI.CThostFtdcMarketDataBestPriceField_AskVolume1_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcMarketDataBestPriceField_AskVolume1_get(swigCPtr, this);
   }
 
   public CThostFtdcMarketDataBestPriceField() {
-    this(ctpJNI.new_CThostFtdcMarketDataBestPriceField(), true);
+    this(ctpapiJNI.new_CThostFtdcMarketDataBestPriceField(), true);
   }
 
 }

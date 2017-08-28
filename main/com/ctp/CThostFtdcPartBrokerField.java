@@ -29,46 +29,46 @@ public class CThostFtdcPartBrokerField {
     if (swigCPtr != 0) {
       if (swigCMemOwn) {
         swigCMemOwn = false;
-        ctpJNI.delete_CThostFtdcPartBrokerField(swigCPtr);
+        ctpapiJNI.delete_CThostFtdcPartBrokerField(swigCPtr);
       }
       swigCPtr = 0;
     }
   }
 
   public void setBrokerID(String value) {
-    ctpJNI.CThostFtdcPartBrokerField_BrokerID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPartBrokerField_BrokerID_set(swigCPtr, this, value);
   }
 
   public String getBrokerID() {
-    return ctpJNI.CThostFtdcPartBrokerField_BrokerID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPartBrokerField_BrokerID_get(swigCPtr, this);
   }
 
   public void setExchangeID(String value) {
-    ctpJNI.CThostFtdcPartBrokerField_ExchangeID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPartBrokerField_ExchangeID_set(swigCPtr, this, value);
   }
 
   public String getExchangeID() {
-    return ctpJNI.CThostFtdcPartBrokerField_ExchangeID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPartBrokerField_ExchangeID_get(swigCPtr, this);
   }
 
   public void setParticipantID(String value) {
-    ctpJNI.CThostFtdcPartBrokerField_ParticipantID_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPartBrokerField_ParticipantID_set(swigCPtr, this, value);
   }
 
   public String getParticipantID() {
-    return ctpJNI.CThostFtdcPartBrokerField_ParticipantID_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPartBrokerField_ParticipantID_get(swigCPtr, this);
   }
 
   public void setIsActive(int value) {
-    ctpJNI.CThostFtdcPartBrokerField_IsActive_set(swigCPtr, this, value);
+    ctpapiJNI.CThostFtdcPartBrokerField_IsActive_set(swigCPtr, this, value);
   }
 
   public int getIsActive() {
-    return ctpJNI.CThostFtdcPartBrokerField_IsActive_get(swigCPtr, this);
+    return ctpapiJNI.CThostFtdcPartBrokerField_IsActive_get(swigCPtr, this);
   }
 
   public CThostFtdcPartBrokerField() {
-    this(ctpJNI.new_CThostFtdcPartBrokerField(), true);
+    this(ctpapiJNI.new_CThostFtdcPartBrokerField(), true);
   }
 
 }
